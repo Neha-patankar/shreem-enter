@@ -1,3 +1,5 @@
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Services from "./Services";
 import ServicesType from "./ServicesType";
 import About from "./About";
@@ -7,47 +9,44 @@ import MyCarousel from "./components/myCarousel/MyCarousel";
 import Footer from "./components/Footer/Footer";
 import TermCondition from "./components/termsCondition/TermCondition";
 import Team from "./components/team/Team";
-import ContactDetail from "./Components copy/ContactDetail"
-import CustomerReview from "./Components copy/CustomerReview"
-import Faq from "./Components copy/Faq"
-import  Help from "./Components copy/Help"
-import OrderServiceForm from "./Components copy/OrderServiceForm"
+import ContactDetail from "./Components copy/ContactDetail";
+import CustomerReview from "./Components copy/CustomerReview";
+import Faq from "./Components copy/Faq";
+import Help from "./Components copy/Help";
+import OrderServiceForm from "./Components copy/OrderServiceForm";
 import Contact from "./components/whatshop/Whatshap";
+import { Home } from "./components/Home";
+import AboutUs from "./components/AboutUs";
+import  Contacts  from "./components/whatshop/Whatshap";
+import { Contactss } from "./components/Contact";
+import { TermsAndCon } from "./components/TermsAndCon";
+import RequestServices from "./components/RequestServices";
 
 
+
+// Placeholder components
 
 function App() {
   return (
     <>
       <div className="bg-white">
         <div className="uparrow">
-          <a href="#" id="scroll" >
-            <i class="fa-solid fa-angle-up"></i>
+          <a href="#" id="scroll">
+            <i className="fa-solid fa-angle-up"></i>
           </a>
         </div>
         <Na1 />
-        <MyCarousel />
-        <About></About>
-        <ServicesType></ServicesType>
-        <Services></Services>
-        <Faq/>
-        <Team/> 
-        <Help/> 
-        <CustomerReview/>
-        <ContactDetail />
-        <OrderServiceForm/>
-        
-        <TermCondition/>
-        <Footer></Footer>
-        <Contact/>
-      
-       
-       
-       
-       
-       
-       
-       
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/requestservices" element={<RequestServices />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/terms-and-conditions" element={<TermsAndCon />} />
+
+        </Routes>
+        <Contacts/>
+        <Footer />
       </div>
     </>
   );
