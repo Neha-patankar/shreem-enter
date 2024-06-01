@@ -1,0 +1,29 @@
+.faq_img{
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.faq-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    font-size: 53px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .accordion_section{
+        background-color: #2F3369;
+    }
+
+    .accordion_bg{
+background-color: #2F3369;
+color: white;
+    }

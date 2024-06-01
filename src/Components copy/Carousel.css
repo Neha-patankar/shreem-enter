@@ -1,0 +1,13 @@
+.Carousels{
+    width: 70%;
+    height: 50%;
+    margin-left: 6rem;
+  }
+
+  @media (max-width:580px){
+    .Carousels{
+      width: 70%;
+      height: 50%;
+      margin-left: 3rem;
+    }
+  }

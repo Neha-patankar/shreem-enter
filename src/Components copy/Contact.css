@@ -1,0 +1,61 @@
+.location-map{
+    width: clamp(30rem,4vw,10rem);
+    height: clamp(30rem,4vw,10rem);
+
+}
+
+.Contact_container_bg{
+    background-color:  #2F3369;
+    color:white;
+    padding-bottom: 3rem;
+}
+.contact_container{
+    padding: 2rem;
+}
+.contact-heading{
+    font-size:44px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-align: start;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact-text{
+    line-height: 30px;
+    font-size: 18px;
+    opacity: 0.8;
+    text-align: left;
+    margin-left: 20px;
+
+}
+.small-title{
+font-family: "pacifico",cursive;
+color:#ff4328;
+font-size: 30px;
+font-weight: 700;
+}
+
+.big-title{
+    font-size: 53px;
+    font-weight: 700;
+}
+
+.contact-info{
+    margin-bottom: 50px;
+    text-align: start;
+}
+
+.contact-details{
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contacting-hours-heading{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: start;
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+
