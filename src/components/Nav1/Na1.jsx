@@ -5,7 +5,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import image from "../../images/logo.png";
 import "./Nav1.css";
-import { BrowserRouter } from "react-router-dom";
 
 function Na1() {
   return (

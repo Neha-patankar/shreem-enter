@@ -1,25 +1,75 @@
 .img{
-  width: 320px;
-  height: 17rem;
+  width:230px;
+  height: 16rem;
   background-color: white;
 }
-.img:hover{
-  width: 320px;
+
+
+.cards{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cards:hover .img{
+  filter: grayscale(0) brightness(0.4);
+  border-left: 8px solid blue;
+  border-bottom: 8px solid orange;
+
+}
+
+.cards:hover::after{
+    opacity: 1;
+    inset: 20px;
+}
+
+.cards::after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0;
   transition: 0.4s ease-in-out;
-  transform:translate3d(15px,10px,10px);
 }
 
-.images{
-  width: 320px;
-  height: 17rem;
-  background-color:  orangered;;
+.content {
+width: 72%;
+position: absolute;
+top: 45%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
 }
 
-.heading{
-  font-size: 20px;
-  font-weight: 600;
-  color: orangered;
-  font-family:"Pacifico", cursive;
+.content h2,
+.content p {
+  text-align: center;
+opacity: 0;
+transition: 0.4s 0.2s ease;
+}
+.content h2 {
+margin-bottom: 12px;
+scale: 0.7;
+}
+.content p {
+font-size: 15px;
+font-weight: 600;
+line-height: 1.5;
+color:white;
+transform: translateY(50%);
+}
+
+.cards:hover .content h2{
+  scale: 1;
+  opacity: 1;
+}
+
+.cards:hover .content p{
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .services-title{
@@ -28,8 +78,10 @@
 }
 
 .service-varity{
-  font-size: 25px;
+  margin-top: 20px;
+  font-size: 18px;
   font-weight: 700;
+  width: 300px;
   border: none;
   background-color: white;
   padding: 9px;
