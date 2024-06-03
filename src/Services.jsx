@@ -34,7 +34,7 @@ const Services = () => {
             <h1 className="services-title"> Print Things</h1>
           </div>
 
-          <div className="col-12 d-flex flex-wrap justify-content-center text-center mt-5">
+          <div className="d-flex flex-wrap justify-content-center text-center mt-5">
             {servicesData.map((items) => (
               <div className="m-3 cards">
                 <img src={items.imgs} alt="" className="img" />

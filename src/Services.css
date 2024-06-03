@@ -17,7 +17,9 @@
 
 .cards:hover .img{
   filter: grayscale(0) brightness(0.4);
-  border: 3px solid blue;
+  border-left: 8px solid blue;
+  border-bottom: 8px solid orange;
+
 }
 
 .cards:hover::after{
@@ -34,7 +36,7 @@
 }
 
 .content {
-width: 78%;
+width: 72%;
 position: absolute;
 top: 45%;
 left: 50%;
