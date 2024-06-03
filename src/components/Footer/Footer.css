@@ -1,4 +1,4 @@
-/* .containerrs{
+.containerrs{
  margin-left: 100px;
  margin-right: 60px;
  }
@@ -29,9 +29,7 @@ color:  #25d366;
 
   color: hwb(0 3% 4%);
 }
-.footer-bottom-boxed .bg-white{
- 
-}
+
 .footer-bottom-boxed{
   padding: 25px 50px;
  
@@ -69,7 +67,7 @@ color:  #25d366;
   color: orangered;
 }
 .footer{
-  background-color: hwb(240 89% 5%)
+  background-color: hwb(240 84% 13%)
 }
 .linkss{
   
@@ -80,14 +78,9 @@ color:  #25d366;
   text-decoration: none;
 }
 .ast-footer-site-title{
-  margin-left: 300px;
+  margin-left: 0px;
 }
-.footer-site-title{
-  margin-left: 5px;
-}
-.sub-title-footer{
-  margin-left: 10px;
-} */
+
 .footer {
   background-color: #f8f9fa;
   padding: 20px 0;
@@ -100,7 +93,7 @@ color:  #25d366;
 }
 
 .footer p, .footer ul, .footer li, .footer a {
-  color: #333;
+  color: hsl(0, 5%, 4%);
   font-size: 14px;
   line-height: 1.6;
 }
@@ -111,7 +104,7 @@ color:  #25d366;
 
 .footer .social-media i {
   font-size: 20px;
-  color: #333;
+  color: hsl(0, 2%, 8%);
   margin-right: 10px;
   transition: color 0.3s ease;
 }
