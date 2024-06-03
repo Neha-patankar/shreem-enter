@@ -5,8 +5,12 @@ import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import image from "../../images/logo.png";
 import "./Nav1.css";
+<<<<<<< HEAD
 import { useContext } from "react";
 import { Mycontext } from "../../App";
+=======
+import { BrowserRouter } from "react-router-dom";
+>>>>>>> b18db78a50515cfffcc87d0381dc7f8eed1869ec
 
 function Na1() {
   const { handlePrivacy, handleContact, show } = useContext(Mycontext);
@@ -40,23 +44,27 @@ function Na1() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="list justify-content-end flex-grow-1 pe-3  gap-5 ">
-                  <Nav.Link className="nav-item blackl" href="#home">
+                  <Nav.Link className="nav-item blackl" href="/">
                     Home
                   </Nav.Link>
-                  <Nav.Link className="nav-item blackl" href="#about">
+                  <Nav.Link className="nav-item blackl" href="/about" >
                     About
                   </Nav.Link>
-                  <Nav.Link className="nav-item blackl" href="#services">
+                  <Nav.Link className="nav-item blackl" href="/services">
                     Services
                   </Nav.Link>
-                  <Nav.Link className="nav-item blackl" href="#orderServices">
+                  <Nav.Link className="nav-item blackl" href="/requestservices">
                     Request a Services
                   </Nav.Link>
+<<<<<<< HEAD
                   <Nav.Link
                     onClick={handleContact}
                     className="nav-item blackl"
                     href="#contact"
                   >
+=======
+                  <Nav.Link className="nav-item blackl" href="/contact">
+>>>>>>> b18db78a50515cfffcc87d0381dc7f8eed1869ec
                     Contact
                   </Nav.Link>
                 </Nav>

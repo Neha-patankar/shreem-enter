@@ -1,3 +1,5 @@
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Services from "./Services";
 import ServicesType from "./ServicesType";
 import About from "./About";
@@ -13,14 +15,29 @@ import Faq from "./Components copy/Faq";
 import Help from "./Components copy/Help";
 import OrderServiceForm from "./Components copy/OrderServiceForm";
 import Contact from "./components/whatshop/Whatshap";
+<<<<<<< HEAD
 import { createContext, useState } from "react";
+=======
+import { Home } from "./components/Home";
+import AboutUs from "./components/AboutUs";
+import  Contacts  from "./components/whatshop/Whatshap";
+import { Contactss } from "./components/Contact";
+import { TermsAndCon } from "./components/TermsAndCon";
+import RequestServices from "./components/RequestServices";
+>>>>>>> b18db78a50515cfffcc87d0381dc7f8eed1869ec
 
 const states = {
   showprivacy: false,
   showContact: false,
 };
 
+<<<<<<< HEAD
 export const Mycontext = createContext(null);
+=======
+
+// Placeholder components
+
+>>>>>>> b18db78a50515cfffcc87d0381dc7f8eed1869ec
 function App() {
   const [show, setshow] = useState(states);
 
@@ -39,6 +56,7 @@ function App() {
 
   return (
     <>
+<<<<<<< HEAD
       <Mycontext.Provider value={{ handlePrivacy, handleContact, show }}>
         <div className="bg-white">
           <div className="uparrow">
@@ -62,6 +80,27 @@ function App() {
           <Contact />
         </div>
       </Mycontext.Provider>
+=======
+      <div className="bg-white">
+        <div className="uparrow">
+          <a href="#" id="scroll">
+            <i className="fa-solid fa-angle-up"></i>
+          </a>
+        </div>
+        <Na1 />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/requestservices" element={<RequestServices />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/terms-and-conditions" element={<TermsAndCon />} />
+
+        </Routes>
+        <Contacts/>
+        <Footer />
+      </div>
+>>>>>>> b18db78a50515cfffcc87d0381dc7f8eed1869ec
     </>
   );
 }

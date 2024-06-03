@@ -30,19 +30,19 @@ function Footer() {
             <h5 className="lblack">Quick Links</h5>
             <ul className="list-unstyled  ">
               <li className="mt-2 ">
-                <a href="#" className="text-dark text-decoration-none ">Home</a>
+                <a href="#home" className="text-dark text-decoration-none " >Home</a>
               </li>
               <li className="mt-2" >
-                <a href="#" className="text-dark text-decoration-none">About</a>
+                <a href="#about" className="text-dark text-decoration-none" >About</a>
               </li>
               <li className="mt-2">
-                <a href="#" className="text-dark text-decoration-none">Services</a>
+                <a href="#services" className="text-dark text-decoration-none" >Services</a>
               </li>
               <li className="mt-2">
-                <a href="#" className="text-dark text-decoration-none">Order Request</a>
+                <a href="#requestservices" className="text-dark text-decoration-none" > Request a Services</a>
               </li>
               <li className="mt-2 tbalck">
-                <a href="#" className="text-dark text-decoration-none ">Contact</a>
+                <a href="#contact" className="text-dark text-decoration-none " >Contact</a>
               </li>
             </ul>
           </div>
@@ -76,8 +76,14 @@ function Footer() {
         </div>
         
      <div className="row  align-items-center justify-content-lg-between bbox ">
-          <div className="col-md-12 footer-bottom-boxed mr-5 ">
-            <p className="copyright_text mb-0 text-center  ">&copy; 2024 Shreem Enterprises. All rights reserved.</p>
+          <div className="col-md-12 footer-bottom-boxed mr-5 d-flex ">
+            <p className="copyright_text mb-0  pl-4 sub-title-footer ">&copy; 2024 Shreem Enterprises. All rights reserved.</p>
+            <div className=""> <a href="/terms-and-conditions" className="linkss text-primary " > Terms & Conditions</a></div>
+           <div className="ast-footer-site-title">
+            Made by
+          <span className="footer-site-title" >SSS Technologies</span>
+           </div>
+          
           </div>
         </div>
       </div>

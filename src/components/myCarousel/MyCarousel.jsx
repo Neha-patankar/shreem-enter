@@ -20,8 +20,8 @@ function MyCarousel() {
                   We are dedicated to providing top-notch digital services to cater to all your needs. Here creativity meets functionality to transform your ideas into stunning visual realities
                   </p>
                   <div className="d-flex gap-4">
-                  <a href="#"></a>
-                  <button type="submit" className="btn1 "   >
+                  <a href="#about" className="text-decoration-none">
+                  <button type="submit" className="btn1  "   >
                     DISCOVER MORE
                     <svg
                       className="arrow"
@@ -38,6 +38,8 @@ function MyCarousel() {
                      />
                     </svg>
                   </button>
+                  </a>
+                  <a href="#services" className="text-decoration-none">
                   <button type="submit" className="btn2">
                     OUR SERVICES
                     <svg
@@ -55,6 +57,7 @@ function MyCarousel() {
                       />
                     </svg>
                   </button>
+                  </a>
                   </div>
                 </div>
 
@@ -79,6 +82,7 @@ function MyCarousel() {
                   We are dedicated to providing top-notch digital services to cater to all your needs. Here creativity meets functionality to transform your ideas into stunning visual realities
                   </p>
                   <div className="d-flex gap-4">
+                  <a href="#about"  className="text-decoration-none">
                   <button type="submit" className="btn1">
                     DISCOVER MORE
                     <svg
@@ -96,6 +100,8 @@ function MyCarousel() {
                       />
                     </svg>
                   </button>
+                  </a>
+                  <a href="#services"  className="text-decoration-none">
                   <button type="submit" className="btn2">
                     OUR SERVICES
                     <svg
@@ -113,6 +119,7 @@ function MyCarousel() {
                       />
                     </svg>
                   </button>
+                  </a>
                   </div>
                 </div>
 
@@ -127,7 +134,7 @@ function MyCarousel() {
               </Carousel.Caption>
               </Carousel.Item>
 
-         {/* Second slid*/}
+         {/* third slid*/}
             <Carousel.Item interval={1500}>
               <div className="row ">
                 <div className="col-6 ">
@@ -137,6 +144,7 @@ function MyCarousel() {
                   We are dedicated to providing top-notch digital services to cater to all your needs. Here creativity meets functionality to transform your ideas into stunning visual realities
                   </p>
                   <div className="d-flex gap-4">
+                  <a href="#about"  className="text-decoration-none">
                   <button type="submit" className="btn1">
                     DISCOVER MORE
                     <svg
@@ -154,6 +162,8 @@ function MyCarousel() {
                       />
                     </svg>
                   </button>
+                  </a>
+                  <a href="#services"  className="text-decoration-none">
                   <button type="submit" className="btn2">
                     OUR SERVICES
                     <svg
@@ -171,6 +181,7 @@ function MyCarousel() {
                       />
                     </svg>
                   </button>
+                  </a>
                   </div>
                 </div>
 

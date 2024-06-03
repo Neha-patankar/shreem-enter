@@ -4,12 +4,10 @@ import "./TermCondition.css";
 function TermCondition (){
   return(
     <> 
-    <div className="containerss">
-    <ul className="list" >
-    <li><h1 className="headingss">Term & Condition</h1></li>
-    <li className=""><a href="#" className="home  text-center ">Home . Term & Condition</a></li>
-    {/* li><h4 className="color-light"> . Tern & Condition</h4></li> */} 
-    </ul>
+    <div className="containerss" id="termCondition">
+    
+    <h1 className="headingss">Term & Condition</h1>
+ 
     </div>
     <div className="Contens tc ">
     <div className="tacp">
