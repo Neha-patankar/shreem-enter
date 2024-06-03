@@ -110,7 +110,6 @@ height: 500px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   margin-top: 20px;
-  height: 260px;
   text-align: start;
 }
 
@@ -118,7 +117,6 @@ height: 500px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   margin-top: 20px;
-  height: 260px;
   text-align: start;
 
 }

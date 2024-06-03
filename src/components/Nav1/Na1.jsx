@@ -5,8 +5,11 @@ import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import image from "../../images/logo.png";
 import "./Nav1.css";
+import { useContext } from "react";
+import { Mycontext } from "../../App";
 
 function Na1() {
+  const { handlePrivacy, handleContact, show } = useContext(Mycontext);
   return (
     <>
       {["md"].map((expand) => (
@@ -49,7 +52,11 @@ function Na1() {
                   <Nav.Link className="nav-item blackl" href="#orderServices">
                     Request a Services
                   </Nav.Link>
-                  <Nav.Link className="nav-item blackl" href="#contact">
+                  <Nav.Link
+                    onClick={handleContact}
+                    className="nav-item blackl"
+                    href="#contact"
+                  >
                     Contact
                   </Nav.Link>
                 </Nav>
