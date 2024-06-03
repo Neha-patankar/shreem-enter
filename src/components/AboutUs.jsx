@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Services from "../Services";
 import ServicesType from "../ServicesType";
 import About from "../About";
@@ -8,14 +8,14 @@ import Team from "../components/team/Team";
 
 function AboutUs() {
   return (
-   <>
-   <About />
-   <ServicesType />
-   <Services />
-   <Team />
-   <TermCondition />
-   </>
-  )
+    <>
+      <About />
+      <ServicesType />
+      <Services />
+      <Team />
+      <TermCondition />
+    </>
+  );
 }
 
-export default AboutUs
+export default AboutUs;
