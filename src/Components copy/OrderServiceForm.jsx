@@ -18,16 +18,18 @@ const OrderServiceForm = () => {
       {/* end of heading */}
 
       {/* starting of Request a service form */}
-      <div className=" row ">
-        <div className="d-flex justify-content-center" style={{gap:'8rem'}}>
+      
+        <div className="d-flex justify-content-center">
+        <div className=" row">
         {/* illustration */}
-        <div className="col-lg-4">
-          <img src={imgs} alt="" className="OS_image" />
+        <div className="col-lg-7">
+          <img src={imgs} alt="" className="OS_image img-fluid" />
         </div>
         {/* end of illustration */}
 
         {/* Starting of form */}
-        <div className="wrapper col-lg-4">
+        <div className="col-lg-4">
+        <div className="wrapper">
           {/* starting of form */}
           <form action="">
             <div className="d-flex gap-3">
@@ -129,6 +131,7 @@ const OrderServiceForm = () => {
               <button className="send-me-btn">Send Message</button>
             </div>
           </form>
+        </div>
         </div>
       </div>
     </div>
