@@ -30,20 +30,20 @@ const states = {
 // Placeholder components
 
 function App() {
-  const [show, setshow] = useState(states);
+  // const [show, setshow] = useState(states);
 
-  const handlePrivacy = () => {
-    setshow((prev) => {
-      return { ...prev, showprivacy: true };
-    });
-  };
+  // const handlePrivacy = () => {
+  //   setshow((prev) => {
+  //     return { ...prev, showprivacy: true };
+  //   });
+  // };
 
-  const handleContact = () => {
-    console.log("hey ");
-    setshow((prev) => {
-      return { ...prev, showContact: true };
-    });
-  };
+  // const handleContact = () => {
+  //   console.log("hey ");
+  //   setshow((prev) => {
+  //     return { ...prev, showContact: true };
+  //   });
+  // };
 
   return (
     <>
