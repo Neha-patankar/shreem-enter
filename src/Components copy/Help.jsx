@@ -8,14 +8,14 @@ const Help = () => {
         <div className="bgContainer">
           <div className="col-md-7 z-1 ">
             <div className="text_box">
-              <h2 className="small-title">Need Any Help</h2>
+              <h2 className="small-title text-center">Need Any Help</h2>
               <h2 className="textbox_heading">
                 Always Ready To Design & Print Your Dream Works
               </h2>
               <p className="textbox_para">
               Need assistance? Our support team is here to help you with any questions or issues you may have. Contact us now for prompt and friendly service!
               </p>
-              <button type="submit" className="btn1">
+               <a href="#contact" style={{textDecoration:'none'}}><button type="submit" className="btn1"><span className="btn_color z-3"></span>
               DISCOVER MORE
               <svg
                 className="arrow"
@@ -24,6 +24,7 @@ const Help = () => {
                 viewBox="0 0 24 24"
                 strokeWidth="1.2"
                 stroke="currentColor"
+                z-3
               >
                 <path
                   strokeLinecap="round"
@@ -32,7 +33,7 @@ const Help = () => {
                 />
               </svg>
             </button>
-
+            </a>
             </div>
           </div>
           <div className="col-md-5 z-1 ">

@@ -1,5 +1,5 @@
 import React from 'react'
-import image from './assets/Image/img_05.jpg'
+import image from './assets/Image/CustomerReview2.jpg'
 import './CustomerReview.css'
 import UncontrolledExample from "./Slider";
 const CustomerReview = () => {
