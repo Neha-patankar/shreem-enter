@@ -40,7 +40,7 @@ const About = () => {
         <div className="">
           <p className="small-title">About Our Company</p>
           <p className="big-title">
-            Design Your Dream Work With <br></br>Shreem Enterprises 
+            Design Your Dream Work With <br></br>Shreem Enterprises
           </p>
         </div>
         <div className="d-flex justify-content-around flex-wrap mt-5 gap-5">

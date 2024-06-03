@@ -1,15 +1,17 @@
 .img{
-  width: 340px;
+  width: 320px;
+  height: 17rem;
+  background-color: white;
 }
 .img:hover{
-  width: 340px;
+  width: 320px;
   transition: 0.4s ease-in-out;
   transform:translate3d(15px,10px,10px);
 }
 
 .images{
-  width: 340px;
-  height: 20rem;
+  width: 320px;
+  height: 17rem;
   background-color:  orangered;;
 }
 
@@ -22,21 +24,14 @@
 
 .services-title{
   font-size: 53px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
-.context{
-  margin-top: 26px;
-  font-size: 16px;
-  font-weight: 600;
-  color: orangered;
-  font-family:"Pacifico", cursive;
-}
 .service-varity{
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 700;
   border: none;
   background-color: white;
-  padding: 5px;
+  padding: 9px;
 
 }

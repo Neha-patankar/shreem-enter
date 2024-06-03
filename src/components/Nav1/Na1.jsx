@@ -5,6 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import image from "../../images/logo.png";
 import "./Nav1.css";
+import { BrowserRouter } from "react-router-dom";
 
 function Na1() {
   return (
@@ -37,19 +38,19 @@ function Na1() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="list justify-content-end flex-grow-1 pe-3  gap-5 ">
-                  <Nav.Link className="nav-item blackl" href="#home">
+                  <Nav.Link className="nav-item blackl" href="/">
                     Home
                   </Nav.Link>
-                  <Nav.Link className="nav-item blackl" href="#about">
+                  <Nav.Link className="nav-item blackl" href="/about">
                     About
                   </Nav.Link>
-                  <Nav.Link className="nav-item blackl" href="#services">
+                  <Nav.Link className="nav-item blackl" href="/services">
                     Services
                   </Nav.Link>
-                  <Nav.Link className="nav-item blackl" href="#orderServices">
+                  <Nav.Link className="nav-item blackl" href="/requestservices">
                     Request a Services
                   </Nav.Link>
-                  <Nav.Link className="nav-item blackl" href="#contact">
+                  <Nav.Link className="nav-item blackl" href="/contact">
                     Contact
                   </Nav.Link>
                 </Nav>
