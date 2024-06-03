@@ -22,28 +22,28 @@ import { Contactss } from "./components/Contact";
 import { TermsAndCon } from "./components/TermsAndCon";
 import RequestServices from "./components/RequestServices";
 
-const states = {
-  showprivacy: false,
-  showContact: false,
-};
+// const states = {
+//   showprivacy: false,
+//   showContact: false,
+// };
 
 // Placeholder components
 
 function App() {
-  const [show, setshow] = useState(states);
+  // const [show, setshow] = useState(states);
 
-  const handlePrivacy = () => {
-    setshow((prev) => {
-      return { ...prev, showprivacy: true };
-    });
-  };
+  // const handlePrivacy = () => {
+  //   setshow((prev) => {
+  //     return { ...prev, showprivacy: true };
+  //   });
+  // };
 
-  const handleContact = () => {
-    console.log("hey ");
-    setshow((prev) => {
-      return { ...prev, showContact: true };
-    });
-  };
+  // const handleContact = () => {
+  //   console.log("hey ");
+  //   setshow((prev) => {
+  //     return { ...prev, showContact: true };
+  //   });
+  // };
 
   return (
     <>
