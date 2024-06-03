@@ -1,14 +1,12 @@
+
 .whatsapp-img {
-  left: 1px;
   position: fixed;
   height: 50px;
   width: 50px;
-  border-radius: 70%;
-  z-index: 10; 
-  margin-right: 20px;
-  margin-bottom:30px;
-  margin-top: 30px;
-  margin-left: 50px;
+  margin-top:40px ;
+ border-radius: 90%;
+ margin-bottom: 50px;
+ z-index: 99999; 
 }
 
 /* Default positioning for larger screens */
@@ -36,3 +34,4 @@
     width: 56px;
   }
 }
+

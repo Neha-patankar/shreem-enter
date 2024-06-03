@@ -12,7 +12,7 @@ function AboutUs() {
    <About />
    <ServicesType />
    <Services />
-    <Team />
+   <Team />
    <TermCondition />
    </>
   )

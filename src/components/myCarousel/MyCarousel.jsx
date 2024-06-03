@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import CarouselImage from "./Carousel-image";
-import shreem1 from "../../images/img_01.png";
+import shreem1 from "../../images/main-img.png";
 import "./MyCarousel.css";
 
 function MyCarousel() {

@@ -1,11 +1,11 @@
 import React from 'react'
-import OrderServiceForm from '../Components copy/OrderServiceForm'
+import ContactDetail from '../Components copy/ContactDetail'
 
 export const Contactss = () => {
   return (
     
     <>
-    <OrderServiceForm/>
+     <ContactDetail/>
     </>
   )
 }
