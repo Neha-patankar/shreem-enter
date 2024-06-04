@@ -114,7 +114,7 @@
       opacity: 0;}
   }
   
-  @media (max-width:500px) {
+  @media (max-width:1000px) {
     .ring1{
      display: none;}
   }
@@ -133,7 +133,7 @@
     transform: translate(-50%,-50%);
   }
   
-  @media (max-width:500px) {
+  @media (max-width:1000px) {
     .ring2{
         display: none;
     }
