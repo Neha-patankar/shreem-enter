@@ -19,7 +19,7 @@ const Services = () => {
       name: "Data Processing",
     },
     {
-      imgs: "./public/images/web-software.jpg",
+      imgs: "./public/images/web-software4.jpg",
       p: "We offer website & software development, including e-commerce, informational sites, blogs, portfolios, social networking, & educational platforms, meeting diverse digital needs across industries & providing resources for global connections & learning.",
       name: "Website & Software Development",
     },
@@ -33,17 +33,25 @@ const Services = () => {
             <h1 className="services-title">Experience Allows Us To Design &</h1>
             <h1 className="services-title"> Print Things</h1>
           </div>
-          <div className="d-flex flex-wrap justify-content-center text-center mt-5">
-            {servicesData.map((items) => (
-              <div className="m-3 cards">
-                <img src={items.imgs} alt="" className="img" />
-                <div className="content">
-                  <p className="p">{items.p}</p>
-                </div>
+          <div className="mt-5 d-flex justify-content-center flex-wrap">
+            <div className=" wrappers">
+              {servicesData.map((items) => (
+                <div className="m-3 single-card">
+                  <div className="front">
+                    <div className="front-titel">{items.name}</div>
+                    <img src={items.imgs} alt="" className="img" />
+                  </div>
 
-                <div className="service-varity">{items.name}</div>
-              </div>
-            ))}
+                  <div className="Back">
+                    <div className="titel">{items.name}</div>
+
+                    <div className="card-content">
+                      <p className="">{items.p}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
