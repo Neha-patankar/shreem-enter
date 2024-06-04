@@ -5,7 +5,7 @@ import "./Faq.css";
 
 const Faq = () => {
   return (
-    <div className="main row" style={{backgroundColor:' #2F3369'}}>
+    <div className="container-fluid row" style={{backgroundColor:' #2F3369'}}>
       {/* Starting of Heading */}
       <div className="text-center">
           <h1 className="small-title mt-5">
