@@ -1,6 +1,11 @@
 .faq_img{
-    width: 100%;
+    width: 70%;
    margin-top: 6rem;
+   transition: all 1.5s ease-in-out;
+}
+
+.faq_img :hover{
+    transform: scale(1.2);
 }
 
 .main{

@@ -115,9 +115,14 @@ padding-bottom: 10px;
 }
 .OS_image{
     width: 80%;
-    height: 60%;
+    height: 80%;
     margin-top: 2rem;
+    transition: all 1ms linear;
 }
+.OS_image:hover{
+    transform: scale(0.9);
+}
+
 @media (max-width:500px) {
     .OS_image{
         width: 80%;

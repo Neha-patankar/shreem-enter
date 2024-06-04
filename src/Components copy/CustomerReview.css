@@ -2,8 +2,11 @@
     width: 100%;
     margin-top: 6rem;
     mix-blend-mode: multiply;
+    transition: all 1.5s ease;  
 }
-
+.cr_image:hover{
+    transform: scale(1.2);
+}
 .cr_sliderbg{
     background-color:#F5F6FA;
 }
