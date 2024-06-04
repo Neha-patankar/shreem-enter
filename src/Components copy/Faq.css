@@ -1,6 +1,11 @@
 .faq_img{
-    width: 100%;
-   margin-top: 6rem;
+    width: 75%;
+   margin-top: 4rem;
+   transition: all 1.5s ease-in-out;
+}
+
+.faq_img :hover{
+    transform: scale(1.2);
 }
 
 .main{
@@ -31,8 +36,4 @@ background-color: #2F3369;
 color: white;
     }
 
-    .first-letter{
-        color: #ff4328;
-        font-size: 60px;
-        margin-left: 1rem;
-    }
+    

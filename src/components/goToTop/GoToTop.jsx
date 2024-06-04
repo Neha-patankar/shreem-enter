@@ -4,10 +4,9 @@ import "./GoToTop.css";
 function GoToTop() {
   return (
     <>
-      <div className="thetop"></div>
-      <div className="backtotop">
+      <div className="uparrow">
         <a href="#" id="scroll">
-          <i class="fa-regular fa-arrow-up"></i>
+          <i className="fa-solid fa-angle-up"></i>
         </a>
       </div>
     </>
