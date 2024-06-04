@@ -11,6 +11,7 @@
 
 /* Default positioning for larger screens */
 .whatsapp-img {
+
   top: calc(100% - 100px); 
   left: calc(100% - 100px); 
 }
@@ -18,20 +19,22 @@
 /* For tablets */
 @media (max-width: 768px) {
   .whatsapp-img {
-    top: calc(100% - 80px); 
+    position: fixed;
+    top: calc(100% - 60px); 
     left: calc(100% - 80px); 
-    height: 54x;
-    width: 54px;
+    height: 45px;
+    width: 45px;
   }
 }
 
 /* For mobile phones */
 @media (max-width: 480px) {
   .whatsapp-img {
-    top: calc(100% - 60px);
+    position: fixed;
+    top: calc(100% - 40px);
     left: calc(100% - 60px); 
-    height: 56px;
-    width: 56px;
+    height: 45px;
+    width: 45px;
   }
 }
 

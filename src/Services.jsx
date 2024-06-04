@@ -9,18 +9,18 @@ const Services = () => {
       name: "Designing",
     },
     {
-      imgs: "./public/images/uiux.jpg",
+      imgs: "./public/images/printingM.avif",
       p: "We offer different size of photocopying services, DTP services and printing services which include DTG,DTF and sublimation printing for variety of merchandise . We also design logos,brouchure and creative designs for B2B and D2C clients.",
       name: "Printing & Merchandising ",
     },
     {
-      imgs: "./public/images/printing2.jpg",
+      imgs: "./public/images/data.jpg",
       p: "We offer diverse data processing services, including OLAP, OLTP, real-time, manual, and automated processing, catering to big data companies and direct-to-consumer (D2C) customers, ensuring efficient and effective data management solutions for various business needs.",
       name: "Data Processing",
     },
     {
-      imgs: "./public/images/printing2.jpg",
-      p: "We offer website and software development, including e-commerce, informational sites, blogs, portfolios, social networking, and educational platforms, meeting diverse digital needs across industries and providing resources for global connections and learning.",
+      imgs: "./public/images/web-software.jpg",
+      p: "We offer website & software development, including e-commerce, informational sites, blogs, portfolios, social networking, & educational platforms, meeting diverse digital needs across industries & providing resources for global connections & learning.",
       name: "Website & Software Development",
     },
   ];
