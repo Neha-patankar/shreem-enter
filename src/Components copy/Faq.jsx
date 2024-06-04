@@ -16,7 +16,7 @@ const Faq = () => {
         {/* Ending of Heading */}
 
       <div className="col-lg-6 faq_img">
-        <img src={faq_image} alt="" className="faq_img img-fluid ms-5" />
+        <img src={faq_image} alt="" className="faq_img img-fluid"/>
       </div>
 
       <div className="accordion_section col-lg-6 pt-3">
