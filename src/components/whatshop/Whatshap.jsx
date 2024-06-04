@@ -5,12 +5,12 @@ import Whatsapp from "../../images/whatshap.png";
 
 function Contacts() {
   return (
-    <a target="_blank" href="https://wa.me/+919340926300">
-      <div>
-        {" "}
+    <div>
+      {" "}
+      <a target="_blank" href="https://wa.me/+919340926300">
         <img src={Whatsapp} className="whatsapp-img" alt="" />{" "}
-      </div>
-    </a>
+      </a>
+    </div>
   );
 }
 

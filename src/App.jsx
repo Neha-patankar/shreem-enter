@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Services from "./Services";
 import "./App.css";
@@ -11,6 +11,7 @@ import Contacts from "./components/whatshop/Whatshap";
 import { TermsAndCon } from "./components/TermsAndCon";
 import RequestServices from "./components/RequestServices";
 import { Contactss } from "./components/Contact";
+import GoToTop from "./components/goToTop/GoToTop";
 
 // const states = {
 //   showprivacy: false,
@@ -38,11 +39,6 @@ function App() {
   return (
     <>
       <div className="bg-white">
-        <div className="uparrow">
-          <a href="#" id="scroll">
-            <i className="fa-solid fa-angle-up"></i>
-          </a>
-        </div>
         <Na1 />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -53,6 +49,7 @@ function App() {
           <Route path="/terms-and-conditions" element={<TermsAndCon />} />
         </Routes>
         <Contacts />
+        <GoToTop />
         <Footer />
       </div>
     </>
