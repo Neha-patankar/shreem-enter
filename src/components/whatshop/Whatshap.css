@@ -7,7 +7,6 @@
   border-radius: 90%;
  margin-bottom: 10px;
  margin-top:35px ;
-
  z-index: 99999; 
 }
 
@@ -22,7 +21,7 @@
 @media (max-width: 768px) {
   .whatsapp-img {
     position: fixed;
-    top: calc(100% - 60px); 
+    top: calc(100% - 70px); 
     left: calc(100% - 80px); 
     height: 45px;
     width: 45px;
@@ -33,7 +32,7 @@
 @media (max-width: 480px) {
   .whatsapp-img {
     position: fixed;
-    top: calc(100% - 40px);
+    top: calc(100% - 80px);
     left: calc(100% - 60px); 
     height: 45px;
     width: 45px;
