@@ -43,14 +43,14 @@ const ContactDetail = () => {
               <ul style={{ listStyleType: "none" }} className="me-5">
                 <li className="contact-details ">
                   <i class="fa-solid fa-phone" style={{ color: "#ff4328" }}></i>
-                  <span className="ms-3 fs-6"> 8602440712</span>
+                  <a href='tel:8602440712' className="ms-3 fs-6 text-decoration-none" style={{ color: "#ffff" }}> 8602440712</a>
                 </li>
                 <li className="contact-details">
                   <i
                     class="fa-solid fa-envelope"
                     style={{ color: " #ff4328" }}
                   ></i>
-                  <span className="ms-3 fs-6"> info@email.com</span>
+                  <a href='mailto:info@email.com' className="ms-3 fs-6 text-decoration-none" style={{ color: "#ffff" }}> info@email.com</a>
                 </li>
                 <li className="contact-details d-flex">
                   <div>
