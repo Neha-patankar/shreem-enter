@@ -7,7 +7,7 @@ padding-top: 20px;
 padding-bottom: 10px;
 } 
 
-.small-title{
+.smaller-title{
   font-size: 20px;
   font-weight: 600;
   color: orangered;
@@ -183,6 +183,10 @@ border-top: 10px solid blue;
 .about-content{
   display: flex;
   flex-direction: column;
+}
+
+.about-content-scroll{
+  height: 100px;
 }
 
 .about-content-p{

@@ -74,8 +74,12 @@ transform: translateY(50%);
 
 .services-title{
   font-size: 53px;
-  font-weight: 800;
+  font-weight: 700;
 }
+
+.heading {
+  font-size: 20px;
+  font-weight: 600;}
 
 .service-varity{
   margin-top: 20px;

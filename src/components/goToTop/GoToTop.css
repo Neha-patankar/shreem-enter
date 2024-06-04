@@ -7,7 +7,7 @@
  margin-bottom: 10px;
  z-index: 99999; 
  background-color:white;
- border-bottom:0 0 10px black;
+ box-shadow: 0 0 5px 0 black;
 padding: 20px;
 display: flex;
 justify-content: center;

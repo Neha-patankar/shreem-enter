@@ -38,7 +38,7 @@ const About = () => {
         id="about"
       >
         <div className="">
-          <p className="small-title">About Our Company</p>
+          <p className="smaller-title">About Our Company</p>
           <p className="big-title">
             Design Your Dream Work With <br></br>Shreem Enterprises
           </p>
@@ -52,7 +52,7 @@ const About = () => {
               <div className="ring2"></div>
             </div>
             <div className="about-content">
-              <div className="d-flex overflow-scroll h-25 overflow-x-hidden">
+              <div className="d-flex overflow-scroll about-content-scroll overflow-x-hidden">
                 <p className="ps-3 opacity-75 fs-6 about-content-p">
                   Our team at Shreem Enterprises is dedicated to providing
                   top-notch digital services to cater to all your needs. Located

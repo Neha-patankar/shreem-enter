@@ -12,6 +12,7 @@ import { TermsAndCon } from "./components/TermsAndCon";
 import RequestServices from "./components/RequestServices";
 import { Contactss } from "./components/Contact";
 import GoToTop from "./components/goToTop/GoToTop";
+import Whychooseus from "./Whychooseus";
 
 // const states = {
 //   showprivacy: false,
@@ -50,6 +51,7 @@ function App() {
         </Routes>
         <Contacts />
         <GoToTop />
+        <Whychooseus></Whychooseus>
         <Footer />
       </div>
     </>
