@@ -10,11 +10,17 @@ import Contacts from "./components/whatshop/Whatshap";
 import { TermsAndCon } from "./components/TermsAndCon";
 import RequestServices from "./components/RequestServices";
 import { Contactss } from "./components/Contact";
+<<<<<<< HEAD
+import GoToTop from "./components/goToTop/GoToTop";
+import Whychooseus from "./Whychooseus";
+import WorkProcess from "./components/workProcess/WorkProcess";
+=======
 import WorkProcess from "./components/workProcess/WorkProcess";
 
+>>>>>>> ebc78ddcfbc6a161d566fd5f795eedaae22e4a35
 
 function App() {
-return (
+  return (
     <>
       <div className="bg-white">
         <Na1 />
@@ -27,7 +33,14 @@ return (
           <Route path="/terms-and-conditions" element={<TermsAndCon />} />
         </Routes>
         <Contacts />
+<<<<<<< HEAD
+        <GoToTop />
+        <Whychooseus></Whychooseus>
         <Footer />
+        <WorkProcess />
+=======
+        <Footer />
+>>>>>>> ebc78ddcfbc6a161d566fd5f795eedaae22e4a35
       </div>
     </>
   );
