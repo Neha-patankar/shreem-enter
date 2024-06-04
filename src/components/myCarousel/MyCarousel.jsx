@@ -12,7 +12,7 @@ function MyCarousel() {
           <Carousel>
             {/*Fitst slid*/}
             <Carousel.Item interval={1500}>
-              <div className="row ">
+              <div className="row  d-flex flex-wrap">
                 <div className="col-6 ">
                   <h4 className="heading mt-5 text-bold mb-4">
                     Welcome to Shreem Enterprises

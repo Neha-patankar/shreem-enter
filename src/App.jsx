@@ -7,37 +7,19 @@ import Footer from "./components/Footer/Footer";
 import { Home } from "./components/Home";
 import AboutUs from "./components/AboutUs";
 import Contacts from "./components/whatshop/Whatshap";
-
 import { TermsAndCon } from "./components/TermsAndCon";
 import RequestServices from "./components/RequestServices";
 import { Contactss } from "./components/Contact";
+<<<<<<< HEAD
 import GoToTop from "./components/goToTop/GoToTop";
 import Whychooseus from "./Whychooseus";
+=======
+import WorkProcess from "./components/workProcess/WorkProcess";
+>>>>>>> 3014043e8026cb99f6179b944235415be90c7755
 
-// const states = {
-//   showprivacy: false,
-//   showContact: false,
-// };
-
-// Placeholder components
 
 function App() {
-  // const [show, setshow] = useState(states);
-
-  // const handlePrivacy = () => {
-  //   setshow((prev) => {
-  //     return { ...prev, showprivacy: true };
-  //   });
-  // };
-
-  // const handleContact = () => {
-  //   console.log("hey ");
-  //   setshow((prev) => {
-  //     return { ...prev, showContact: true };
-  //   });
-  // };
-
-  return (
+return (
     <>
       <div className="bg-white">
         <Na1 />
@@ -50,9 +32,14 @@ function App() {
           <Route path="/terms-and-conditions" element={<TermsAndCon />} />
         </Routes>
         <Contacts />
+<<<<<<< HEAD
         <GoToTop />
         <Whychooseus></Whychooseus>
+=======
+       
+>>>>>>> 3014043e8026cb99f6179b944235415be90c7755
         <Footer />
+        <WorkProcess/>
       </div>
     </>
   );
