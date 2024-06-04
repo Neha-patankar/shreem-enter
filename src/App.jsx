@@ -11,31 +11,10 @@ import Contacts from "./components/whatshop/Whatshap";
 import { TermsAndCon } from "./components/TermsAndCon";
 import RequestServices from "./components/RequestServices";
 import { Contactss } from "./components/Contact";
-
-// const states = {
-//   showprivacy: false,
-//   showContact: false,
-// };
-
-// Placeholder components
+import WorkProcess from "./components/workProcess/WorkProcess";
 
 function App() {
-  // const [show, setshow] = useState(states);
-
-  // const handlePrivacy = () => {
-  //   setshow((prev) => {
-  //     return { ...prev, showprivacy: true };
-  //   });
-  // };
-
-  // const handleContact = () => {
-  //   console.log("hey ");
-  //   setshow((prev) => {
-  //     return { ...prev, showContact: true };
-  //   });
-  // };
-
-  return (
+return (
     <>
       <div className="bg-white">
         <div className="uparrow">
@@ -54,6 +33,7 @@ function App() {
         </Routes>
         <Contacts />
         <Footer />
+        <WorkProcess/>
       </div>
     </>
   );

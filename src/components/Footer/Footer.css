@@ -22,13 +22,17 @@
   color: #007bff;
 }
 .whatshop{
-color:  #25d366;
+color:  #33e976;
+transition: color 0.3s ease;
   
   }
 .instra{
 
   color: hwb(0 3% 4%);
 }
+.footer .social-media i:hover {
+  color: #0056b3;
+} 
 
 .footer-bottom-boxed{
   padding: 25px 50px;
@@ -67,18 +71,15 @@ color:  #25d366;
   color: orangered;
 }
 .footer{
-  background-color: hwb(240 84% 13%)
+  background-color: rgb(168, 168, 174)
 }
 .linkss{
   
   margin-left: 200px;
   font-weight: 700;
-  color: rgba(0, 0, 0, 0.5);
+  color: hsla(232, 84%, 48%, 0.5);
   font-size: large;
   text-decoration: none;
-}
-.ast-footer-site-title{
-  margin-left: 0px;
 }
 
 .footer {
@@ -102,7 +103,7 @@ color:  #25d366;
   color: #0056b3;
 }
 
-.footer .social-media i {
+/* .footer .social-media i {
   font-size: 20px;
   color: hsl(0, 2%, 8%);
   margin-right: 10px;
@@ -111,11 +112,11 @@ color:  #25d366;
 
 .footer .social-media i:hover {
   color: #0056b3;
-}
+} */
 
 .footer-bottom-boxed {
   border-top: 1px solid #ddd;
-  padding-top: 10px;
+  padding-top: 20px;
   margin-top: 20px;
   display: flex;
   flex-direction: column;

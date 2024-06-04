@@ -5,6 +5,7 @@ import About from "../About";
 import "../App.css";
 import TermCondition from "../components/termsCondition/TermCondition";
 import Team from "../components/team/Team";
+import WorkProcess from "./workProcess/WorkProcess";
 
 function AboutUs() {
   return (
@@ -12,6 +13,7 @@ function AboutUs() {
       <About />
       <ServicesType />
       <Services />
+      <WorkProcess/>
       <Team />
       <TermCondition />
     </>
