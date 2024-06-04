@@ -41,6 +41,7 @@ const Help = () => {
             </div>
           </div>
           <div className="col-md-5 z-1 ">
+            <div className="ring1"></div>
             <img
               src={image}
               alt=""
