@@ -16,13 +16,11 @@ export const Home = () => {
     <>
       <MyCarousel />
       <About />
-      <ServicesType />
-      <Services />
+      
       <Faq />
       <Whychooseus></Whychooseus>
-      <Team />
       <Help />
-      <CustomerReview />
+      
     </>
   );
 };

@@ -27,7 +27,7 @@ function MyCarousel() {
                   </p>
                   <div className="d-flex gap-4">
                     <a href="#about" className="text-decoration-none">
-                      <button type="submit" className="btn1 ">
+                      <button type="submit" className="btn3 ">
                         DISCOVER MORE
                         <svg
                           className="arrow"

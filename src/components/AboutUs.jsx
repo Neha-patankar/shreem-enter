@@ -11,8 +11,6 @@ function AboutUs() {
   return (
     <>
       <About />
-      <ServicesType />
-      <Services />
       <WorkProcess/>
       <Team />
       <TermCondition />
