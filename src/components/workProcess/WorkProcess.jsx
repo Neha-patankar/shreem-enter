@@ -1,5 +1,5 @@
 import React from "react";
-import pic from "../../images/pic-1.jpg";
+import pic from "../../images/wp.png";
 import consult from "../../images/consult.png";
 import research  from "../../images/research.png";
 import design  from "../../images/design.png";
