@@ -8,8 +8,8 @@
 .single-card{
   margin: auto;
   display: flex;
+  align-items: stretch;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -64,8 +64,8 @@ width: 260px;
 }
 
 .front-titel{
-  font-size: 22px ;
-  font-weight: 500;
+  font-size: 20px ;
+  font-weight: 700;
 }
 .titel{
   color:black;

@@ -9,7 +9,7 @@ const Services = () => {
       name: "Designing",
     },
     {
-      imgs: "./public/images/printingM.avif",
+      imgs: "./public/images/printing0.avif",
       p: "We offer different size of photocopying services, DTP services and printing services which include DTG,DTF and sublimation printing for variety of merchandise . We also design logos,brouchure and creative designs for B2B and D2C clients.",
       name: "Printing & Merchandising ",
     },
@@ -19,7 +19,7 @@ const Services = () => {
       name: "Data Processing",
     },
     {
-      imgs: "./public/images/web-software4.jpg",
+      imgs: "./public/images/web-software0.avif",
       p: "We offer website & software development, including e-commerce, informational sites, blogs, portfolios, social networking, & educational platforms, meeting diverse digital needs across industries & providing resources for global connections & learning.",
       name: "Web & Software Development",
     },
@@ -33,8 +33,8 @@ const Services = () => {
             <h1 className="services-title">Experience Allows Us To Design &</h1>
             <h1 className="services-title"> Print Things</h1>
           </div>
-          <div className="mt-5 d-flex justify-content-center flex-wrap">
-            <div className=" wrappers">
+          <div className="mt-5 pt-4 d-flex justify-content-center flex-wrap">
+            <div className="wrappers">
               {servicesData.map((items) => (
                 <div className="m-3 single-card">
                   <div className="front">

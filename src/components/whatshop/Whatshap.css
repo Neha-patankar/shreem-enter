@@ -1,8 +1,8 @@
 
 .whatsapp-img {
   position: fixed;
-  height: 37px;
-  width: 37px;
+  height: 42px;
+  width: 42px;
   margin-bottom: 15px;
   border-radius: 90%;
  margin-bottom: 10px;
@@ -13,7 +13,7 @@
 /* Default positioning for larger screens */
 .whatsapp-img {
 
-  top: calc(100% - 100px); 
+  top: calc(100% - 105px); 
   left: calc(100% - 100px); 
 }
 
