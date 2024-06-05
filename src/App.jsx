@@ -11,26 +11,23 @@ import { TermsAndCon } from "./components/TermsAndCon";
 import RequestServices from "./components/RequestServices";
 import { Contactss } from "./components/Contact";
 import GoToTop from "./components/goToTop/GoToTop";
-import Whychooseus from "./Whychooseus";
-import WorkProcess from "./components/workProcess/WorkProcess";
-
+import { ServicesParent } from "./components/Services";
 
 function App() {
-return (
+  return (
     <>
       <div className="bg-white">
         <Na1 />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
-          <Route path="/services" element={<Services />} />
+          <Route path="/services" element={<ServicesParent />} />
           <Route path="/requestservices" element={<RequestServices />} />
           <Route path="/contact" element={<Contactss />} />
           <Route path="/terms-and-conditions" element={<TermsAndCon />} />
         </Routes>
         <Contacts />
         <GoToTop />
-        <Whychooseus></Whychooseus>
         <Footer />
         
       </div>

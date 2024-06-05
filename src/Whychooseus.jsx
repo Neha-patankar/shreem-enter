@@ -19,7 +19,7 @@ const data = [
   {
     titel: " Attention to Detail:",
     contents:
-      " Our meticulous attention to detail ensures that every aspect of the design is perfect, from the smallest icon to the overall layout.",
+      "Our attention to detail ensures every aspect of the design is perfect, from icons to layout..",
   },
   {
     titel: "Timely Delivery:",

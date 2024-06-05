@@ -79,7 +79,10 @@ const About = () => {
                     <div className="about-card-description">
                       {items.description}
                     </div>
-                    <button className="readmore-btn">READ MORE ➔</button>
+
+                    <a href="#read">
+                      <button className="readmore-btn"> READ MORE ➔</button>
+                    </a>
                   </div>
                 ))}
               </div>
