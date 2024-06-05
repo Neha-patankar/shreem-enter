@@ -1,7 +1,7 @@
 .uparrow {
   position: fixed;
-  height: 36px;
-  width: 36px;
+  height: 32px;
+  width: 32px;
   margin-bottom: 15px;
   border-radius: 90%;
  margin-bottom: 10px;
@@ -14,8 +14,8 @@ justify-content: center;
 }
 
 .uparrow {
-top: calc(100% - 150px); 
-  left: calc(100% - 100px); 
+top: calc(100% - 70px); 
+  left: calc(100% - 58px); 
 }
 
 #scroll{
@@ -33,10 +33,10 @@ font-weight: 700;
 @media (max-width: 768px) {
   .uparrow {
     position: fixed;
-    top: calc(100% - 117px); 
-    left: calc(100% - 80px); 
-    height: 45px;
-    width: 45px;
+    top: calc(100% - 60px); 
+    left: calc(100% - 50px); 
+    height: 40px;
+    width: 40px;
   }
 }
 
@@ -46,7 +46,7 @@ font-weight: 700;
     position: fixed;
     top: calc(100% - 90px);
     left: calc(100% - 60px); 
-    height: 45px;
-    width: 45px;
+    height: 38px;
+    width: 38px;
   }
 }

@@ -21,7 +21,7 @@ const Services = () => {
     {
       imgs: "./public/images/web-software4.jpg",
       p: "We offer website & software development, including e-commerce, informational sites, blogs, portfolios, social networking, & educational platforms, meeting diverse digital needs across industries & providing resources for global connections & learning.",
-      name: "Website & Software Development",
+      name: "Web & Software Development",
     },
   ];
   return (

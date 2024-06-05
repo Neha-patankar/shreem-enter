@@ -81,7 +81,7 @@ const About = () => {
                     </div>
 
                     <a href="#read">
-                      <button className="readmore-btn"> READ MORE</button>
+                      <button className="readmore-btn"> READ MORE ➔</button>
                     </a>
                   </div>
                 ))}
