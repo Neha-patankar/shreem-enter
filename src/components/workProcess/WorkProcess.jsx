@@ -1,5 +1,5 @@
 import React from "react";
-import pic from "../../images/pic-1.jpg";
+import pic from "../../images/wp.png";
 import consult from "../../images/consult.png";
 import research  from "../../images/research.png";
 import design  from "../../images/design.png";
@@ -13,15 +13,15 @@ function WorkProcess (){
             <div className="row ">
             <h4 className="text-center mt-4">OUR WORK PROCESS</h4>
              <div className="col-md-4  ">
-             <div className="text-center workprocess">
-                <img src={consult} alt="consults" className="mt-3 imgss"
+             <div className="text-center workprocess card-work">
+                <img src={consult} alt="consults" className="mt-3  imgss "
                   style={{width:"70px", height:"70px"}}></img>
                   <h4>Consultation</h4>
                  <p>We start with a detailed consultation to understand your requirements, goals, and vision.</p>
              </div>
 
-             <div className="text-center workprocess">
-               <img src={research} alt="consults"
+             <div className="text-center  workprocess card-work">
+               <img src={research} alt="consults" className="mt-3"
                 style={{width:"70px", height:"70px"}}></img>
                 <h4>Research and Planning</h4>
                 <p> Our team conducts thorough research and plans the design strategy tailored to your needs.
@@ -37,7 +37,7 @@ function WorkProcess (){
              </div>
 
              <div className="col-md-4">
-             <div className="text-center workprocess">
+             <div className="text-center workprocess card-work">
                <img src={design} alt="consults" className="mt-3"
                 style={{width:"70px", height:"70px"}}></img>
                 <h4>Design and Development</h4>
@@ -45,7 +45,7 @@ function WorkProcess (){
                </p>
              </div>
 
-             <div className="text-center workprocess">
+             <div className="text-center workprocess card-work">
                <img src={rewie} alt="consults" className="mt-3"
                  style={{width:"70px", height:"70px"}}></img>
                  <h4>Review and Finalization</h4>
@@ -54,8 +54,8 @@ function WorkProcess (){
              </div>
              </div>
 
-             <div className="text-center workprocess mt-1">
-              <img src={delevary} alt="consults" 
+             <div className="text-center workprocess mt-1 card-work">
+              <img src={delevary} alt="consults" className="mt-3"
                 style={{width:"70px", height:"70px"}}></img>
                 <h4>Delivery and Support</h4>
                 <p>Once finalized, we deliver the design files in the required formats and offer ongoing support if needed.

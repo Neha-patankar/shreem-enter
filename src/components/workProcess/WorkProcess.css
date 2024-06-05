@@ -5,8 +5,10 @@
   box-shadow:0 0 8px 1px rgb(218, 215, 208);
   transition: ease-out 0.2s;
   margin: 20px 0;
+  border-radius: 0px 50px 0px 50px;
+ 
  
 }
-.imgss{
-  mix-blend-mode:multiply ;
-}
+/* .card-work{
+  background-color: rgb(232, 240, 246);
+} */

@@ -10,6 +10,7 @@ import Faq from "../Components copy/Faq";
 import Help from "../Components copy/Help";
 import Whychooseus from "../Whychooseus";
 
+
 export const Home = () => {
   return (
     <>

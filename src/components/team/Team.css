@@ -9,15 +9,19 @@
   max-width: 1600px;
   margin: 0 auto;
   }
-  .team-heading{
+  .team-heading123{
     color: #ff4500;
+    font-size: 20px;
+    font-weight: 600px;
     padding-top: 40px;
-    font-size: 500px;
+   
 
   }
 
 .team-heading {
-  font-size: 1em;
+  font-size: 43px;
+  font-weight: 600px;
+
   margin-bottom: 10px;
 }
 

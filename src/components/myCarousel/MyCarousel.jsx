@@ -1,14 +1,14 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import CarouselImage from "./Carousel-image";
-import shreem1 from "../../images/main-img.png";
+import shreem1 from "../../images/banner-img-1.png";
 import "./MyCarousel.css";
 
 function MyCarousel() {
   return (
     <div className="main" id="home">
       <div className="background-slid">
-        <div className="container-carousels-fluid z-0 pt-5 mt-5 ">
+        <div className="container-carousels-fluid z-0 pt-3 mt-5 ">
           <Carousel>
             {/*Fitst slid*/}
             <Carousel.Item interval={1500}>
@@ -27,7 +27,7 @@ function MyCarousel() {
                   </p>
                   <div className="d-flex gap-4">
                     <a href="#about" className="text-decoration-none">
-                      <button type="submit" className="btn1  ">
+                      <button type="submit" className="btn1 ">
                         DISCOVER MORE
                         <svg
                           className="arrow"

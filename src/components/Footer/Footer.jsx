@@ -39,9 +39,9 @@ function Footer() {
                 <a href="#services" className="text-dark text-decoration-none" >Services</a>
               </li>
               <li className="mt-2">
-                <a href="#requestservices" className="text-dark text-decoration-none" > Request a Services</a>
+                <a href="#requestservices" className="text-dark text-decoration-none"  > Request a Services</a>
               </li>
-              <li className="mt-2 tbalck">
+              <li className="mt-2 tbalck" >
                 <a href="#contact" className="text-dark text-decoration-none " >Contact</a>
               </li>
             </ul>
@@ -80,8 +80,7 @@ function Footer() {
             <p className="copyright_text mb-0  pl-4 sub-title-footer ">&copy; 2024 Shreem Enterprises. All rights reserved.</p>
             <div className=""> <a href="/terms-and-conditions" className="linkss  " > Terms & Conditions</a></div>
            <div className="ast-footer-site-title">
-            Made by
-          <span className="footer-site-title" >SSS Technologies</span>
+           <p>Made by SSS Technologies</p> 
            </div>
           
           </div>
