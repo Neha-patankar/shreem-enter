@@ -11,7 +11,6 @@ import { TermsAndCon } from "./components/TermsAndCon";
 import RequestServices from "./components/RequestServices";
 import { Contactss } from "./components/Contact";
 import GoToTop from "./components/goToTop/GoToTop";
-import Whychooseus from "./Whychooseus";
 import WorkProcess from "./components/workProcess/WorkProcess";
 
 function App() {
@@ -29,7 +28,6 @@ function App() {
         </Routes>
         <Contacts />
         <GoToTop />
-        <Whychooseus></Whychooseus>
         <Footer />
         <WorkProcess />
       </div>
