@@ -39,9 +39,9 @@ function Footer() {
                 <a href="#services" className="text-dark text-decoration-none" >Services</a>
               </li>
               <li className="mt-2">
-                <a href="#requestservices" className="text-dark text-decoration-none" > Request a Services</a>
+                <a href="#requestservices" className="text-dark text-decoration-none"  > Request a Services</a>
               </li>
-              <li className="mt-2 tbalck">
+              <li className="mt-2 tbalck" >
                 <a href="#contact" className="text-dark text-decoration-none " >Contact</a>
               </li>
             </ul>
