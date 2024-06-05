@@ -3,7 +3,7 @@
   height: 32px;
   width: 32px;
   margin-bottom: 15px;
-  border-radius: 90%;
+  /*border-radius: 50%;*/
  margin-bottom: 10px;
  z-index: 99999; 
  background-color:white;
@@ -14,8 +14,8 @@ justify-content: center;
 }
 
 .uparrow {
-top: calc(100% - 70px); 
-  left: calc(100% - 58px); 
+top: calc(100% - 44px); 
+  left: calc(100% - 40px); 
 }
 
 #scroll{
@@ -23,7 +23,7 @@ top: calc(100% - 70px);
   justify-content: center;
   align-items: center;
   font-size: 15px;
-font-weight: 700;
+ font-weight: 600;
   color: blue;
 }
 
