@@ -13,13 +13,8 @@
 /* Default positioning for larger screens */
 .whatsapp-img {
 
-<<<<<<< HEAD
   top: calc(100% - 130px); 
   left: calc(100% - 40px); 
-=======
-  top: calc(100% - 105px); 
-  left: calc(100% - 105px); 
->>>>>>> c73b7c9bfb7f348d2d784d4e2005bf89c87aef81
 }
 
 /* For tablets */
