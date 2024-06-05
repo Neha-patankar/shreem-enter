@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Services from "./Services";
 import "./App.css";
 import Na1 from "./components/Nav1/Na1";
 import Footer from "./components/Footer/Footer";
@@ -11,13 +10,8 @@ import { TermsAndCon } from "./components/TermsAndCon";
 import RequestServices from "./components/RequestServices";
 import { Contactss } from "./components/Contact";
 import GoToTop from "./components/goToTop/GoToTop";
-<<<<<<< HEAD
 
 import { ServicesParent } from "./components/Services";
-=======
-import { ServicesParent } from "./components/Services";
-import WorkProcess from "./components/workProcess/WorkProcess";
->>>>>>> 795523038d4a75a2179879ffa9b9cfce6d702728
 
 function App() {
   return (
@@ -35,12 +29,6 @@ function App() {
         <Contacts />
         <GoToTop />
         <Footer />
-<<<<<<< HEAD
-=======
-
-        <WorkProcess />
-6
->>>>>>> 795523038d4a75a2179879ffa9b9cfce6d702728
       </div>
     </>
   );
