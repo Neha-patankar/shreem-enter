@@ -80,8 +80,7 @@ function Footer() {
             <p className="copyright_text mb-0  pl-4 sub-title-footer ">&copy; 2024 Shreem Enterprises. All rights reserved.</p>
             <div className=""> <a href="/terms-and-conditions" className="linkss  " > Terms & Conditions</a></div>
            <div className="ast-footer-site-title">
-            Made by
-          <span className="footer-site-title" >SSS Technologies</span>
+           <p>Made by SSS Technologies</p> 
            </div>
           
           </div>

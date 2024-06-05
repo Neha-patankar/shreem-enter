@@ -4,7 +4,7 @@ import "./Contact.css";
 const ContactDetail = () => {
   return (
     <>
-      <div className="container-fluid Contact_container_bg">
+      <div className="container-fluid Contact_container_bg" id="contact">
         <div className="d-flex flex-column justify-content-center align-items-center mb-5">
           <p className="small-title mt-3">Contact us</p>
           <p className="big-title text-center">
