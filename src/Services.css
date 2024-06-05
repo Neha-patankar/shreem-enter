@@ -1,93 +1,74 @@
-.img{
-  width:261px;
-  height: 17rem;
-  background-color: white;
+/* .single-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+} */
+.wrappers,
+.single-card{
+  margin: auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-
-.cards{
-    position: relative;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+.wrappers{
+  perspective: 900px;
 }
 
-.cards:hover .img{
-  filter: grayscale(0) brightness(0.4);
-  border-left: 6px solid blue;
-  border-bottom: 8px solid orange;
-
-}
-
-.cards:hover::after{
-    opacity: 1;
-    inset: 20px;
-}
-
-.cards::after{
-  content: "";
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  transition: 0.4s ease-in-out;
-}
-
-.content {
-width: 72%;
-position: absolute;
-top: 45%;
-left: 50%;
-transform: translate(-50%,-50%);
-text-align: center;
-}
-
-.content h2,
-.content p {
+.single-card{
   text-align: center;
-opacity: 0;
-transition: 0.4s 0.2s ease;
-}
-.content h2 {
-margin-bottom: 12px;
-scale: 0.7;
-}
-.content p {
-font-size: 15px;
-font-weight: 600;
-line-height: 1.5;
-color:white;
-transform: translateY(50%);
+  transition: all 1.5s cubic-bezier(0.7,-.5,0.3,1.8);
+  transform-style: preserve-3d;
 }
 
-.cards:hover .content h2{
-  scale: 1;
-  opacity: 1;
+.wrappers:hover .single-card{
+  transform: rotateY(180deg);
 }
 
-.cards:hover .content p{
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.services-title{
-  font-size: 53px;
-  font-weight: 700;
-}
-
-.heading {
-  font-size: 20px;
-  font-weight: 600;}
-
-.service-varity{
-  margin-top: 20px;
-  font-size: 20px;
-  font-weight: 700;
+.front,.Back{
   width: 300px;
-  border: none;
-  background-color: white;
-  padding: 9px;
+  position: relative;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+}
 
+.front{
+  cursor: pointer;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 50px;
+}
+
+.img{
+  height: 250px;
+width: 260px;
+}
+
+.Back{
+  transform: rotateY(180deg);
+  position: absolute;
+  height: 300px;
+  box-shadow: 0 0 5px 0px black;
+  border-bottom:2px solid orange ;
+  background-image: linear-gradient(white 80%,orange);
+}
+
+.card-content{
+  color: black;
+  padding-top:5%;
+  padding: 20px;
+  text-align: center;
+}
+
+.front-titel{
+  font-size: 20px ;
+  font-weight: 700;
+}
+.titel{
+  color:black;
+  font-size: 20px ;
+font-weight: 700;
 }
