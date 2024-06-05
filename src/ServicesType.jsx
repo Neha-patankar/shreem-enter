@@ -42,7 +42,7 @@ let typeOfservices = [
 
 const ServicesType = () => {
   return (
-    <div className="">
+    <div id="read">
       <div className="text-center ">
         <div className="containers">
           <p className="heading">Our Serviceses</p>
