@@ -14,19 +14,6 @@
     flex-wrap: nowrap;
 }
 
-.faq-heading{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center ;
-    font-size: 53px;
-    font-weight: 700;
-    color:white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* text-decoration: underline;
-    text-decoration-color: #ff4328; */
-    }
-
     .accordion_section{
         background-color: #2F3369;
     }

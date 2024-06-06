@@ -123,22 +123,6 @@ export default function AccordionExpandIcon() {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion style={{backgroundColor: '#2F3369', color: 'white'}} expanded={openSection === 8} onChange={() => toggleSection(8)}>
-        <AccordionSummary
-          expandIcon={openSection === 8 ? <ArrowDownwardIcon style={{color: 'white'}} /> : <ArrowDropDownIcon style={{color: 'white'}} />}
-          aria-controls="panel6-content"
-          id="panel6-header"
-        >
-          <Typography style={{fontSize: '18px', fontWeight: 'bold'}}>Can I order a custom size or shape?</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-          » Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-
-
     </div>
   );
 }
