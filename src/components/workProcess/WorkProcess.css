@@ -6,9 +6,19 @@
   transition: ease-out 0.2s;
   margin: 20px 0;
   border-radius: 0px 50px 0px 50px;
- 
- 
-}
-/* .card-work{
+ }
+ .main-heading{
+  font-size:53px ;
+  font-weight: 700;
+ }
+ .sub-heading{
+  font-size: 22px;
+  font-weight: 600;
+ }
+ /*
+ .container-main{
+  background-color: #04063c;
+ } 
+ .card-work{
   background-color: rgb(232, 240, 246);
 } */

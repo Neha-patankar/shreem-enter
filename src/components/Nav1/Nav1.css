@@ -20,3 +20,8 @@ nav .nav-item:hover{
 .nav-shadow{
  box-shadow: 0px 0px 5px 0px black;
 }
+.fontSize{
+  font-size: 18px;
+  font-family: roboto;
+  font-weight: 600;
+}

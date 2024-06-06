@@ -16,10 +16,9 @@ export const Home = () => {
     <>
       <MyCarousel />
       <About />
-      
       <Faq />
       <Whychooseus></Whychooseus>
-      <Help />
+      
       
     </>
   );

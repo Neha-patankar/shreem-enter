@@ -88,4 +88,16 @@
 .designation{
   color: #ff4500;
   margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.fontSizeteam{
+  font-size: 18px;
+  font-family: roboto;
+  font-weight: 600;
+}
+.fontSizeteamh{
+  font-size: 53px;
+  font-family: roboto;
+  font-weight: 600;
 }

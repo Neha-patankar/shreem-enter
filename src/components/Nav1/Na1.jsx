@@ -15,7 +15,7 @@ function Na1() {
           expand={expand}
           className="nav1 bg-nav mb-3 position-fixed top-0 w-100 z-3  nav-shadow"
         >
-          <Container className="Container fluid ">
+          <Container className="Container fluid fontSize ">
             <a className="navbar-brand" href="#">
               <img
                 src={image}
@@ -23,7 +23,7 @@ function Na1() {
                 style={{ width: "clamp(4rem, 8vw, 5rem)", marginRight: "10px" }}
               />
             </a>
-            <Navbar.Brand href="#">Shreem Enterprises</Navbar.Brand>
+            <Navbar.Brand href="#" className="fontSize">Shreem Enterprises</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}

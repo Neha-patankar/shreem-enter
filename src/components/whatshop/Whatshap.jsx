@@ -7,7 +7,7 @@ function Contacts() {
   return (
     <div>
       {" "}
-      <a target="_blank" href="https://wa.me/+919340926300">
+      <a target="_blank" href="https://wa.me/+918602440712">
         <img src={Whatsapp} className="whatsapp-img" alt="" />{" "}
       </a>
     </div>
