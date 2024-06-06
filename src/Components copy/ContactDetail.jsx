@@ -1,16 +1,40 @@
 import React, { useRef } from "react";
 import "./Contact.css";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 const ContactDetail = () => {
   const borderRef = useRef(null);
   const handleHover = () => {
-    console.log('Hey')
     borderRef.current.style.border = "4px dashed #fff";
   };
 
-  const handleRemoveHover = ()=> {
+  const handleRemoveHover = () => {
     borderRef.current.style.border = "4px dashed #2f3369  ";
-  }
+  };
+  // Array of contact details
+  const data = [
+    {
+      Icon: Phone,
+      heading: "Contact Us :",
+      details: "+91-860-244-0712",
+      href: "tel:8602440712",
+    },
+    {
+      Icon: Mail,
+      heading: "E-mail Us :",
+      details: "shreementerprises@gmail.com",
+      href: "mailto:shreementerprises@gmail.com",
+    },
+
+    {
+      Icon: MapPin,
+      heading: "Location :",
+      details:
+        "28 Surya Colony behind Sarvadharam Sector-C Kolar Road Bhopal(M.P)-462042",
+      href: "https://maps.app.goo.gl/njbhrYWGjWzTgy469",
+    },
+  ];
+
   return (
     <>
       <div className="container-fluid " style={{ paddingTop: "150px" }}>
@@ -23,7 +47,7 @@ const ContactDetail = () => {
         </div>
         <div className="row">
           <div className="d-flex flex-wrap justify-content-center gap-5 my-5">
-            <div
+            {/* <div
               className="contact_box"
               onMouseEnter={handleHover}
               onMouseLeave={handleRemoveHover}
@@ -77,7 +101,20 @@ const ContactDetail = () => {
                   Bhopal(M.P) - 462042
                 </a>
               </div>
-            </div>
+            </div>*/}
+          </div>
+          <div className="d-flex flex-wrap justify-content-center gap-5 my-5">
+            {data.map((item) => (
+              <div className="contact_box">
+                <div>
+                  <item.Icon />
+                </div>
+                <h5>{item.heading}</h5>
+                <a href={item.href} className="details text-center">
+                  {item.details}
+                </a>
+              </div>
+            ))}
           </div>
 
           <div
