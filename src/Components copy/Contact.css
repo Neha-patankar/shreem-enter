@@ -5,21 +5,22 @@
 
 .icon {
   font-size: 30px;
-  position: relative;
   border-radius: 50%;
-  padding: 20px;
-  border: #2f3369 2px dashed;
+  padding: 30px;
+  border: #2f3369 4px dashed;
 }
 
 .contact_box {
-  width: 350px;
-  height: 200px;
+  width: 380px;
+  height: 250px;
   display: flex;
   color: #2f3369;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  box-shadow: #2f3369 0 0 15px;
+  box-shadow: #8187e1 0 0 15px;
+  padding: 2rem;
+  border-radius: 20px;
 }
 
 .details {
@@ -28,10 +29,10 @@
   text-align: left;
   text-decoration: none;
   font-weight: 600;
+  color: inherit;
 }
 
 .info_Heading {
-  color: inherit;
   font-weight: 900;
 }
 .contact_box:hover {
