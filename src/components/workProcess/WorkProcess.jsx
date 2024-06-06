@@ -71,7 +71,7 @@ import React from "react";
 
 function WorkProcess (){
      return(
-       
+       <></>
      )
 }
 export default WorkProcess;
