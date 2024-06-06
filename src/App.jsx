@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import "./App.css";
 import Na1 from "./components/Nav1/Na1";
 import Footer from "./components/Footer/Footer";

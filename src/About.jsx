@@ -38,7 +38,7 @@ const About = () => {
         id="about"
       >
         <div className="">
-          <p className="smaller-title">About Our Company</p>
+          <p className="smaller-title pt-5">About Our Company</p>
           <p className="big-title">
             Design Your Dream Work With <br></br>Shreem Enterprises
           </p>

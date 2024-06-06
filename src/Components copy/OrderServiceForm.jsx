@@ -7,13 +7,15 @@ const OrderServiceForm = () => {
     <div
       className="container-fluid"
       id="requestservices"
-      style={{ paddingTop: "3rem" }}
+      style={{ paddingTop: "5rem" }}
     >
       {/* heading */}
       <div className="mt-5">
-        <h1 className="Order_Service_heading text-center" id="orderServices">
-          Send us a message
+        <h1 className="small-title text-center mt-5" id="orderServices">  Send us a message
         </h1>
+          <p className="big-title text-center mb-5">
+Request top-notch service from us to <br />enhance your business</p>
+        
       </div>
       {/* end of heading */}
 
