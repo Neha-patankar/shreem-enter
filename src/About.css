@@ -9,7 +9,7 @@ padding-bottom: 10px;
 
 
 .big-title{
-  font-size: 53px;
+  font-size:clamp(25px,9vw,50px);
   font-weight: 700;
 }
 
@@ -44,8 +44,8 @@ border-top: 10px solid orangered;
 
 .Group-img:hover{
   width:29rem;
-  border-bottom: 10px solid blue;
-  border-top: 10px solid orangered;
+  border-bottom: 10px solid orangered;
+  border-top: 10px solid blue;
   filter: blur(1px) saturate(1.2);
   transition: ease-out 0.5s;
   }
@@ -78,8 +78,8 @@ border-top: 10px solid orangered;
   .play-btn{
     position: absolute;
     z-index: 2;
-    margin-left:165px;
-    margin-top: 240px;
+    margin-left:155px;
+    margin-top: 210px;
     width:90px;
     height:90px;
     background-color:white;
@@ -115,8 +115,8 @@ border-top: 10px solid orangered;
   .ring{
     position: absolute;
     z-index:1;
-    margin-top:283px;
-    margin-left:210px;
+    margin-top:253px;
+    margin-left:200px;
     height: 20px;
     width: 20px;
     background-color:none;
@@ -145,8 +145,8 @@ border-top: 10px solid orangered;
   .ring2{
     position: absolute;
     z-index:1;
-    margin-top:283px;
-    margin-left:210px;
+    margin-top:253px;
+    margin-left:200px;
     height: 20px;
     width: 20px;
     background-color:none;
@@ -190,6 +190,19 @@ border-top: 10px solid orangered;
 padding:41px;
 font-family: roboto;
 text-align: center;
+}
+
+@media (max-width:767px){
+  .about-content-p{
+    border-left: 3px solid   orangered;
+    border-right: 3px solid   orangered;
+    opacity: 0.8;
+    font-weight: 600;
+    font-size: 15px;
+  padding:10px;
+  font-family: roboto;
+  text-align: center;
+  }
 }
 
 .about-cards{ 
@@ -250,27 +263,3 @@ transform: scale(1.1);
   margin-left: 30px;
 }
 
-.readmore-btn{
-  margin-top: 18px;
-  margin-left: 14px;
-  background-color:white;
-  border: none;
-  font-size: 13px;
-  font-weight: 600;
-  width: 120px;
-}
-
-
- .readmore-btn:hover{
-  margin-top: 18px;
-  margin-left: 20px;
-  background-color:white;
-  border: none;
-  font-size: 13px;
-  font-weight: 600;
-  color: orange;
-  width: 120px;
-  text-decoration: underline orange;
-  transition: ease-out 0.5s;
-  transform: translateX(9px);
-}

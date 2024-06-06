@@ -1,35 +1,7 @@
 import React from "react";
 import "./About.css";
-import Group_img from "./assets/About-img/img_05.jpg";
 import aboutus from "/public/images/aboutus.jpg";
 import play_icon from "./assets/About-img/play-icon.png";
-
-const about_icon = [
-  {
-    imgs: "./public/About/icon_01.png",
-    servicename: "Printing & Press",
-    description:
-      "Printing & press services deliver high-quality materials, ensuring impactful visual communication & effective brand representation.",
-  },
-  {
-    imgs: "./public/About/online.png",
-    servicename: "Web Design",
-    description:
-      "Web design creates visually appealing, user-friendly websites to enhance user experience, drive engagement,& brand perception.",
-  },
-  {
-    imgs: "./public/About/3dprinting.png",
-    servicename: "UI/UX Design",
-    description:
-      "UI/UX design is crucial for digital products, creating beautiful, functional interfaces that ensure a seamless and engaging user experience.",
-  },
-  {
-    imgs: "./public/About/setting-icon.png",
-    servicename: "Packaging Design",
-    description:
-      "Packaging design is essential, creating visually appealing, functional packages that protect products & enhance customer experience & brand perception.",
-  },
-];
 
 const About = () => {
   return (
