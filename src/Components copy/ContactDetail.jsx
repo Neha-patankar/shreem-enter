@@ -4,17 +4,60 @@ import "./Contact.css";
 const ContactDetail = () => {
   return (
     <>
-      <div className="container-fluid Contact_container_bg" id="contact">
-        <div className="d-flex flex-column justify-content-center align-items-center mb-5">
-          <p className="small-title mt-3">Contact us</p>
-          <p className="big-title text-center">
-            Have any questions or just want to say hi?
+      <div className="container-fluid" style={{ marginTop: "100px" }}>
+        <div className="text-center">
+          <h1>Let's Talk to us.</h1>
+          <p>
+            Have any questions or just want to say hi? We would love to here
+            from you.
           </p>
         </div>
-        {/* Starting of Map section */}
+        <div className="row">
+          <div className="d-flex flex-wrap justify-content-center gap-5">
+            <div>
+              <i class="fa-solid fa-phone" style={{ color: "" }}></i>
+              <a
+                href="tel:8602440712"
+                className="ms-3 fs-6 text-decoration-none"
+              >
+                8602440712
+              </a>
+            </div>
+            <div>
+              <i class="fa-solid fa-envelope" style={{ color: " #ff4328" }}></i>
+              <a
+                href="mailto:info@email.com"
+                className="ms-3 fs-6 text-decoration-none"
+              >
+                info@email.com
+              </a>
+            </div>
+            <div>
+              <i
+                class="fa-solid fa-location-dot"
+                style={{ color: "#ff4328" }}
+              ></i>
+
+              <a
+                href="https://maps.app.goo.gl/njbhrYWGjWzTgy469"
+                className="ms-4 text-decoration-none"
+              >
+                28,Surya Colony,behind Sarvadharam <br /> Sector-C Kolar Road
+                Bhopal(M.P)-462042
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <div className="container-fluid Contact_container_bg" id="contact">
+        <div className="d-flex flex-column justify-content-center align-items-center mb-5">
+          <p className="big-title text-center">
+            Have any questions or just want to say hi?</p>
+          <h4 className="">Contact us</h4>
+        </div>
+
         <div className="row">
           <div className="col-lg-6">
-            {/* starting of location div */}
             <div className="d-flex justify-content-center text-center">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1833.8852139319583!2d77.41787103854367!3d23.17857751047634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c43740e860d17%3A0x924bc415766ed7a2!2sSarvadharam%20C%20Sector%2C%20Shirdipuram%2C%20Kolar%20Rd%2C%20Bhopal%2C%20Gehun%20Kheda%2C%20Madhya%20Pradesh%20462042!5e0!3m2!1sen!2sin!4v1716974635044!5m2!1sen!2sin"
@@ -27,9 +70,7 @@ const ContactDetail = () => {
               ></iframe>
             </div>
           </div>
-          {/* ending of location div */}
-
-          {/* starting of Contact details */}
+      
           <div className="col-lg-6">
             <div className="contact_container">
               <div>
@@ -64,7 +105,7 @@ const ContactDetail = () => {
                       className="ms-3 fs-6 text-decoration-none"
                       style={{ color: "#ffff" }}
                     >
-                      {" "}
+                      
                       info@email.com
                     </a>
                   </li>
@@ -82,7 +123,7 @@ const ContactDetail = () => {
                   </li>
                 </ul>
               </div>
-              {/* starting of hours div */}
+             
               <div>
                 <h1 className="contacting-hours-heading">Working Hours</h1>
                 <p className="contact-text">
@@ -93,10 +134,10 @@ const ContactDetail = () => {
                 </p>
               </div>
             </div>
-            {/* ending of hours div */}
+          
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

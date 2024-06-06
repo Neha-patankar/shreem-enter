@@ -17,7 +17,7 @@ export default function AccordionExpandIcon() {
 
   return (
     <div className='accordion_section'>
-      <Accordion style={{backgroundColor: '#2F3369', color: 'white'}} expanded={openSection === 1} onChange={() => toggleSection(1)}>
+      <Accordion style={{backgroundColor: '#2F3369', color: 'white',fontFamily:'Roboto'}} expanded={openSection === 1} onChange={() => toggleSection(1)}>
         <AccordionSummary
           expandIcon={openSection === 1 ? <ArrowDownwardIcon style={{color: 'white'}} /> : <ArrowDropDownIcon style={{color: 'white'}} />}
           aria-controls="panel1-content"
@@ -69,7 +69,7 @@ export default function AccordionExpandIcon() {
           aria-controls="panel4-content"
           id="panel4-header"
         >
-          <Typography style={{fontSize: '18px', fontWeight: 'bold'}}>Can I update the website myself once it's built?</Typography>
+          <Typography style={{fontSize: '18px', fontWeight: 'bold'}}>What if I already have a website and need improvements?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -84,7 +84,7 @@ export default function AccordionExpandIcon() {
           aria-controls="panel5-content"
           id="panel5-header"
         >
-          <Typography style={{fontSize: '18px', fontWeight: 'bold'}}>What if I already have a website and need improvements?</Typography>
+          <Typography style={{fontSize: '18px', fontWeight: 'bold'}}>What types of printing services do you offer?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -99,7 +99,7 @@ export default function AccordionExpandIcon() {
           aria-controls="panel6-content"
           id="panel6-header"
         >
-          <Typography style={{fontSize: '18px', fontWeight: 'bold'}}>Will my website be optimized for search engines (SEO)?</Typography>
+          <Typography style={{fontSize: '18px', fontWeight: 'bold'}}>Can I get a sample of my print before placing a large order?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -107,6 +107,22 @@ export default function AccordionExpandIcon() {
           </Typography>
         </AccordionDetails>
       </Accordion>
+
+      <Accordion style={{backgroundColor: '#2F3369', color: 'white'}} expanded={openSection === 7} onChange={() => toggleSection(7)}>
+        <AccordionSummary
+          expandIcon={openSection === 7 ? <ArrowDownwardIcon style={{color: 'white'}} /> : <ArrowDropDownIcon style={{color: 'white'}} />}
+          aria-controls="panel6-content"
+          id="panel6-header"
+        >
+          <Typography style={{fontSize: '18px', fontWeight: 'bold'}}>Do you offer bulk order discounts?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          » Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
     </div>
   );
 }

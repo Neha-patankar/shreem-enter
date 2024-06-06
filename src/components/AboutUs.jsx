@@ -13,7 +13,7 @@ function AboutUs() {
       <About />
       <WorkProcess/>
       <Team />
-      <TermCondition />
+     
     </>
   );
 }
