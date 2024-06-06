@@ -45,7 +45,6 @@ const ServicesType = () => {
     <div id="read">
       <div className="text-center ">
         <div className="containers">
-          <p className="heading">Our Serviceses</p>
           <p className="services-title">
             We Provide Lot’s Of Design &<br></br> Branding Service
           </p>

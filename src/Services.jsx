@@ -5,7 +5,7 @@ const Services = () => {
   const servicesData = [
     {
       imgs: "./public/images/designer.avif",
-      p: "Our design services blend creativity and functionality to elevate your brand's visual presence. We provide captivating graphic and web designs, user-friendly UI/UX, and standout packaging, delivering meticulous, on-time results that resonate with your audience and set you apart.",
+      p: "Our design services blend creativity & functionality to elevate your brand's visual presence. We provide captivating graphic & web designs, user-friendly UI/UX, & standout packaging, delivering meticulous, on-time results that resonate with your audience & set you apart.",
       name: "Designing",
     },
     {
@@ -19,7 +19,7 @@ const Services = () => {
       name: "Data Processing",
     },
     {
-      imgs: "./public/images/web-software0.avif",
+      imgs: "./public/images/web-software00.png",
       p: "We offer website & software development, including e-commerce, informational sites, blogs, portfolios, social networking, & educational platforms, meeting diverse digital needs across industries & providing resources for global connections & learning.",
       name: "Web & Software Development",
     },
@@ -29,7 +29,6 @@ const Services = () => {
       <div className=" text-center ">
         <div className="bg-white pb-5 pt-3 text-center" id="services">
           <div className="">
-            <p className="heading">Our Core Services</p>
             <h1 className="services-title">Experience Allows Us To Design &</h1>
             <h1 className="services-title"> Print Things</h1>
           </div>
@@ -39,6 +38,7 @@ const Services = () => {
                 <div className="m-3 single-card">
                   <div className="front">
                     <div className="front-titel">{items.name}</div>
+
                     <img src={items.imgs} alt="" className="img" />
                   </div>
 

@@ -8,7 +8,6 @@ import MyCarousel from "../components/myCarousel/MyCarousel";
 import Faq from "../Components copy/Faq";
 import Whychooseus from "../Whychooseus";
 
-
 export const Home = () => {
   return (
     <>
