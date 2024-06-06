@@ -6,27 +6,26 @@ import "./Faq.css";
 const Faq = () => {
   return (
     <div
-      className="container-fluid p-1"
+      className="container-fluid p-2 "
       style={{ backgroundColor: " #2F3369" }}
     >
-      {/* starting of Heading */}
-      <div className="text-center">
-        <h1 className="small-title mt-3">FAQ</h1>
-        <p className="big-title text-white">
+
+      <div className="row">
+        <div className="col-lg-6">
+          {/* starting of Heading */}
+      <div className="text-center mt-4">
+        <p className="big-title text-white ">
           Got Questions? Find Your Answers Here!
         </p>
       </div>
       {/* Ending of Heading */}
-
-      <div className="row">
-        <div className="col-lg-6">
           <div className="d-flex justify-content-center faq_img">
             <img src={faq_image} alt="" className="faq_img img-fluid" />
           </div>
         </div>
         <div className="col-lg-6">
            {/* Starting of Accordions */}
-         <div className="border m-5">
+         <div className="border" style={{marginTop:'100px', marginRight:"70px"}}>
           <Accordion />
         </div>
         </div>

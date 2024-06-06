@@ -7,7 +7,6 @@ import MyCarousel from "../components/myCarousel/MyCarousel";
 import Team from "../components/team/Team";
 import CustomerReview from "../Components copy/CustomerReview";
 import Faq from "../Components copy/Faq";
-import Help from "../Components copy/Help";
 import Whychooseus from "../Whychooseus";
 
 
@@ -21,7 +20,6 @@ export const Home = () => {
       <Faq />
       <Whychooseus></Whychooseus>
       <Team />
-      <Help />
       <CustomerReview />
     </>
   );
