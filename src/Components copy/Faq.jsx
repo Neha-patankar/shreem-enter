@@ -1,37 +1,31 @@
 import React from "react";
 import Accordion from "./Accordion";
-import faq_image from "./assets/Image/FAQ7.webp";
+import faq_image from "./assets/Image/faq-278.png";
 import "./Faq.css";
 
 const Faq = () => {
   return (
-    <div
-      className="container-fluid px-5 "
-      style={{ backgroundColor: " #2F3369" }}
-    >
-
-      <div className="row">
+    <div className="container-fluid mt-3 mb-5 light_bg py-5 px-5">
+      <div className="row ">
         {/* starting of Heading */}
-      <div className="text-center mt-4">
-        <p className="big-title text-white ">
-          Got Questions? <br /> Find Your Answers Here!
-        </p>
-      </div>
-      {/* Ending of Heading */}
-        <div className="col-lg-6">
-          <div className="d-flex justify-content-center faq_img">
-            <img src={faq_image} alt="" className="faq_img img-fluid" />
+        <div className="text-center mt-2">
+          <p className="big-title">Got Questions? Find Your Answers Here!</p>
+        </div>
+        {/* Ending of Heading */}
+          <div className="col-lg-6 d-flex justify-content-center align-items-center">
+            <div className="faq_img">
+              <img src={faq_image} alt="" className="faq_img img-fluid" />
+            </div>
+          </div>
+          <div className="col-lg-6">
+            {/* Starting of Accordions */}
+            <div className="m-5">
+              <Accordion />
+            </div>
           </div>
         </div>
-        <div className="col-lg-6">
-           {/* Starting of Accordions */}
-         <div className="border" style={{marginTop:'50px', marginRight:"70px"}}>
-          <Accordion />
-        </div>
-        </div>
       </div>
-    </div>
-      );
+  );
 };
 
 export default Faq;
