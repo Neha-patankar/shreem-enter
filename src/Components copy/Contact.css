@@ -4,8 +4,8 @@
 }
 
 .icon {
-   width: 60px;
-   height: 60px;
+  width: 60px;
+  height: 60px;
   font-size: 30px;
   border-radius: 50%;
   padding: 30px;
@@ -16,13 +16,28 @@
   width: 380px;
   height: 220px;
   display: flex;
-  color: #2f3369;
+  position: relative;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
   box-shadow: #8187e1 0 0 15px;
   padding: 1rem;
   border-radius: 20px;
+
+  text-align: center;
+  color: #2f3369;
+}
+
+.overLay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.093);
+  width: 100%;
+  height: 100%;
+  background-image: url(assets/Image/bg_icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.04;
 }
 
 .details {

@@ -1,6 +1,6 @@
 import React from "react";
 import Accordion from "./Accordion";
-import faq_image from "./assets/Image/faq-278.png";
+import faq_image from "./assets/Image/faq-img.png";
 import "./Faq.css";
 
 const Faq = () => {
