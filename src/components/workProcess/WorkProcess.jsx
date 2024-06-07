@@ -8,6 +8,7 @@ import delevary  from "../../images/delevary.png";
 import "./WorkProcess.css"; 
 function WorkProcess (){
      return(
+<<<<<<< HEAD
       <>
      <div className="work-container"> 
      <h1 className="text-center">OUR WORK PROCESS</h1>
@@ -60,6 +61,9 @@ function WorkProcess (){
      </div>
      </div>
       </> 
+=======
+       <></>
+>>>>>>> 5787eea91c68d1cc95b173180a98ceb0e5abc98f
      )
 }
 export default WorkProcess;

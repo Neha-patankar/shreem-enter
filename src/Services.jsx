@@ -32,7 +32,7 @@ const Services = () => {
             <h1 className="services-title">Experience Allows Us To Design &</h1>
             <h1 className="services-title"> Print Things</h1>
           </div>
-          <div className="mt-5 pt-4 d-flex justify-content-center flex-wrap">
+          <div className="mt-5 pt-4 d-flex justify-content-center align-ites flex-wrap">
             <div className="wrappers">
               {servicesData.map((items) => (
                 <div className="m-3 single-card">

@@ -1,34 +1,20 @@
-.order_Service_container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    
-}
-
 .Order_Service_heading{
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: 53px;
+font-size: 40px;
 font-weight: 700;
 margin-bottom: 50px;
-margin-top: 50px;
-color: #2F3369;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .wrapper{
     padding: 15px 30px;
-    border: #2F3369, 2px solid; 
-    border-radius: 10px;
-    box-shadow:0px 10px #2F3369,inset 0px 10px #2F3369;
-    margin-bottom: 10rem;
 }
 
 .contact-form-label{
     color:#2F3369;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
+    margin-bottom: 4px;
 }
 
 .contact-form-input{
@@ -36,7 +22,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 7px 15px;
     border-radius: 10px;
     border: #c4c8cd 1px solid;
-    font-size: 16px;
+    font-size: 14px;
     position: relative;
     height: 40px;
     margin-bottom: 15px;
@@ -48,42 +34,40 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 0px 0px;
     border-radius: 10px;
     border: #c4c8cd 1px solid;
-    font-size: 16px;
+    font-size: 14px;
     position: relative;
     height: 40px;
     margin-bottom: 10px;
 }
 
- .i {
-    position: absolute;
-    left: 190px;
-    transform: translateY(-50%);
-    top: 100%;
-    font-size: 18px;
-    color: #2F3369;
-    padding-bottom: 10px;
-    }
-
 .contact-form-dropdown{
     width: 100%;
-    padding:7px 15px;
+    padding:8px 15px;
     margin-bottom: 20px;
     border-radius: 10px;
     border: #c4c8cd 1px solid;
-    font-size: 16px;
+    font-size: 14px;
     color:#737679 ;
     text-align: start;
+    resize: none;
 }
 
 
 .send-me-btn{
     background-color:#2F3369;
-    padding: 10px 20px;
+    padding: 5px 30px;
     border-radius: 10px;
     color: white;
-    margin-left:110px;
-    margin-top: 90px;
-    font-size: 16px;
+    margin-top: 85px;
+    font-size: 15px;
+}
+
+.send-me-btn:hover{
+    background-color:#fff; 
+    color: #2F3369;
+    font-size: 15px;
+    font-weight: 600;
+    border: 3px solid #2F3369;
 }
 
 .input-box{
@@ -109,15 +93,15 @@ position: absolute;
 right: 15px;
 transform: translateY(-50%);
 top: 100%;
-font-size: 18px;
-color: #2F3369;
-padding-bottom: 10px;
+font-size: 14px;
+color: grey;
+padding-bottom: 5px;
 }
 .OS_image{
-    width: 80%;
-    height: 80%;
-    margin-top: 2rem;
+    width: 100%;
+    height: 100%;
     transition: all 1s ease-in-out;
+    mix-blend-mode: multiply;
 }
 .OS_image:hover{
     transform: scale(0.9);
