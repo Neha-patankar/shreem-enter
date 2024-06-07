@@ -30,6 +30,8 @@ function UncontrolledExample() {
       {clients.map((client, index) => (
         <Carousel.Item key={index}>
           <div className="cr_textbox">
+          <div className="overlay_top"></div>
+          <div className="overLay_bottom"></div>
             <p>{client.text}</p>
           </div>
           <div className="d-flex cr_clientName_Section">
