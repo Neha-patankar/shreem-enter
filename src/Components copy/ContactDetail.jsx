@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./Contact.css";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, Map, MapPin, Phone } from "lucide-react";
 
 const ContactDetail = () => {
   const borderRef = useRef([]);
@@ -8,7 +8,7 @@ const ContactDetail = () => {
     console.log(index);
     borderRef.current[index].style.border = "4px dashed #fff";
     // borderRef.current[index].style.border = "10px";
-    borderRef.current[index].style.borderRadius ="50%";
+    borderRef.current[index].style.borderRadius = "50%";
   };
 
   // const handleRemoveHover = (index) => {
@@ -43,7 +43,7 @@ const ContactDetail = () => {
     <>
       <div className="container-fluid " style={{ paddingTop: "150px" }}>
         <div className="text-center">
-          <h1 style={{fontWeight:'600px'}}>Let's Talk to us.</h1>
+          <h1 style={{ fontWeight: "600px" }}>Let's Talk to us.</h1>
           <p className="fs-5">
             Have any questions or just want to say hi? We would love to here
             from you.
@@ -51,68 +51,18 @@ const ContactDetail = () => {
         </div>
         <div className="row">
           <div className="d-flex flex-wrap justify-content-center gap-5 my-3">
-            {/* <div
-              className="contact_box"
-              onMouseEnter={handleHover}
-              onMouseLeave={handleRemoveHover}
-            >
-              <div>
-                <i class="fa-solid fa-phone icon" ref={borderRef}></i>
-              </div>
-              <div className="mt-3">
-                <h5 className="info_Heading">Contact Us :</h5>
-              </div>
-              <div>
-                <a href="tel:8602440712" className="details">
-                  <span style={{ color: "inherit" }}>+91-860-244-0712</span>
-                </a>
-              </div>
-            </div>
-            <div
-              className="contact_box"
-              onMouseEnter={handleHover}
-              onMouseLeave={handleRemoveHover}
-            >
-              <div className="circle2">
-                <i class="fa-solid fa-envelope icon" ref={borderRef}></i>
-              </div>
-              <div className="mt-3">
-                <h5 className="info_Heading">Mail Us :</h5>
-              </div>
-              <div>
-                <a href="mailto:info@email.com" className="details">
-                  info@email.com
-                </a>
-              </div>
-            </div>
-            <div
-              className="contact_box"
-              onMouseEnter={handleHover}
-              onMouseLeave={handleRemoveHover}
-            >
-              <div>
-                <i ref={borderRef} class="fa-solid fa-location-dot icon"></i>
-              </div>
-              <div className="mt-4">
-                <h5 className="info_Heading">Location :</h5>
-              </div>
-              <div>
-                <a
-                  href="https://maps.app.goo.gl/njbhrYWGjWzTgy469"
-                  className="details"
-                >
-                  28,Surya Colony,behind Sarvadharam Sector-C Kolar Road
-                  Bhopal(M.P) - 462042
-                </a>
-              </div>
-            </div>*/}
           </div>
           <div className="d-flex flex-wrap justify-content-center gap-5 my-5">
             {data.map((item, i) => (
-              <div className="contact_box" onMouseEnter={() => handleHover(i)} >
-                <div className="overLay"></div>
+              <div
+                className="contact_box"
+                onMouseEnter={() => handleHover(i)}
+              >
+                <div className="overlay"></div>
                 <div ref={(el) => (borderRef.current[i] = el)}>
-                  <div className="icon"><item.Icon/></div>
+                  <div className="icon">
+                    <Map className="main-icon"/>
+                  </div>
                 </div>
                 <h5>{item.heading}</h5>
                 <a href={item.href} className="details text-center">
