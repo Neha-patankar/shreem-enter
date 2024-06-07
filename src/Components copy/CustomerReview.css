@@ -22,3 +22,11 @@
  background-color: #F5F6FA;
  padding: 1rem;
 }
+
+
+.cr_clientName_Section img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+  }

@@ -110,6 +110,7 @@ const ContactDetail = () => {
           <div className="d-flex flex-wrap justify-content-center gap-5 my-5">
             {data.map((item, i) => (
               <div className="contact_box" onMouseEnter={() => handleHover(i)} >
+                <div className="overLay"></div>
                 <div ref={(el) => (borderRef.current[i] = el)}>
                   <div className="icon"><item.Icon/></div>
                 </div>
