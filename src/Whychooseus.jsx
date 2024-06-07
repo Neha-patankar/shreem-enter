@@ -31,12 +31,12 @@ const data = [
 const Whychooseus = () => {
   return (
     <div>
-      <div className="d-flex justify-content-center align-items-center flex-column flex-wrap pt-4 pb-3">
+      <div className="d-flex justify-content-center align-items-center flex-column flex-wrap pt-4 pb-5">
         <h1 className="choose-titel">
           Why Choose Us <span className="qus-mark">?</span>
         </h1>
 
-        <div className="d-flex justify-content-center flex-wrap pt-3">
+        <div className="d-flex justify-content-center flex-wrap pt-3 mb-3">
           {data.map((items) => (
             <div className="circle-card">
               <div className="titel">{items.titel}</div>
