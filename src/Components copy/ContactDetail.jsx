@@ -8,7 +8,7 @@ const ContactDetail = () => {
     console.log(index);
     borderRef.current[index].style.border = "4px dashed #fff";
     // borderRef.current[index].style.border = "10px";
-    borderRef.current[index].style.borderRadius ="50%";
+    borderRef.current[index].style.borderRadius = "50%";
   };
 
   // const handleRemoveHover = (index) => {
@@ -43,7 +43,7 @@ const ContactDetail = () => {
     <>
       <div className="container-fluid " style={{ paddingTop: "150px" }}>
         <div className="text-center">
-          <h1 style={{fontWeight:'600px'}}>Let's Talk to us.</h1>
+          <h1 style={{ fontWeight: "600px" }}>Let's Talk to us.</h1>
           <p className="fs-5">
             Have any questions or just want to say hi? We would love to here
             from you.
@@ -109,9 +109,11 @@ const ContactDetail = () => {
           </div>
           <div className="d-flex flex-wrap justify-content-center gap-5 my-5">
             {data.map((item, i) => (
-              <div className="contact_box" onMouseEnter={() => handleHover(i)} >
+              <div className="contact_box" onMouseEnter={() => handleHover(i)}>
                 <div ref={(el) => (borderRef.current[i] = el)}>
-                  <div className="icon"><item.Icon/></div>
+                  <div className="icon">
+                    <item.Icon />
+                  </div>
                 </div>
                 <h5>{item.heading}</h5>
                 <a href={item.href} className="details text-center">
