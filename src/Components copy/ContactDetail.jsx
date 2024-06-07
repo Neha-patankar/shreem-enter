@@ -5,7 +5,6 @@ import { Mail, Map, MapPin, Phone } from "lucide-react";
 const ContactDetail = () => {
   const borderRef = useRef([]);
   const handleHover = (index) => {
-    console.log(index);
     borderRef.current[index].style.border = "4px dashed #fff";
     borderRef.current[index].style.borderRadius = "50%";
   };
@@ -53,7 +52,6 @@ const ContactDetail = () => {
                 className="contact_box"
                 onMouseEnter={() => handleHover(i)}
               >
-                <div className="overlay"></div>
                 <div ref={(el) => (borderRef.current[i] = el)}>
                   <div className="icon">
                     <Map className="main-icon"/>
