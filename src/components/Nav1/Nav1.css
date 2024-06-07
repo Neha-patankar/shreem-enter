@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 .bg-nav{
   background-color:white;
   color: black;
@@ -10,7 +12,7 @@ nav .nav-item{
 
 nav .nav-item:hover{
   font-weight:bold ;
-  color: rgb(255, 179, 0);
+  color: #ff4328;
 
 }
 .blackl{
@@ -21,7 +23,7 @@ nav .nav-item:hover{
  box-shadow: 0px 0px 5px 0px black;
 }
 .fontSize{
-  font-size: 18px;
+  font-size: 16px;
   font-family: roboto;
-  font-weight: 600;
+  font-weight: 800;
 }

@@ -1,4 +1,4 @@
-.background-slid {
+/* .background-slid {
     width: 100%;
     height: 35rem;
     margin: 0px;
@@ -132,4 +132,74 @@
     margin-top: 60px;
 
   }
+   */
+   /* MyCarousel.css */
+   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+   .main {
   
+   background-color:rgb(11, 15, 79) ;
+  }
+  
+  .background-slid {
+   margin-top: 20px;
+  }
+  
+  .container-carousel-fluid {
+    /* Adjust container padding and margin for responsiveness */
+  }
+  
+  .carousel-media-container {
+    /* Styles for media container to handle both image and video */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .carousel-image,
+  .carousel-video {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+  }
+  
+  .text-container {
+    padding: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+    .text-container {
+      order: 2;
+    }
+    .img-container {
+      order: 1;
+    }
+  }
+  .image-slid1{
+    mix-blend-mode: multiply;
+    width: 100%;
+    
+}
+ 
+  .slide-heading{
+    font-size: 50px;
+    font-family: roboto;
+    font-weight: 500;
+    color:orangered;
+    margin-left: 50px;
+   
+  }
+  .sub-slide-heading{
+    font-size: 30px;
+    font-family: roboto;
+    font-weight: 400;
+    color: orangered;
+    margin-left: 50px;
+  }
+  .slid-img-1{
+    height: 500px;
+  }
