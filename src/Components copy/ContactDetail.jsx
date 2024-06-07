@@ -43,8 +43,8 @@ const ContactDetail = () => {
     <>
       <div className="container-fluid " style={{ paddingTop: "150px" }}>
         <div className="text-center">
-          <h1>Let's Talk to us.</h1>
-          <p>
+          <h1 className="big-title">Let's Talk to us.</h1>
+          <p className="fs-5">
             Have any questions or just want to say hi? We would love to here
             from you.
           </p>
