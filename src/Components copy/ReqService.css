@@ -2,11 +2,9 @@
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: 53px;
+font-size: 40px;
 font-weight: 700;
 margin-bottom: 50px;
-color: #2F3369;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .wrapper{
     padding: 15px 30px;
