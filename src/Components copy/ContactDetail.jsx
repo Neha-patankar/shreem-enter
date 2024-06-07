@@ -3,14 +3,18 @@ import "./Contact.css";
 import { Mail, MapPin, Phone } from "lucide-react";
 
 const ContactDetail = () => {
-  const borderRef = useRef(null);
-  const handleHover = () => {
-    borderRef.current.style.border = "4px dashed #fff";
+  const borderRef = useRef([]);
+  const handleHover = (index) => {
+    console.log(index);
+    borderRef.current[index].style.border = "4px dashed #fff";
+    // borderRef.current[index].style.border = "10px";
+    borderRef.current[index].style.borderRadius ="50%";
   };
 
-  const handleRemoveHover = () => {
-    borderRef.current.style.border = "4px dashed #2f3369  ";
-  };
+  // const handleRemoveHover = (index) => {
+  //   borderRef.current[index].style.border = "4px dashed #2f3369  ";
+  //   borderRef.current[index].style.borderRadius ="50%";
+  // };
   // Array of contact details
   const data = [
     {
@@ -46,7 +50,7 @@ const ContactDetail = () => {
           </p>
         </div>
         <div className="row">
-          <div className="d-flex flex-wrap justify-content-center gap-5 my-5">
+          <div className="d-flex flex-wrap justify-content-center gap-5 my-3">
             {/* <div
               className="contact_box"
               onMouseEnter={handleHover}
@@ -104,10 +108,10 @@ const ContactDetail = () => {
             </div>*/}
           </div>
           <div className="d-flex flex-wrap justify-content-center gap-5 my-5">
-            {data.map((item) => (
-              <div className="contact_box">
-                <div>
-                  <item.Icon />
+            {data.map((item, i) => (
+              <div className="contact_box" onMouseEnter={() => handleHover(i)} >
+                <div ref={(el) => (borderRef.current[i] = el)}>
+                  <div className="icon"><item.Icon/></div>
                 </div>
                 <h5>{item.heading}</h5>
                 <a href={item.href} className="details text-center">

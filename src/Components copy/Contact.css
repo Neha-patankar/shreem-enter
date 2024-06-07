@@ -4,6 +4,8 @@
 }
 
 .icon {
+   width: 60px;
+   height: 60px;
   font-size: 30px;
   border-radius: 50%;
   padding: 30px;
@@ -12,14 +14,14 @@
 
 .contact_box {
   width: 380px;
-  height: 250px;
+  height: 220px;
   display: flex;
   color: #2f3369;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   box-shadow: #8187e1 0 0 15px;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 20px;
 }
 
