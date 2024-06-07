@@ -2,7 +2,7 @@ import React from "react";
 import "./ServicesType.css";
 
 let typeOfservices = [
-  {
+  { 
     images: "./public/images/GraphicsDesign2.jpg",
     servic_name: "Graphic Design",
     dsscription:
@@ -42,7 +42,7 @@ let typeOfservices = [
 
 const ServicesType = () => {
   return (
-    <div id="read">
+    <div  id="services">
       <div className="text-center ">
         <div className="containers">
           <p className="services-title">
