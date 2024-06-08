@@ -1,11 +1,6 @@
 .cr_image{
     width: 100%;
-    margin-top: 6rem;
-    mix-blend-mode: multiply;
-    transition: all 1.5s ease;  
-}
-.cr_image:hover{
-    transform: scale(1.2);
+    mix-blend-mode: multiply;  
 }
 .cr_sliderbg{
     background-color:#F5F6FA;
@@ -31,6 +26,7 @@
     height: 70px;
     margin-right: 15px;
   }
+
 
   .overlay_top{
     position: absolute;

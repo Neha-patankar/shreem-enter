@@ -13,8 +13,7 @@ const OrderServiceForm = () => {
       {/* heading */}
       <div className="mt-5">
         <h1 className="text-center Order_Service_heading mb-3">
-          Request top-notch service from us to <br />
-          enhance your business
+          Request top-notch service from us
         </h1>
       </div>
       {/* end of heading */}
