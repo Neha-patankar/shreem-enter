@@ -1,5 +1,14 @@
-#root{
+*{
   font-family: "Roboto Slab", serif;
-
 }
-
+h1{
+  font-size: 40px;
+  font-weight: 600;
+}
+p{
+  font-size: 16px;
+}
+h3{
+  font-size: 25px;
+  font-weight: 400;
+}
