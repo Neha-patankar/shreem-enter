@@ -7,7 +7,7 @@ const CustomerReview = () => {
     <div className="container-fluid">
       <div className="row cr_sliderbg">
         <div className="col-lg-6 cr_slider mt-5 text-center">
-          <h1 className="ms-4 big-title">What Our Clients Say About</h1>
+          <h1 className="ms-4">What Our Clients Say About</h1>
           <div>
             <UncontrolledExample></UncontrolledExample>
           </div>
