@@ -37,17 +37,18 @@ const About = () => {
                 a smooth and successful experience with us. At Shreem
                 Enterprises, our team of skilled professionals is equipped with
                 the latest tools and technologies to deliver unparalleled
-                services. We understand that each client has unique
+                {/* services. We understand that each client has unique
                 requirements, and we tailor our solutions to meet those specific
                 needs. From crafting innovative software applications to
                 providing meticulous data management and offering efficient
                 photocopying services, we handle every project with the utmost
-                care and precision. Count on Shreem Enterprises to realize your
-                digital vision with accuracy and professionalism. Following the
-                motto "Tech for all," we spare no effort in delivering top-notch
-                services to students, professionals, and business owners alike,
-                ensuring that everyone benefits from our expertise and
-                commitment to quality..
+                care and precision.*/}{" "}
+                Count on Shreem Enterprises to realize your digital vision with
+                accuracy and professionalism. Following the motto "Tech for
+                all," we spare no effort in delivering top-notch services to
+                students, professionals, and business owners alike, ensuring
+                that everyone benefits from our expertise and commitment to
+                quality..
               </p>
             </div>
           </div>

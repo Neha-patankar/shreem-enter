@@ -5,11 +5,7 @@
   flex-wrap: wrap;
 } */
 
-.services-title {
-  font-size:clamp(25px,9vw,40px);
-  font-weight: 700;
-  text-align: center;
-  font-family: "Roboto Serif", serif;}
+
 
 .wrappers,
 .single-card{
@@ -73,14 +69,16 @@ background-repeat: no-repeat;
 .Back{
   transform: rotateY(180deg);
   position: absolute;
-  height: 300px;
+  justify-content: stretch;
+  align-items: stretch;
+  height: 305px;
   box-shadow: 10px 10px 0px 0px rgb(47,51,105);
 border: 1px solid rgba(0, 0, 0, 0.103);
 }
 
 .card-content{
   color: black;
-  padding: 21px;
+  padding: 16px;
   display: flex;
   align-items: stretch;
   text-align: center;

@@ -186,9 +186,8 @@ border-top: 10px solid orangered;
   border-left: 3px solid   orangered;
   opacity: 0.8;
   font-weight: 500;
-  font-size: 15px;
-padding:25px;
-font-family: roboto;
+  font-size: 16px;
+padding:55px;
 text-align: center;
 }
 
@@ -204,7 +203,6 @@ color: orangered;
     font-weight: 600;
     font-size: 15px;
   padding:10px;
-  font-family: roboto;
   text-align: center;
   }
 }
