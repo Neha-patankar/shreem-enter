@@ -12,8 +12,6 @@ import { Contactss } from "./components/Contact";
 import GoToTop from "./components/goToTop/GoToTop";
 import { ServicesParent } from "./components/Services";
 
-
-
 function App() {
   return (
     <>
@@ -30,8 +28,6 @@ function App() {
         <Contacts />
         <GoToTop />
         <Footer />
-        
-
       </div>
     </>
   );

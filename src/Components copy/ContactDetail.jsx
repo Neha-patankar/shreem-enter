@@ -9,7 +9,7 @@ const ContactDetail = () => {
     borderRef.current[index].style.borderRadius = "50%";
   };
 
-   // Array of contact details
+  // Array of contact details
   const data = [
     {
       Icon: Phone,
@@ -44,17 +44,13 @@ const ContactDetail = () => {
           </p>
         </div>
         <div className="row">
-          <div className="d-flex flex-wrap justify-content-center gap-5 my-3">
-          </div>
+          <div className="d-flex flex-wrap justify-content-center gap-5 my-3"></div>
           <div className="d-flex flex-wrap justify-content-center gap-5 my-5">
             {data.map((item, i) => (
-              <div
-                className="contact_box"
-                onMouseEnter={() => handleHover(i)}
-              >
+              <div className="contact_box" onMouseEnter={() => handleHover(i)}>
                 <div ref={(el) => (borderRef.current[i] = el)}>
                   <div className="icon">
-                    <Map className="main-icon"/>
+                    <Map className="main-icon" />
                   </div>
                 </div>
                 <h5>{item.heading}</h5>

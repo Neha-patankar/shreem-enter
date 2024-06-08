@@ -32,9 +32,9 @@ const About = () => {
                 require assistance with basic tasks such as photocopying or data
                 entry or seek expertise in more intricate projects like software
                 development, we are here to support you every step of the way.
-                <hr></hr>
-                With our dedication to excellence and customer delight, we
-                guarantee a smooth and successful experience with us. At Shreem
+                <hr className="content-lines"></hr>
+                Our dedication to excellence and customer delight, we guarantee
+                a smooth and successful experience with us. At Shreem
                 Enterprises, our team of skilled professionals is equipped with
                 the latest tools and technologies to deliver unparalleled
                 services. We understand that each client has unique
@@ -49,24 +49,6 @@ const About = () => {
                 ensuring that everyone benefits from our expertise and
                 commitment to quality..
               </p>
-              {/* 
-              <div className="about-cards">
-                {about_icon.map((items) => (
-                  <div className=" about-card mt-4 ms-3 p-1">
-                    <div className="about-icons-div ms-3">
-                      <img src={items.imgs} alt="" className="about-icons" />
-                    </div>
-                    <div className="about-card-titel">{items.servicename}</div>
-                    <div className="about-card-description">
-                      {items.description}
-                    </div>
-
-                    <a href="#read">
-                      <button className="readmore-btn"> READ MORE ➔</button>
-                    </a>
-                  </div>
-                ))}
-              </div>*/}
             </div>
           </div>
         </div>

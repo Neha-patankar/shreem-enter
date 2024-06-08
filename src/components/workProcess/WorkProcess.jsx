@@ -1,27 +1,27 @@
 import React from "react";
 
 import consult from "../../images/pic-2.png";
-import research from "../../images/rp1.jpg";
-import design from "../../images/ds1.png";
-import rewie from "../../images/rf1.png";
-import delevary from "../../images/delevary.png";
-import "./WorkProcess.css";
-function WorkProcess() {
-  return (
-    <>
-      <div className="work-container">
-        <h1 className="text-center">OUR WORK PROCESS</h1>
-        <div className="d-flex justify-content-center align-items-center flex-wrap">
-          <div className=" work-card">
-            <img src={consult} alt="consults" className="mt-4  imgs"></img>
-            <div className="">
-              <h1 className="sub-heading work-heading">Consultation</h1>
-              <p>
-                We start with a detailed consultation to understand your
-                requirements, goals, and vision.
-              </p>
-            </div>
-          </div>
+import research  from "../../images/rp1.jpg";
+import design  from "../../images/ds1.png";
+import rewie   from "../../images/rf1.png";
+import delevary  from "../../images/delevary.png";
+import "./WorkProcess.css"; 
+
+function WorkProcess (){
+     return(
+      <>
+     <div className="work-container"> 
+     <h1 className="text-center">OUR WORK PROCESS</h1>
+     <div className="d-flex justify-content-center align-items-center flex-wrap">
+    
+     <div className=" work-card"> 
+     <img src={consult} alt="consults" className="mt-4  imgs"                   
+     ></img>
+     <div className="">
+     <h1 className="sub-heading work-heading">Consultation</h1>
+     <p>We start with a detailed consultation to understand your requirements, goals, and vision.</p>
+     </div>
+     </div>
 
           <div className="work-card">
             <img
@@ -81,7 +81,8 @@ function WorkProcess() {
           </div>
         </div>
       </div>
-    </>
-  );
+    
+      </> 
+     )
 }
 export default WorkProcess;
