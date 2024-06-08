@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 .team-section {
   padding: 20px;
   padding-bottom: 70px;
@@ -98,7 +98,7 @@
   font-weight: 600;
 }
 .fontSizeteamh{
-  font-size: 53px;
+  font-size: 40px;
   font-family: roboto;
-  font-weight: 600;
+ 
 }
