@@ -7,7 +7,8 @@ function Footer() {
     <footer className="footer pt-4 h-100 w-100">
       <div className="container">
         <div className="row">
-          <div className="col-md-4 mb-4 ">
+        
+          <div className="col-md-3 mb-4  footer-col ">
             <h5 className="footer-heading">Shreem Enterprises</h5>
             <p>
               Shreem Enterprises is dedicated<br /> to providing top-notch services <br /> to
@@ -15,7 +16,7 @@ function Footer() {
               trusted name in the industry.
             </p>
           </div>
-          <div className="col-md-3 mb-4">
+          <div className="col-md-2 mb-4">
             <h5>Services</h5>
             <ul className="list-footer">
               <li className="mt-2"><a className="" href="/services">

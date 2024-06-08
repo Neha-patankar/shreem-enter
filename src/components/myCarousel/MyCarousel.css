@@ -145,9 +145,6 @@
    background-color:rgb(11, 15, 79) ; 
   }
   
-  .container-carousel-fluid {
-    /* Adjust container padding and margin for responsiveness */
-  }
   
   .carousel-media-container {
     /* Styles for media container to handle both image and video */
@@ -245,7 +242,7 @@ padding: 15px;
   .sub-slide-heading{
     font-size: 40px;
     font-family: roboto;
-    font-weight: 100;
+    font-weight: 400;
     color: orangered;
     margin-left: 55px;
   }
@@ -281,3 +278,4 @@ padding: 15px;
     margin-left: 1000px;
     
   }
+  

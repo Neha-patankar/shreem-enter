@@ -5,7 +5,7 @@
   background-color:rgb(11, 15, 79);
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  padding: 20px 0;
+  
 }
 
 .footer h5 {
@@ -87,4 +87,25 @@ li::marker{
 }
 .footer-heading{
   font-family: roboto;
+}
+
+@media  (min-width:1200px)
+{
+.footer{
+  background-color:rgb(11, 15, 79);
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 0px;
+  width: 500px;
+  
+ }
+}
+
+.footer-col{
+  margin-left: 150px;
+}
+@media (max-width:760px) {
+  .footer-col{
+    margin-left: 0px;
+  }
 }
