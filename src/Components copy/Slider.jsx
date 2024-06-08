@@ -29,7 +29,7 @@ function UncontrolledExample() {
     <Carousel className="Carousels" interval={3000} touch>
       {clients.map((client, index) => (
         <Carousel.Item key={index}>
-          <div className="cr_textbox">
+          <div className="cr_textbox light_bg">
           <div className="overlay_top"></div>
           <div className="overLay_bottom"> </div>
             <p>{client.text}</p>
