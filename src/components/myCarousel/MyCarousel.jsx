@@ -21,7 +21,7 @@ function MyCarousel() {
                   <h1 className="sub-slide-heading">Shreem Enterprises</h1>
                   <p className="paragraph">
                     We specialize in creating robust, scalable web solutions
-                    that transform your vision into a digital masterpiece. Our
+                    that transform your vision<br></br> into a digital masterpiece. Our
                     team of experts is dedicated to delivering high-quality web
                     development services tailored to your needs.
                   </p>
@@ -70,7 +70,7 @@ function MyCarousel() {
                   <p className="paragraph mb-4 text-light">
                     At Shreem Enterprises, we understand that every business is
                     unique. Our web development services are customized to meet
-                    your specific requirements, ensuring your website is a
+                    your specific requirements, <br></br>ensuring your website is a
                     perfect fit for your business.
                   </p>
                   {/* <div className="d-flex gap-4">

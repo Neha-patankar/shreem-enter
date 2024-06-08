@@ -3,7 +3,6 @@ import Services from "../Services";
 import ServicesType from "../ServicesType";
 import About from "../About";
 import "../App.css";
-import TermCondition from "../components/termsCondition/TermCondition";
 import Team from "../components/team/Team";
 import WorkProcess from "./workProcess/WorkProcess";
 
