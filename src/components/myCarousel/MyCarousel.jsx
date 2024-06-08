@@ -15,50 +15,81 @@ function MyCarousel() {
           <Carousel>
             {/* First slide */}
             <Carousel.Item interval={1500}>
+<<<<<<< HEAD
               <div className="row d-flex flex-wrap align-items-center mt-4 ">
                 <div className="col-12 col-md-6 text-container ps-5 bg-danger">
                   <h1 className="slide-heading ps-5 ">Web Development</h1>
                   <h1 className="sub-slide-heading ps-5">At Shreem Enterprises</h1>
                   <p className="paragraph mb-4 ms-5 ps-5 text-light">
                     We specialize in creating robust, scalable  web solutions <br></br> that transform your vision into  a digital masterpiece.<br></br> Our team of experts is  dedicated to delivering high-quality <br></br> web development services tailored to your needs.
+=======
+              <div className="row carousel-slide">
+                <div className="col-12 col-md-6 text-container">
+                  <h1 className="slide-heading">Web Development At</h1>
+                  <h1 className="sub-slide-heading">Shreem Enterprises</h1>
+                  <p className="paragraph">
+                    We specialize in creating robust, scalable web solutions
+                    that transform your vision into a digital masterpiece. Our
+                    team of experts is dedicated to delivering high-quality web
+                    development services tailored to your needs.
+>>>>>>> ff72b813db8dfb6743ce224e68132e3550ab45e5
                   </p>
                 </div>
                 <div className="col-12 col-md-6 img-container ">
-                  <CarouselImage imgSrc={shreem1} alt="Web Development Slide 1" className="slid-img-1" />
+                  <CarouselImage
+                    imgSrc={shreem1}
+                    alt="Web Development Slide 1"
+                    className="slid-img-1"
+                  />
                 </div>
               </div>
             </Carousel.Item>
 
             {/* Second slide */}
             <Carousel.Item interval={1500}>
-              <div className="row d-flex flex-wrap align-items-center ">
+              <div className="row carousel-slide">
                 <div className="col-12 col-md-6 text-container ">
-                 
-                <div className=" ps-5 ms-5">
-                  <h1 className="heading1 pt-2 slide-heading ps-1">Innovative Solutions </h1>
-                  <p className="paragraph mb-5 ps-5 ms-2 text-light">
-                    Our web development services are designed to bring your innovative ideas to life. We combine creativity and functionality to build websites that not only look great but also perform flawlessly.
+                  <h1 className="heading1 pt-2 slide23-heading">
+                    Innovative Solutions{" "}
+                  </h1>
+                  <p className="paragraph">
+                    Our web development services are designed to bring your
+                    innovative ideas to life. We combine creativity and
+                    functionality to build websites that not only look great but
+                    also perform flawlessly.
                   </p>
-                  </div>
                 </div>
 
                 <div className="col-12 col-md-6 img-container mt-5 ps-5 pt-5 pb-5">
-                  <CarouselImage imgSrc={shreem2} alt="Web Development Slide 2" />
+                  <CarouselImage
+                    imgSrc={shreem2}
+                    alt="Web Development Slide 2"
+                  />
                 </div>
               </div>
             </Carousel.Item>
 
             {/* Third slide */}
             <Carousel.Item interval={1500}>
-              <div className="row d-flex flex-wrap align-items-center">
+              <div className="row carousel-slide">
                 <div className="col-12 col-md-6 text-container ">
+<<<<<<< HEAD
                  <div className=" ms-4 ps-4">
   <h1 className="heading1 pt-2 slide-heading ms-3 ps-3 " >Tailored For Your Needs</h1>
                   <p className="paragraph3 mb-4 text-light ms-3 ps-3">
                     At Shreem Enterprises, we understand that every business is unique. Our web development services are customized to meet your specific requirements, ensuring your website is a perfect fit for your business.
+=======
+                  <h1 className="heading1 pt-2 slide23-heading">
+                    Tailored For Your Needs
+                  </h1>
+                  <p className="paragraph mb-4 text-light">
+                    At Shreem Enterprises, we understand that every business is
+                    unique. Our web development services are customized to meet
+                    your specific requirements, ensuring your website is a
+                    perfect fit for your business.
+>>>>>>> ff72b813db8dfb6743ce224e68132e3550ab45e5
                   </p>
-                  </div>
-                 {/* <div className="d-flex gap-4">
+                  {/* <div className="d-flex gap-4">
                     <a href="#about" className="text-decoration-none">
                       <button type="button" className="btn1">
                         DISCOVER MORE
@@ -78,7 +109,11 @@ function MyCarousel() {
                   </div>*/}
                 </div>
                 <div className="col-12 col-md-6 img-container mt-5 mb-5 ps-5">
-                  <CarouselImage imgSrc={shreem3} alt="Web Development Slide 3" className="w-500 h-100" />
+                  <CarouselImage
+                    imgSrc={shreem3}
+                    alt="Web Development Slide 3"
+                    className="w-500 h-100"
+                  />
                 </div>
               </div>
             </Carousel.Item>

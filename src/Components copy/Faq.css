@@ -1,12 +1,8 @@
 .faq_img {
   width: 90%;
-  margin-top: 1rem;
   transition: all 1.5s ease-in-out;
 }
 
-.faq_img :hover {
-  transform: scale(1.2);
-}
 
 .accordion_border{
     margin-bottom: 1rem;

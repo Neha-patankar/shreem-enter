@@ -5,8 +5,8 @@ import Services from "../Services";
 export const ServicesParent = () => {
   return (
     <>
-      <Services />
       <ServicesType />
+      <Services />
     </>
   );
 };
