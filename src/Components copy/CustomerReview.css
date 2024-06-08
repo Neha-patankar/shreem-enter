@@ -2,19 +2,14 @@
     width: 100%;
     mix-blend-mode: multiply;  
 }
-.cr_sliderbg{
-    background-color:#F5F6FA;
-}
 
 .cr_textbox{
     padding: 3rem;
-    background-color: white;
     margin-top: 2rem;
     position: relative;
 }
 
 .cr_clientName_Section{
- background-color: #F5F6FA;
  padding: 1rem;
  position: relative;
 }

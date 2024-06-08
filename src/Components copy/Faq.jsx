@@ -2,8 +2,16 @@ import React from "react";
 import Accordion from "./Accordion";
 import faq_image from "./assets/Image/FAQ2.png";
 import "./Faq.css";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 const Faq = () => {
+  const gsapRef =useRef()
+  useGSAP(()=>{
+    gsap.from(gsapRef.current,{
+      
+    })
+  })
   return (
     <div className="container-fluid mt-3 mb-5 light_bg py-5 px-5">
       <div className="row ">
