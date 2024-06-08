@@ -4,7 +4,7 @@ import "./CustomerReview.css";
 import UncontrolledExample from "./Slider";
 const CustomerReview = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid mb-5">
       <div className="row cr_sliderbg">
         <div className="col-lg-6 cr_slider mt-5 text-center">
           <h1 className="ms-4">What Our Clients Say About</h1>

@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./Carousel.css";
 import img1 from "./assets/Image/img_01.png";
+import { Quote } from "lucide-react";
 
 function UncontrolledExample() {
   const clients = [
@@ -29,7 +30,8 @@ function UncontrolledExample() {
     <Carousel className="Carousels" interval={3000} touch>
       {clients.map((client, index) => (
         <Carousel.Item key={index}>
-          <div className="cr_textbox light_bg">
+          <div className="cr_textbox">
+          <Quote className="quotes"/>
             <p>{client.text}</p>
           </div>
           <div className="d-flex cr_clientName_Section">
@@ -37,8 +39,8 @@ function UncontrolledExample() {
               <img src={client.imgSrc} alt={client.name} />
             </div>
             <div>
-              <h3>{client.name}</h3>
-              <p>{client.position}</p>
+              <h5>{client.name}</h5>
+              <p style={{color:"orangered",fontWeight:'600'}}>{client.position}</p>
             </div>
           </div>
         </Carousel.Item>

@@ -4,14 +4,21 @@
 }
 
 .cr_textbox{
-    padding: 3rem;
-    margin-top: 2rem;
+    padding: 0.5rem;
     position: relative;
+    background-color: white;
 }
 
 .cr_clientName_Section{
- padding: 1rem;
  position: relative;
+ 
+}
+.quotes{
+  font-size: 1.5rem;
+  color: orangered;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  font-weight: 1200;
 }
 
 
