@@ -17,7 +17,7 @@ function MyCarousel() {
             <Carousel.Item interval={1500}>
               <div className="row d-flex flex-wrap align-items-center mt-4 ">
                 <div className="col-12 col-md-6 text-container ps-5 bg-danger">
-                  <h1 className="slide-heading ps-5">Web Development</h1>
+                  <h1 className="slide-heading ps-5 ms-1">Web Development</h1>
                   <h1 className="sub-slide-heading ps-5">At Shreem Enterprises</h1>
                   <p className="paragraph mb-4 ms-5 ps-5 text-light">
                     We specialize in creating robust, scalable  web solutions <br></br> that transform your vision into  a digital masterpiece.<br></br> Our team of experts is  dedicated to delivering high-quality <br></br> web development services tailored to your needs.
