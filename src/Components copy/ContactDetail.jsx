@@ -35,7 +35,7 @@ const ContactDetail = () => {
 
   return (
     <>
-    {/* Starting of Container */}
+      {/* Starting of Container */}
       <div className="container-fluid " style={{ paddingTop: "150px" }}>
         <div className="text-center">
           {/* Headings */}
@@ -48,14 +48,16 @@ const ContactDetail = () => {
         <div className="row">
           <div className="d-flex flex-wrap justify-content-center gap-5 my-3"></div>
           <div className="d-flex flex-wrap justify-content-center gap-5 my-5">
+            {/*Contact box */}
             {data.map((item, i) => (
               <div className="contact_box" onMouseEnter={() => handleHover(i)}>
-                {/*  */}
                 <div ref={(el) => (borderRef.current[i] = el)}>
+                  {/* Icon div */}
                   <div className="icon_box">
                     <item.Icon className="main-icon" />
                   </div>
                 </div>
+                {/* Details */}
                 <div className="mt-4 ms-2">
                   <h5>{item.heading}</h5>
                   <a href={item.href} className="details">
