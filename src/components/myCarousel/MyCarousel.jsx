@@ -15,14 +15,6 @@ function MyCarousel() {
           <Carousel>
             {/* First slide */}
             <Carousel.Item interval={1500}>
-<<<<<<< HEAD
-              <div className="row d-flex flex-wrap align-items-center mt-4 ">
-                <div className="col-12 col-md-6 text-container ps-5 bg-danger">
-                  <h1 className="slide-heading ps-5 ">Web Development</h1>
-                  <h1 className="sub-slide-heading ps-5">At Shreem Enterprises</h1>
-                  <p className="paragraph mb-4 ms-5 ps-5 text-light">
-                    We specialize in creating robust, scalable  web solutions <br></br> that transform your vision into  a digital masterpiece.<br></br> Our team of experts is  dedicated to delivering high-quality <br></br> web development services tailored to your needs.
-=======
               <div className="row carousel-slide">
                 <div className="col-12 col-md-6 text-container">
                   <h1 className="slide-heading">Web Development At</h1>
@@ -32,7 +24,6 @@ function MyCarousel() {
                     that transform your vision into a digital masterpiece. Our
                     team of experts is dedicated to delivering high-quality web
                     development services tailored to your needs.
->>>>>>> ff72b813db8dfb6743ce224e68132e3550ab45e5
                   </p>
                 </div>
                 <div className="col-12 col-md-6 img-container ">
@@ -73,12 +64,6 @@ function MyCarousel() {
             <Carousel.Item interval={1500}>
               <div className="row carousel-slide">
                 <div className="col-12 col-md-6 text-container ">
-<<<<<<< HEAD
-                 <div className=" ms-4 ps-4">
-  <h1 className="heading1 pt-2 slide-heading ms-3 ps-3 " >Tailored For Your Needs</h1>
-                  <p className="paragraph3 mb-4 text-light ms-3 ps-3">
-                    At Shreem Enterprises, we understand that every business is unique. Our web development services are customized to meet your specific requirements, ensuring your website is a perfect fit for your business.
-=======
                   <h1 className="heading1 pt-2 slide23-heading">
                     Tailored For Your Needs
                   </h1>
@@ -87,7 +72,6 @@ function MyCarousel() {
                     unique. Our web development services are customized to meet
                     your specific requirements, ensuring your website is a
                     perfect fit for your business.
->>>>>>> ff72b813db8dfb6743ce224e68132e3550ab45e5
                   </p>
                   {/* <div className="d-flex gap-4">
                     <a href="#about" className="text-decoration-none">
