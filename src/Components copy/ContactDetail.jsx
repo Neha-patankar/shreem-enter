@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./Contact.css";
-import { Mail, Map, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 const ContactDetail = () => {
   const borderRef = useRef([]);
@@ -35,10 +35,12 @@ const ContactDetail = () => {
 
   return (
     <>
+    {/* Starting of Container */}
       <div className="container-fluid " style={{ paddingTop: "150px" }}>
         <div className="text-center">
-          <h1 style={{ fontWeight: "600px" }}>Let's Talk to us.</h1>
-          <p className="fs-5">
+          {/* Headings */}
+          <h1>Let's Talk to us.</h1>
+          <p>
             Have any questions or just want to say hi? We would love to here
             from you.
           </p>
@@ -48,15 +50,18 @@ const ContactDetail = () => {
           <div className="d-flex flex-wrap justify-content-center gap-5 my-5">
             {data.map((item, i) => (
               <div className="contact_box" onMouseEnter={() => handleHover(i)}>
+                {/*  */}
                 <div ref={(el) => (borderRef.current[i] = el)}>
-                  <div className="icon">
-                    <Map className="main-icon" />
+                  <div className="icon_box">
+                    <item.Icon className="main-icon" />
                   </div>
                 </div>
-                <h5>{item.heading}</h5>
-                <a href={item.href} className="details text-center">
-                  {item.details}
-                </a>
+                <div className="mt-4 ms-2">
+                  <h5>{item.heading}</h5>
+                  <a href={item.href} className="details">
+                    {item.details}
+                  </a>
+                </div>
               </div>
             ))}
           </div>

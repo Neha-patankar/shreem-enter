@@ -2,29 +2,9 @@
   width: clamp(40vw, 70vw, 100vw);
   height: clamp(40vh, 70vw, 50vh);
 }
-
-.icon {
-  width: 60px;
-  height: 60px;
-  font-size: 30px;
-  border-radius: 50%;
-  border: #2f3369 4px dashed;
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  position: relative;
-}
-
-.main-icon {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  top: 50%;
-}
-
 .contact_box{
   width: 380px;
-  height: 220px;
+  height: 225px;
   display: flex;
   position: relative;
   flex-direction: column;
@@ -35,21 +15,34 @@
   align-items: center;
   text-align: center;
   color: #2f3369;
+  transition: all 0.3s ease-in-out;
 }
 
-.details {
-  font-size: 16px;
-  text-align: left;
-  text-decoration: none;
-  font-weight: 600;
-  color: inherit;
-}
-
-.info_Heading {
-  font-weight: 900;
-}
 .contact_box:hover {
   transform: scale(1.1);
   background-color: #2f3369;
   color: #fff;
 }
+
+.icon_box {
+  width: 65px;
+  height: 65px;
+  font-size: 30px;
+  border-radius: 50%;
+  border: #2f3369 4px dashed;
+  position: relative;
+}
+
+.main-icon {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+.details {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+

@@ -1,4 +1,3 @@
-
 import * as React from "react";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
@@ -10,13 +9,33 @@ import "./Faq.css";
 import { useState } from "react";
 
 const faqData = [
-  { id: 1, question: "How much does a new website cost?",answer:'abc' },
-  { id: 2, question: "How long will it take to design my website?",answer:'abc' },
-  { id: 3, question: "Do I need to provide content for my website?",answer:'abc' },
-  { id: 4, question: "What if I already have a website and need improvements?" ,answer:'abc'},
-  { id: 5, question: "What types of printing services do you offer?",answer:'abc' },
-  { id: 6, question: "Can I get a sample of my print before placing a large order?",answer:'abc' },
-  { id: 7, question: "Do you offer bulk order discounts?",answer:'abc' },
+  { id: 1, question: "How much does a new website cost?", answer: "abc" },
+  {
+    id: 2,
+    question: "How long will it take to design my website?",
+    answer: "abc",
+  },
+  {
+    id: 3,
+    question: "Do I need to provide content for my website?",
+    answer: "abc",
+  },
+  {
+    id: 4,
+    question: "What if I already have a website and need improvements?",
+    answer: "abc",
+  },
+  {
+    id: 5,
+    question: "What types of printing services do you offer?",
+    answer: "abc",
+  },
+  {
+    id: 6,
+    question: "Can I get a sample of my print before placing a large order?",
+    answer: "abc",
+  },
+  { id: 7, question: "Do you offer bulk order discounts?", answer: "abc" },
 ];
 
 export default function AccordionExpandIcon() {
@@ -28,7 +47,7 @@ export default function AccordionExpandIcon() {
 
   return (
     <div>
-      {faqData.map(({ id, question,answer }) => (
+      {faqData.map(({ id, question, answer }) => (
         <Accordion
           key={id}
           expanded={openSection === id}
@@ -43,18 +62,13 @@ export default function AccordionExpandIcon() {
             id={`panel${id}-header`}
             className="accordion_bg"
           >
-            <Typography style={{ fontSize: "16px", fontWeight: "bold" }}>
-              {question}
-            </Typography>
+            <Typography>{question}</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>
-              {answer}
-            </Typography>
+            <Typography>{answer}</Typography>
           </AccordionDetails>
         </Accordion>
       ))}
     </div>
   );
 }
-
