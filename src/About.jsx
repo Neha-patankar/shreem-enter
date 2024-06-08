@@ -7,15 +7,15 @@ const About = () => {
   return (
     <>
       <div
-        className="d-flex justify-content-center flex-wrap text-center background-icon mt-3"
+        className="d-flex justify-content-center flex-wrap text-center background-icon pt-5"
         id="about"
       >
-        <div className="">
+        <div className="pt-4">
           <p className="big-title">
             Design Your Dream Work With <br></br>Shreem Enterprises
           </p>
         </div>
-        <div className="d-flex justify-content-around mt-5 gap-5">
+        <div className="d-flex justify-content-around  gap-5">
           <div className="aboutus-content mt-5 gap-5 bg-white">
             <div className="d-flex">
               <img src={aboutus} className="Group-img z-0"></img>
@@ -32,6 +32,7 @@ const About = () => {
                 require assistance with basic tasks such as photocopying or data
                 entry or seek expertise in more intricate projects like software
                 development, we are here to support you every step of the way.
+                <hr></hr>
                 With our dedication to excellence and customer delight, we
                 guarantee a smooth and successful experience with us. At Shreem
                 Enterprises, our team of skilled professionals is equipped with

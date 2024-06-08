@@ -4,25 +4,38 @@
 }
 
 .icon {
-   width: 60px;
-   height: 60px;
+  width: 60px;
+  height: 60px;
   font-size: 30px;
   border-radius: 50%;
-  padding: 30px;
+  margin-bottom: 1rem;
   border: #2f3369 4px dashed;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  position: relative;
 }
 
-.contact_box {
+.main-icon {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+.contact_box{
   width: 380px;
   height: 220px;
   display: flex;
-  color: #2f3369;
+  position: relative;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
   box-shadow: #8187e1 0 0 15px;
   padding: 1rem;
   border-radius: 20px;
+  align-items: center;
+  text-align: center;
+  color: #2f3369;
 }
 
 .details {
