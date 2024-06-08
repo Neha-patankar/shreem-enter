@@ -20,11 +20,17 @@ function MyCarousel() {
                   <h1 className="slide-heading">Welcome to </h1>
                   <h1 className="sub-slide-heading"> Shreem Enterprises</h1>
                   <p className="paragraph mb-4 ms-5 text-light">
-                    We are dedicated to providing top-notch digital services to cater to all your needs. Here creativity meets functionality to transform your ideas into stunning visual realities.
+                    We are dedicated to providing top-notch digital services to
+                    cater to all your needs. Here creativity meets functionality
+                    to transform your ideas into stunning visual realities.
                   </p>
                 </div>
                 <div className="col-12 col-md-6 img-container ">
-                  <CarouselImage imgSrc={shreem1} alt="Shreem Enterprises Slide 1" className="slid-img-1" />
+                  <CarouselImage
+                    imgSrc={shreem1}
+                    alt="Shreem Enterprises Slide 1"
+                    className="slid-img-1"
+                  />
                 </div>
               </div>
             </Carousel.Item>
@@ -34,16 +40,21 @@ function MyCarousel() {
               <div className="row d-flex flex-wrap align-items-center">
                 <div className="col-12 col-md-6 text-container">
                   <h4 className="heading mt-5"></h4>
-                  <h1 className="heading1 pt-2 slide-heading">To BRING YOUR VISION TO LIFE</h1>
+                  <h1 className="heading1 pt-2 slide-heading">
+                    To BRING YOUR VISION TO LIFE
+                  </h1>
                   <p className="paragraph mb-4 ps-5 text-light">
-                    We are dedicated to providing top-notch digital services to cater to all your needs. Here creativity meets functionality to transform your ideas into stunning visual realities.
+                    We are dedicated to providing top-notch digital services to
+                    cater to all your needs. Here creativity meets functionality
+                    to transform your ideas into stunning visual realities.
                   </p>
-                  <div className="d-flex gap-4">
-                    
-                  </div>
+                  <div className="d-flex gap-4"></div>
                 </div>
                 <div className="col-12 col-md-6 img-container">
-                  <CarouselImage imgSrc={shreem2} alt="Shreem Enterprises Slide 2" />
+                  <CarouselImage
+                    imgSrc={shreem2}
+                    alt="Shreem Enterprises Slide 2"
+                  />
                 </div>
               </div>
             </Carousel.Item>
@@ -52,12 +63,15 @@ function MyCarousel() {
             <Carousel.Item interval={1500}>
               <div className="row d-flex flex-wrap align-items-center">
                 <div className="col-12 col-md-6 text-container">
-                 
-                  <h1 className="heading1 pt-2 slide-heading">To BRING YOUR VISION TO LIFE</h1>
+                  <h1 className="heading1 pt-2 slide-heading">
+                    To BRING YOUR VISION TO LIFE
+                  </h1>
                   <p className="paragraph mb-4 text-light ps-5">
-                    We are dedicated to providing top-notch digital services to cater to all your needs. Here creativity meets functionality to transform your ideas into stunning visual realities.
+                    We are dedicated to providing top-notch digital services to
+                    cater to all your needs. Here creativity meets functionality
+                    to transform your ideas into stunning visual realities.
                   </p>
-                 {/* <div className="d-flex gap-4">
+                  {/* <div className="d-flex gap-4">
                     <a href="#about" className="text-decoration-none">
                       <button type="button" className="btn1">
                         DISCOVER MORE
@@ -77,7 +91,10 @@ function MyCarousel() {
                   </div>*/}
                 </div>
                 <div className="col-12 col-md-6 img-container">
-                  <CarouselImage imgSrc={shreem3} alt="Shreem Enterprises Slide 3" />
+                  <CarouselImage
+                    imgSrc={shreem3}
+                    alt="Shreem Enterprises Slide 3"
+                  />
                 </div>
               </div>
             </Carousel.Item>
@@ -106,5 +123,3 @@ function MyCarousel() {
 }
 
 export default MyCarousel;
-
-
