@@ -25,9 +25,9 @@ const Services = () => {
     },
   ];
   return (
-    <div className=" bg-white pb-2 pt-3">
+    <div className=" bg-white pb-2 pt-3" id="services">
       <div className=" text-center ">
-        <div className="bg-white pb-5 pt-3 text-center" id="services">
+        <div className="bg-white pb-5 pt-3 text-center" >
           <div className="">
             <h1 className="services-title">Experience Allows Us To Design &</h1>
             <h1 className="services-title"> Print Things</h1>

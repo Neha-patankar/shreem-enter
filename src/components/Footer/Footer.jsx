@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import {Link} from "react-router-dom";
+
 
 function Footer() {
   return (
@@ -18,34 +18,29 @@ function Footer() {
           <div className="col-md-3 mb-4">
             <h5>Services</h5>
             <ul className="list-footer">
-              <li className="mt-2"><Link className="" to="/services">
+              <li className="mt-2"><a className="" href="/services">
               Graphic Design
-            </Link></li>
-              <li className="mt-2"><Link className="" to="/services">
+            </a></li>
+              <li className="mt-2"><a className="" href="/services">
               Web Design
-            </Link></li>
+            </a></li>
 
-            <li className="mt-2"><Link className="" to="/services">
+            <li className="mt-2"><a className="" href="/services">
             UI/UX Design
-            </Link></li>
+            </a></li>
           
-            <li className="mt-2"><Link className="" to="/services">
+            <li className="mt-2"><a className="" href="/services">
             Print Design
-            </Link></li>
+            </a></li>
              
-            <li className="mt-2"><Link className="" to="/services">
+            <li className="mt-2"><a className="" href="#services">
              Social Media Design
-            </Link></li>
-              
-                
-             <li className="mt-2"><Link className="" to="/services">
-             Packaging Design
-             </Link></li>
+            </a></li>
               
             </ul>
            </div>
 
-           <div className="col-md-3 mb-4">
+           <div className="col-md-2 mb-4">
             <h5>Quick Links</h5>
             <ul className="list-unstyled">
               <li className="mt-2">
@@ -55,21 +50,22 @@ function Footer() {
                 <a href="#about" className="text-light text-decoration-none">About</a>
               </li>
               <li className="mt-2">
-                <a href="#services" className="text-light text-decoration-none">Services</a>
+                <a href="/services#services" className="text-light text-decoration-none">Services</a>
               </li>
               <li className="mt-2">
-                <a href="#requestservices" className="text-light text-decoration-none">Request a Service</a>
-              </li>
+              <a href="/contact#contact" className="text-light text-decoration-none">Contact</a>
+            </li>
               <li className="mt-2">
-                <a href="#contact" className="text-light text-decoration-none">Contact</a>
+                <a href="/requestservices#requestservices" className="text-light text-decoration-none">Request a Service</a>
               </li>
+             
             </ul>
           </div>
 
-          <div className="col-md-2 mb-4 d-flex justify-content-ceter flex-column">
+          <div className="col-md-3 mb-4 d-flex justify-content-ceter flex-column">
             <h5>Contact Us</h5>
             <div className="">
-              <ul className="contact-info-footer">
+              <ul className="contact-info-footer gap-2">
                 <li className="contact-detailss ">
                 
                   <a href="tel:8602440712" className="ms-1 fs-6  text-decoration-none">  
@@ -80,7 +76,7 @@ function Footer() {
               <li className="contact-detailss">
               <a href="mailto:info@email.com" className="ms-1 fs-6 text-decoration-none">
               <i className="fa-solid fa-envelope pe-2" 
-              style={{ color: "#ff4328",textDecoration:"none" }}></i>info@email.com</a>
+              style={{ color: "#ff4328",textDecoration:"none" }}></i>shreementerprises@gmail.com</a>
               </li>
                 
               <li className="contact-detailss d-flex">
@@ -112,3 +108,4 @@ function Footer() {
 }
 
 export default Footer;
+

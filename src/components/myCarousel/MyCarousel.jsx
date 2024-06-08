@@ -10,40 +10,40 @@ import "./MyCarousel.css";
 function MyCarousel() {
   return (
     <div className="main" id="home">
-      <div className="background-slid pt-5 pb-5 pe-5">
-        <div className="container-carousel-fluid z-0 pt-3 mt-5">
+      <div className="background-slid pt-5 pb-3 pe-5">
+        <div className="container-carousel-fluid z-0 pt-1  ">
           <Carousel>
             {/* First slide */}
             <Carousel.Item interval={1500}>
-              <div className="row d-flex flex-wrap align-items-center">
-                <div className="col-12 col-md-6 text-container">
-                  <h1 className="slide-heading">Welcome to </h1>
-                  <h1 className="sub-slide-heading"> Shreem Enterprises</h1>
-                  <p className="paragraph mb-4 ms-5 text-light">
-                    We are dedicated to providing top-notch digital services to cater to all your needs. Here creativity meets functionality to transform your ideas into stunning visual realities.
+              <div className="row d-flex flex-wrap align-items-center mt-4 ">
+                <div className="col-12 col-md-6 text-container ps-5 ">
+                  <h1 className="slide-heading ps-5">Web Development</h1>
+                  <h1 className="sub-slide-heading ps-5">At Shreem Enterprises</h1>
+                  <p className="paragraph mb-4 ms-5 ps-5 text-light">
+                    We specialize in creating robust, scalable  web solutions <br></br> that transform your vision into  a digital masterpiece.<br></br> Our team of experts is  dedicated to delivering high-quality <br></br> web development services tailored to your needs.
                   </p>
                 </div>
                 <div className="col-12 col-md-6 img-container ">
-                  <CarouselImage imgSrc={shreem1} alt="Shreem Enterprises Slide 1" className="slid-img-1" />
+                  <CarouselImage imgSrc={shreem1} alt="Web Development Slide 1" className="slid-img-1" />
                 </div>
               </div>
             </Carousel.Item>
 
             {/* Second slide */}
             <Carousel.Item interval={1500}>
-              <div className="row d-flex flex-wrap align-items-center">
-                <div className="col-12 col-md-6 text-container">
-                  <h4 className="heading mt-5"></h4>
-                  <h1 className="heading1 pt-2 slide-heading">To BRING YOUR VISION TO LIFE</h1>
-                  <p className="paragraph mb-4 ps-5 text-light">
-                    We are dedicated to providing top-notch digital services to cater to all your needs. Here creativity meets functionality to transform your ideas into stunning visual realities.
+              <div className="row d-flex flex-wrap align-items-center ">
+                <div className="col-12 col-md-6 text-container ">
+                 
+                <div className=" ps-5 ms-5">
+                  <h1 className="heading1 pt-2 slide-heading ps-1">Innovative Solutions </h1>
+                  <p className="paragraph mb-5 ps-5 ms-2 text-light">
+                    Our web development services are designed to bring your innovative ideas to life. We combine creativity and functionality to build websites that not only look great but also perform flawlessly.
                   </p>
-                  <div className="d-flex gap-4">
-                    
                   </div>
                 </div>
-                <div className="col-12 col-md-6 img-container">
-                  <CarouselImage imgSrc={shreem2} alt="Shreem Enterprises Slide 2" />
+
+                <div className="col-12 col-md-6 img-container mt-5 ps-5 pt-5 pb-5">
+                  <CarouselImage imgSrc={shreem2} alt="Web Development Slide 2" />
                 </div>
               </div>
             </Carousel.Item>
@@ -51,12 +51,13 @@ function MyCarousel() {
             {/* Third slide */}
             <Carousel.Item interval={1500}>
               <div className="row d-flex flex-wrap align-items-center">
-                <div className="col-12 col-md-6 text-container">
-                 
-                  <h1 className="heading1 pt-2 slide-heading">To BRING YOUR VISION TO LIFE</h1>
-                  <p className="paragraph mb-4 text-light ps-5">
-                    We are dedicated to providing top-notch digital services to cater to all your needs. Here creativity meets functionality to transform your ideas into stunning visual realities.
+                <div className="col-12 col-md-6 text-container ">
+                 <div className=" ms-5 ps-5">
+                  <h1 className="heading1 pt-2 slide-heading ms-3 ps-3">Tailored For Your Needs</h1>
+                  <p className="paragraph3 mb-4 text-light ms-3 ps-3">
+                    At Shreem Enterprises, we understand that every business is unique. Our web development services are customized to meet your specific requirements, ensuring your website is a perfect fit for your business.
                   </p>
+                  </div>
                  {/* <div className="d-flex gap-4">
                     <a href="#about" className="text-decoration-none">
                       <button type="button" className="btn1">
@@ -76,8 +77,8 @@ function MyCarousel() {
                    </a>
                   </div>*/}
                 </div>
-                <div className="col-12 col-md-6 img-container">
-                  <CarouselImage imgSrc={shreem3} alt="Shreem Enterprises Slide 3" />
+                <div className="col-12 col-md-6 img-container mt-5 mb-5 ps-5">
+                  <CarouselImage imgSrc={shreem3} alt="Web Development Slide 3" className="w-500 h-100" />
                 </div>
               </div>
             </Carousel.Item>
@@ -106,5 +107,3 @@ function MyCarousel() {
 }
 
 export default MyCarousel;
-
-
