@@ -16,7 +16,7 @@ function MyCarousel() {
             {/* First slide */}
             <Carousel.Item interval={1500}>
               <div className="row d-flex flex-wrap align-items-center mt-4 ">
-                <div className="col-12 col-md-6 text-container ps-5 ">
+                <div className="col-12 col-md-6 text-container ps-5 bg-danger">
                   <h1 className="slide-heading ps-5">Web Development</h1>
                   <h1 className="sub-slide-heading ps-5">At Shreem Enterprises</h1>
                   <p className="paragraph mb-4 ms-5 ps-5 text-light">
