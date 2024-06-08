@@ -1,3 +1,5 @@
+
+
 .containers {
   background-color: white;
   display: flex;
@@ -14,11 +16,10 @@
   font-family: roboto;
 }
 .services-title {
-  font-size:clamp(25px,9vw,50px);
+  font-size:clamp(25px,9vw,40px);
   font-weight: 700;
   text-align: center;
-  font-family: roboto;
-
+  font-family: "Roboto Serif", serif;
 }
 .service-cards-img {
   width: 130px;
@@ -64,6 +65,7 @@
   box-shadow:0 0 6px 0 black;
   width: 20rem;
   padding-bottom: 10px;
+
 }
 
 .overflow-color{
@@ -120,7 +122,7 @@ color: white;
   text-align: center;
   z-index: 1;
   padding-top: 10px;
-  font-family: roboto;
+  font-family: "Roboto Serif", serif;
 }
 
   @media  (max-width:550px) {
@@ -130,8 +132,7 @@ color: white;
       z-index:1;
       padding-top: 10px;
     text-align: center;
-    font-family: roboto;
-}
+    font-family: "Roboto Serif", serif;  }
   }
 
 .discription {
@@ -141,8 +142,7 @@ color: white;
   z-index:1;
   text-align: start;
   margin-left: 30px;
-  font-family: roboto;
-}
+  font-family: "Roboto Serif", serif;}
 
 @media  (max-width:550px) {
   .discription {
@@ -152,6 +152,5 @@ color: white;
     font-weight: 500;
     text-align: start;
     margin: 10px;
-    font-family: roboto;
-
+    font-family: "Roboto Serif", serif;
   }}

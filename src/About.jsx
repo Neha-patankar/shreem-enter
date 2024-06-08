@@ -11,9 +11,9 @@ const About = () => {
         id="about"
       >
         <div className="pt-4">
-          <p className="big-title">
+          <h1 className="big-title">
             Design Your Dream Work With <br></br>Shreem Enterprises
-          </p>
+          </h1>
         </div>
         <div className="d-flex justify-content-around  gap-5">
           <div className="aboutus-content mt-5 gap-5 bg-white">
