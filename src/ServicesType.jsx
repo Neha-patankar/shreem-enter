@@ -2,7 +2,7 @@ import React from "react";
 import "./ServicesType.css";
 
 let typeOfservices = [
-  { 
+  {
     images: "./public/images/GraphicsDesign2.jpg",
     servic_name: "Graphic Design",
     dsscription:
@@ -42,7 +42,7 @@ let typeOfservices = [
 
 const ServicesType = () => {
   return (
-    <div  id="services">
+    <div id="services">
       <div className="text-center ">
         <div className="containers">
           <p className="services-title">
@@ -58,15 +58,11 @@ const ServicesType = () => {
                     alt=""
                     className="service-cards-img"
                   />
-
                   <div className="overflow-color">
-                    <div className="service-name">
-                      <span></span>
-                      {items.servic_name}
-                    </div>
+                    <div className="service-name">{items.servic_name}</div>
                     <div className="discription mt-2">{items.dsscription}</div>
+                    <span className="spann"></span>
                   </div>
-                  <span className="span"></span>
                 </div>
               ))}
             </div>
