@@ -6,11 +6,10 @@
 } */
 
 .services-title {
-  font-size:clamp(25px,9vw,50px);
+  font-size:clamp(25px,9vw,40px);
   font-weight: 700;
   text-align: center;
-  font-family:roboto;
-}
+  font-family: "Roboto Serif", serif;}
 
 .wrappers,
 .single-card{
@@ -85,10 +84,9 @@ border: 1px solid rgba(0, 0, 0, 0.103);
   display: flex;
   align-items: stretch;
   text-align: center;
-  font-family:roboto;
+  font-family: "Roboto Serif", serif;
   font-size: 15px;
   font-weight: 400;
-  font-family: roboto;
 opacity: 0.9;
 
 }
@@ -97,14 +95,12 @@ opacity: 0.9;
   font-size: 20px ;
   font-weight: 700;
   padding-bottom: 10px;
-  font-family:roboto;
-
+  font-family: "Roboto Serif", serif;
 }
 .titel{
   margin-top: 10px;
   color:black;
   font-size: 20px ;
 font-weight: 700;
-font-family:roboto;
-
+font-family: "Roboto Serif", serif;
 }
