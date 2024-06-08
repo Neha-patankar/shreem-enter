@@ -1,8 +1,6 @@
-
-;
-
 .footer {
-  background-color:rgb(11, 15, 79);
+ 
+  background-color:rgb(11, 15, 79); 
   color: #fff;
   font-family: 'Roboto', sans-serif;
   
@@ -11,19 +9,23 @@
 .footer h5 {
   color: #ff4328;
   font-weight: 500;
+  font-size: 25px;
   margin-bottom: 15px;
   font-family: roboto;
 }
 
 .footer p, .footer a, .footer li {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
+  font-family: roboto;
 }
 
 .footer a {
   color: #fff;
   text-decoration: none;
+  font-size: 16px;
+  font-family: roboto;
 }
 
 .footer a:hover {
@@ -89,10 +91,10 @@ li::marker{
   font-family: roboto;
 }
 
-@media  (min-width:1200px)
+@media  (max-width:1200px)
 {
 .footer{
-  background-color:rgb(11, 15, 79);
+  background-color:rgb(11, 15, 79) ;
   color: #fff;
   font-family: 'Roboto', sans-serif;
   padding-left: 0px;

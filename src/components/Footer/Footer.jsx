@@ -8,9 +8,9 @@ function Footer() {
       <div className="container">
         <div className="row">
         
-          <div className="col-md-3 mb-4  footer-col ">
+          <div className="col-md-3 mb-4   footer-col">
             <h5 className="footer-heading">Shreem Enterprises</h5>
-            <p>
+            <p className="fs-roboto">
               Shreem Enterprises is dedicated<br /> to providing top-notch services <br /> to
               our clients. Our commitment <br /> to excellence has established us <br /> as a
               trusted name in the industry.
@@ -85,7 +85,7 @@ function Footer() {
              className="ms-1 text-white text-decoration-none fs-6"> 
              <i className="fa-solid fa-location-dot pe-2" 
              style={{ color: "#ff4328" }}></i>
-              28, Surya Colony, behind Sarvadharam<br /> Sector-C Kolar Road Bhopal(M.P)-462042
+              28, Surya Colony, behind Sarvadharam Sector-C Kolar Road Bhopal(M.P)-462042
             </a>
             </li>
               </ul>
