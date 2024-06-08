@@ -53,6 +53,7 @@
 }
 
 .service-card {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,21 +71,21 @@
   flex-direction: column;
 }
 
-.span{background-color:blue;
+.spann{background-color:blue;
   height: 55%;
-  top: 151px;
   width: 0;
   position: absolute;
-  left: 0;
+  bottom: 0;
   z-index: 0;
   transition: 0.3s;
   }
 
-  .service-card:hover .span{
+  .service-card:hover .spann{
   width: 100%;
   height: 59%;
   z-index: 0;
   color: white;
+  
   }
 
 @media  (max-width:550px) {
@@ -154,6 +155,3 @@ color: white;
     font-family: roboto;
 
   }}
-
-
-
