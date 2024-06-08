@@ -14,11 +14,9 @@ export const Home = () => {
     <>
       <MyCarousel />
       <About />
+      <Whychooseus/>
       <Faq />
       <CustomerReview/>
-      <Whychooseus></Whychooseus>
-      
-      
-    </>
+  </>
   );
 };

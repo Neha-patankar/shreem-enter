@@ -135,13 +135,14 @@
    */
    /* MyCarousel.css */
    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-   .main {
   
-   background-color:rgb(11, 15, 79) ;
-  }
+   .main {
+       background-color:rgb(11, 15, 79) ;
+     }
   
   .background-slid {
    margin-top: 20px;
+   background-color:rgb(11, 15, 79) ; 
   }
   
   .container-carousel-fluid {
@@ -182,8 +183,7 @@
   .image-slid1{
     mix-blend-mode: multiply;
     width: 100%;
-    
-}
+  }
  
   .slide-heading{
     font-size: 50px;
@@ -194,12 +194,17 @@
    
   }
   .sub-slide-heading{
-    font-size: 30px;
+    font-size: 40px;
     font-family: roboto;
-    font-weight: 400;
+    font-weight: 100;
     color: orangered;
     margin-left: 50px;
   }
   .slid-img-1{
     height: 500px;
+  }
+  .paragraph3{
+    padding-left: 900px;
+    margin-left: 1000px;
+    
   }
