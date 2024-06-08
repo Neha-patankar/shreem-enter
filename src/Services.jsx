@@ -5,7 +5,7 @@ const Services = () => {
   const servicesData = [
     {
       imgs: "./public/images/designer.avif",
-      p: "Our design services blend creativity & functionality to elevate your brand's visual presence. We provide captivating graphic & web designs, user-friendly UI/UX, & standout packaging, delivering meticulous, on-time results that resonate with your audience & set you apart.",
+      p: "Our design services blend creativity and functionality, offering captivating graphic and web designs, user-friendly UI/UX, and standout packaging that elevate your brand and resonate with your audience. delivering meticulous, on-time results that resonate with your audience & set you apart.",
       name: "Designing",
     },
     {
@@ -15,19 +15,19 @@ const Services = () => {
     },
     {
       imgs: "./public/images/data.jpg",
-      p: "We offer diverse data processing services, including OLAP, OLTP, real-time, manual, and automated processing, catering to big data companies and direct-to-consumer (D2C) customers, ensuring efficient and effective data management solutions for various business needs.",
+      p: "We offer diverse data processing services, including OLAP, OLTP, real-time, manual,& automated processing, catering to big data companies & direct-to-consumer (D2C) customers, ensuring efficient & effective data management solutions for various business needs.",
       name: "Data Processing",
     },
     {
       imgs: "./public/images/web-software00.png",
-      p: "We offer website & software development, including e-commerce, informational sites, blogs, portfolios, social networking, & educational platforms, meeting diverse digital needs across industries & providing resources for global connections & learning.",
+      p: "We offer website & software development, including e-commerce, informational sites, blogs, portfolios, social networking, & educational platforms, meeting diverse digital needs & providing resources for global connections & learning.",
       name: "Web & Software Development",
     },
   ];
   return (
     <div className=" bg-white pb-2 pt-3" id="services">
       <div className=" text-center ">
-        <div className="bg-white pb-5 pt-3 text-center" >
+        <div className="bg-white pb-5 pt-3 text-center">
           <div className="">
             <h1 className="services-title">Experience Allows Us To Design &</h1>
             <h1 className="services-title"> Print Things</h1>
@@ -37,13 +37,13 @@ const Services = () => {
               {servicesData.map((items) => (
                 <div className="m-3 single-card">
                   <div className="front">
-                    <div className="front-titel">{items.name}</div>
+                    <h3 className="front-titel">{items.name}</h3>
 
                     <img src={items.imgs} alt="" className="img" />
                   </div>
 
                   <div className="Back">
-                    <div className="titel">{items.name}</div>
+                    <h5 className="fw-bold">{items.name}</h5>
 
                     <div className="card-content">
                       <p className="">{items.p}</p>
