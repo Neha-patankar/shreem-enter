@@ -36,7 +36,7 @@ const ContactDetail = () => {
   return (
     <>
       {/* Starting of Container */}
-      <div className="container-fluid " style={{ paddingTop: "120px" }}>
+      <div className="container-fluid " style={{ paddingTop: "50px" }}>
         <div className="text-center">
           {/* Headings */}
           <h1>Let's Talk to us.</h1>
