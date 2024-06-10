@@ -12,12 +12,6 @@ border-left: 5px solid  orange;
 border-bottom: 5px solid  rgb(47,51,105);
 }
 
-.choose-titel{
-  font-size:clamp(25px,9vw,50px);
-  font-weight: 700;
-  padding-bottom: 20px;
-}
-
 .qus-mark{
   color:rgb(0, 0, 109);
   text-decoration: none;

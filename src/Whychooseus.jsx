@@ -32,7 +32,7 @@ const Whychooseus = () => {
   return (
     <div>
       <div className="d-flex justify-content-center align-items-center flex-column flex-wrap pt-4 pb-5">
-        <h1 className="choose-titel">
+        <h1>
           Why Choose Us <span className="qus-mark">?</span>
         </h1>
 

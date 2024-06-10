@@ -29,8 +29,8 @@ const Services = () => {
       <div className=" text-center ">
         <div className="bg-white pb-5 pt-3 text-center">
           <div className="">
-            <h1 className="services-title">Experience Allows Us To Design &</h1>
-            <h1 className="services-title"> Print Things</h1>
+            <h1>Experience Allows Us To Design &</h1>
+            <h1> Print Things</h1>
           </div>
           <div className="mt-5 pt-4 d-flex justify-content-center align-ites flex-wrap">
             <div className="wrappers">
