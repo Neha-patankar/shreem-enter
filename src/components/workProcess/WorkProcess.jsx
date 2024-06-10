@@ -11,7 +11,7 @@ function WorkProcess (){
      return(
       <>
      <div className="work-container"> 
-     <h1 className="text-center">OUR WORK PROCESS</h1>
+     <h1 className="text-center work-main-heading">Our Work Process</h1>
      <div className="d-flex justify-content-center align-items-center flex-wrap">
     
      <div className=" work-card"> 
@@ -40,7 +40,7 @@ function WorkProcess (){
           </div>
 
           <div className="work-card mb-2">
-            <img src={design} alt="consults" className="mt-3 imgs imgs3"></img>
+            <img src={design} alt="consults" className="mt-4 imgs imgs3"></img>
             <div>
               <h1 className="sub-heading work-heading">Design & Development</h1>
               <p>

@@ -11,11 +11,12 @@ import RequestServices from "./components/RequestServices";
 import { Contactss } from "./components/Contact";
 import GoToTop from "./components/goToTop/GoToTop";
 import { ServicesParent } from "./components/Services";
+import { TeamFooter } from "./components/TeamFooter";
 
 function App() {
   return (
     <>
-      <div className="bg-white">
+      <div className="">
         <Na1 />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -24,6 +25,7 @@ function App() {
           <Route path="/requestservices" element={<RequestServices />} />
           <Route path="/contact" element={<Contactss />} />
           <Route path="/terms-and-conditions" element={<TermsAndCon />} />
+          <Route path="/team" element={<TeamFooter />} />
         </Routes>
         <Contacts />
         <GoToTop />

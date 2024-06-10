@@ -43,7 +43,7 @@ let typeOfservices = [
 const ServicesType = () => {
   return (
     <div id="services">
-      <div className="text-center pt-5">
+      <div className="text-center">
         <div className="containers">
           <h1 className="services-title pt-5">
             We Provide Lot’s Of Design &<br></br> Branding Service

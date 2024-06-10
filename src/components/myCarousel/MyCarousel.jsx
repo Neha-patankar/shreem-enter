@@ -9,20 +9,20 @@ import "./MyCarousel.css";
 
 function MyCarousel() {
   return (
-    <div className="main" id="home">
-      <div className="background-slid pt-5 pb-3 pe-5">
+    <div className="main bg-primary" id="home">
+      <div className="background-slid  pe-5">
         <div className="container-carousel-fluid z-0 pt-1  ">
           <Carousel>
             {/* First slide */}
             <Carousel.Item interval={1500}>
-              <div className="row carousel-slide">
+              <div className="row carousel-slide1 ">
                 <div className="col-12 col-md-6 text-container">
-                  <h1 className="slide-heading">Web Development At</h1>
+                  <h1 className="slide-heading ">Web Development At</h1>
                   <h1 className="sub-slide-heading">Shreem Enterprises</h1>
                   <p className="paragraph">
                     We specialize in creating robust, scalable web solutions
-                    that transform your vision<br></br> into a digital masterpiece. Our
-                    team of experts is dedicated to delivering high-quality web
+                    that transform your <br></br> your vision into a digital masterpiece. Our
+                    team of experts is dedicated to <br></br>  delivering high-quality web
                     development services tailored to your needs.
                   </p>
                 </div>
@@ -38,15 +38,15 @@ function MyCarousel() {
 
             {/* Second slide */}
             <Carousel.Item interval={1500}>
-              <div className="row carousel-slide">
-                <div className="col-12 col-md-6 text-container ">
+              <div className="row carousel-slide   ">
+                <div className="col-12 col-md-6 text-container2 carousel-slide2 ">
                   <h1 className="heading1 pt-2 slide23-heading">
                     Innovative Solutions{" "}
                   </h1>
                   <p className="paragraph">
                     Our web development services are designed to bring your
-                    innovative ideas to life. We combine creativity and
-                    functionality to build websites that not only look great but
+                    innovative ideas <br></br> to life. We combine creativity and
+                    functionality to build websites that  not<br></br> only look great but
                     also perform flawlessly.
                   </p>
                 </div>
@@ -63,7 +63,7 @@ function MyCarousel() {
             {/* Third slide */}
             <Carousel.Item interval={1500}>
               <div className="row carousel-slide">
-                <div className="col-12 col-md-6 text-container ">
+                <div className="col-12 col-md-6 text-container carousel-slide3  ">
                   <h1 className="heading1 pt-2 slide23-heading">
                     Tailored For Your Needs
                   </h1>
