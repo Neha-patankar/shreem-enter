@@ -15,7 +15,7 @@ const Faq = () => {
       <div className="row ">
         {/* starting of Heading */}
         <div className="text-center mt-2">
-          <p className="big-title">Got Questions? Find Your Answers Here!</p>
+          <h1>Got Questions? Find Your Answers Here!</h1>
         </div>
         {/* Ending of Heading */}
         <div className="col-lg-6 d-flex justify-content-center align-items-center">

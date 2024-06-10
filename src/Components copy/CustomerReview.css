@@ -4,14 +4,21 @@
 }
 
 .cr_textbox{
-    padding: 3rem;
-    margin-top: 2rem;
+    padding: 0.5rem;
     position: relative;
+    background-color: white;
 }
 
 .cr_clientName_Section{
- padding: 1rem;
  position: relative;
+ 
+}
+.quotes{
+  font-size: 1.5rem;
+  color: orangered;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  font-weight: 1200;
 }
 
 
@@ -21,24 +28,3 @@
     height: 70px;
     margin-right: 15px;
   }
-
-
-  .overlay_top{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20%;
-    height: 40%;
-    border-left: 10px double orangered;
-    border-top: 10px double orangered;
-  }
-  .overLay_bottom{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 20%;
-    height: 40%;
-    border-right: 10px double orangered;
-    border-bottom: 10px double orangered;
-  }
-  

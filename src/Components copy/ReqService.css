@@ -1,11 +1,4 @@
-.Order_Service_heading{
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 40px;
-font-weight: 700;
-margin-bottom: 50px;
-}
+
 .wrapper{
     padding: 15px 30px;
 }
