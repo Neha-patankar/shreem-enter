@@ -8,7 +8,6 @@ const OrderServiceForm = () => {
     <div
       className="container-fluid"
       id="requestservices"
-      style={{ paddingTop: "5rem"}}
     >
       {/* heading */}
       <div className="mt-5">
