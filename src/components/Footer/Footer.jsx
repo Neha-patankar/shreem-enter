@@ -14,7 +14,7 @@ function Footer() {
               trusted name in the industry.
             </p>
           </div>
-          <div className="col-md-2 mb-4">
+          <div className="col-md-2 mb-4   footer-col2">
             <h5>Services</h5>
             <ul className="list-footer">
               <li className="mt-2"><a className="" href="/services">
@@ -30,15 +30,10 @@ function Footer() {
             <li className="mt-2"><a className="" href="/services">
             Social Media Design
             </a></li>
-          
-          
-
-            
-              
-            </ul>
+          </ul>
            </div>
 
-           <div className="col-md-2 mb-4 ">
+           <div className="col-md-2 mb-4  footer-col3">
             <h5>Quick Links</h5>
             <ul className="list-unstyled">
               <li className="mt-2">
@@ -61,7 +56,7 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="col-md-3 mb-4 d-flex justify-content-ceter flex-column">
+          <div className="col-md-3 mb-4 d-flex justify-content-ceter flex-column footer-col4">
             <h5>Contact Us</h5>
             <div className="">
               <ul className="contact-info-footer gap-2">

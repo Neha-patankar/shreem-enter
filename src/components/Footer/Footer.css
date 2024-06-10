@@ -104,17 +104,45 @@ li::marker{
 }
 
 .footer-col{
-  margin-left: 120px;
+  margin-left: 20px;
 }
 @media (max-width:760px) {
   .footer-col{
     margin-left: 0px;
   }
 }
+
+.footer-col2{
+  margin-left: 40px;
+}
+@media (max-width:760px) {
+  .footer-col2{
+    margin-left: 0px;
+  }
+}
+ 
+.footer-col3{
+  margin-left: 40px;
+}
+@media (max-width:760px) {
+  .footer-col3{
+    margin-left: 0px;
+  }
+}
+
+.footer-col4{
+  margin-left: 40px;
+}
+@media (max-width:760px) {
+  .footer-col4{
+    margin-left: 0px;
+  }
+}
+
 .sub-title-footer{
  
   padding-left: 0px;
-  margin-left: 90px;
+  margin-left: 0px;
 }
 @media (max-width:768px) {
   .sub-title-footer{
