@@ -9,13 +9,13 @@
 .footer h5 {
   color: #ff4328;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 22px;
   margin-bottom: 15px;
   font-family: roboto;
 }
 
 .footer p, .footer a, .footer li {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.6;
   font-family: roboto;
@@ -24,7 +24,7 @@
 .footer a {
   color: #fff;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   font-family: roboto;
 }
 
@@ -104,10 +104,23 @@ li::marker{
 }
 
 .footer-col{
-  margin-left: 150px;
+  margin-left: 120px;
 }
 @media (max-width:760px) {
   .footer-col{
     margin-left: 0px;
+  }
+}
+.sub-title-footer{
+ 
+  padding-left: 0px;
+  margin-left: 90px;
+}
+@media (max-width:768px) {
+  .sub-title-footer{
+    
+    padding-left: 0px;
+    margin-left: 0px;
+
   }
 }
