@@ -16,7 +16,7 @@ import { TeamFooter } from "./components/TeamFooter";
 function App() {
   return (
     <>
-      <div className="">
+      <div style={{backgroundColor:"white"}}>
         <Na1 />
         <Routes>
           <Route path="/" element={<Home />} />

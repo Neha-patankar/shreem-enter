@@ -10,13 +10,13 @@ import "./MyCarousel.css";
 function MyCarousel() {
   return (
     <div className="main bg-primary" id="home">
-      <div className="background-slid  pe-5">
-        <div className="container-carousel-fluid z-0 pt-1  ">
+      <div className="background-slid ">
+        <div className="container-carousel-fluid z-0 pt-1 ">
           <Carousel>
             {/* First slide */}
             <Carousel.Item interval={1500}>
-              <div className="row carousel-slide1 ">
-                <div className="col-12 col-md-6 text-container">
+              <div className="row carousel-slide1    ">
+                <div className="col-12 col-md-6 text-container1 ">
                   <h1 className="slide-heading ">Web Development At</h1>
                   <h1 className="sub-slide-heading">Shreem Enterprises</h1>
                   <p className="paragraph">
@@ -26,11 +26,11 @@ function MyCarousel() {
                     development services tailored to your needs.
                   </p>
                 </div>
-                <div className="col-12 col-md-6 img-container ">
+                <div className="col-12 col-md-6   ">
                   <CarouselImage
                     imgSrc={shreem1}
                     alt="Web Development Slide 1"
-                    className="slid-img-1"
+                    className="slid-img-1 "
                   />
                 </div>
               </div>
@@ -38,9 +38,9 @@ function MyCarousel() {
 
             {/* Second slide */}
             <Carousel.Item interval={1500}>
-              <div className="row carousel-slide   ">
-                <div className="col-12 col-md-6 text-container2 carousel-slide2 ">
-                  <h1 className="heading1 pt-2 slide23-heading">
+              <div className="row  carousel-slide2 ">
+                <div className="col-12 col-md-6 text-container2  ">
+                  <h1 className="slide-heading  ">
                     Innovative Solutions{" "}
                   </h1>
                   <p className="paragraph">
@@ -55,6 +55,7 @@ function MyCarousel() {
                   <CarouselImage
                     imgSrc={shreem2}
                     alt="Web Development Slide 2"
+                    className="w-400 h-100"
                   />
                 </div>
               </div>
@@ -62,41 +63,24 @@ function MyCarousel() {
 
             {/* Third slide */}
             <Carousel.Item interval={1500}>
-              <div className="row carousel-slide">
-                <div className="col-12 col-md-6 text-container carousel-slide3  ">
-                  <h1 className="heading1 pt-2 slide23-heading">
+              <div className="row carousel-slide3">
+                <div className="col-12 col-md-6 text-container3   ">
+                  <h1 className="slide-heading   ">
                     Tailored For Your Needs
                   </h1>
                   <p className="paragraph mb-4 text-light">
                     At Shreem Enterprises, we understand that every business is
-                    unique. Our web development services are customized to meet
-                    your specific requirements, <br></br>ensuring your website is a
+                    unique. <br></br>Our web development services are customized to meet
+                    your specific<br></br> requirements, ensuring your website is a
                     perfect fit for your business.
                   </p>
-                  {/* <div className="d-flex gap-4">
-                    <a href="#about" className="text-decoration-none">
-                      <button type="button" className="btn1">
-                        DISCOVER MORE
-                        <svg className="arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.2" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                        </svg>
-                      </button>
-                    </a>
-                    <a href="#services" className="text-decoration-none">
-                      <button type="button" className="btn2">
-                        OUR SERVICES
-                        <svg className="arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.2" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                        </svg>
-                      </button>
-                   </a>
-                  </div>*/}
+          
                 </div>
-                <div className="col-12 col-md-6 img-container mt-5 mb-5 ps-5">
+                <div className="col-12 col-md-6 img-container mt-5 mb-5 ps-5 pe-5">
                   <CarouselImage
                     imgSrc={shreem3}
                     alt="Web Development Slide 3"
-                    className="w-500 h-100"
+                    className="w-400 h-80"
                   />
                 </div>
               </div>
