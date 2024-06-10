@@ -11,7 +11,7 @@ const About = () => {
         id="about"
       >
         <div className="pt-4">
-          <h1 className="big-title">
+          <h1>
             Design Your Dream Work With <br></br>Shreem Enterprises
           </h1>
         </div>

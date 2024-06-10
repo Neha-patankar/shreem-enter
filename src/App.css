@@ -1,14 +1,16 @@
 *{
   font-family: "Roboto Slab", serif;
+  
 }
 h1{
   font-size: 40px;
-  font-weight: 900;
+  font-weight: 800;
+  font-weight: bold;
 }
 p{
   font-size: 16px;
 }
 h3{
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 400;
 }

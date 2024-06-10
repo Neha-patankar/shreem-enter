@@ -1,7 +1,7 @@
 .work-heading{
-  margin-top: 15px;
-  font-size: 16px;
-  font-weight: 700;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
   text-align: center;
   background-color:rgb(11, 15, 79);
   color: white;
@@ -45,4 +45,9 @@
 .imgs5{
   height:195px ;
 }
-
+.work-main-heading{
+  font-size: 40px;
+  font-weight: 800;
+  font-weight: bold;
+  margin-top: 40px;
+}
