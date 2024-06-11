@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"
 import "./Services.css";
 
 const Services = () => {
+   
+  useEffect(() => {
+    AOS.init({duration: "2000"})
+    }, [])
+
   const servicesData = [
     {
       imgs: "./public/images/designer.avif",
@@ -25,6 +32,9 @@ const Services = () => {
     },
   ];
   return (
+    <div data-aos="fade-right">
+  
+
     <div className=" bg-white pb-2 pt-3" id="services">
       <div className=" text-center ">
         <div className="bg-white pb-5 pt-3 text-center">
@@ -55,6 +65,7 @@ const Services = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -1,8 +1,17 @@
-import React, { useRef } from "react";
+import React, { useEffect, useState,  useRef  } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"
+
 import "./Contact.css";
 import { Mail, MapPin, Phone } from "lucide-react";
 
 const ContactDetail = () => {
+
+  
+  useEffect(() => {
+    AOS.init({duration: "3000", delay:5000})
+    }, [])
+
   const borderRef = useRef([]);
   const handleHover = (index) => {
     borderRef.current[index].style.border = "4px dashed #fff";
@@ -36,6 +45,7 @@ const ContactDetail = () => {
   return (
     <>
       {/* Starting of Container */}
+      <div data-aos="fade-right">
       <div className="container-fluid " style={{ paddingTop: "50px" }}>
         <div className="text-center">
           {/* Headings */}
@@ -67,7 +77,8 @@ const ContactDetail = () => {
               </div>
             ))}
           </div>
-
+           
+          <div data-aos="fade-left">
           <div
             className="w-100 d-flex justify-content-center py-5"
             style={{ backgroundColor: "#F5F6FA" }}
@@ -84,6 +95,9 @@ const ContactDetail = () => {
           </div>
         </div>
       </div>
+      </div>
+      </div>
+     
     </>
   );
 };

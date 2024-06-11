@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"
 
 import consult from "../../images/pic-2.png";
 import research  from "../../images/rp1.jpg";
@@ -8,12 +10,17 @@ import delevary  from "../../images/delevary.png";
 import "./WorkProcess.css"; 
 
 function WorkProcess (){
+  useEffect(() => {
+    AOS.init({duration: "3000"})
+    }, [])
+
      return(
       <>
+      <div data-aos="zoom-in-right">
      <div className="work-container"> 
      <h1 className="text-center work-main-heading">Our Work Process</h1>
      <div className="d-flex justify-content-center align-items-center flex-wrap">
-    
+     <div data-aos="zoom-in-right">
      <div className=" work-card"> 
      <img src={consult} alt="consults" className="mt-4  imgs"                   
      ></img>
@@ -22,7 +29,9 @@ function WorkProcess (){
      <p>We start with a detailed consultation to understand your requirements, goals, and vision.</p>
      </div>
      </div>
+     </div>
 
+     <div data-aos="zoom-in-right">
           <div className="work-card">
             <img
               src={research}
@@ -38,7 +47,9 @@ function WorkProcess (){
               </p>
             </div>
           </div>
+          </div>
 
+          <div data-aos="zoom-in-left">
           <div className="work-card mb-2">
             <img src={design} alt="consults" className="mt-2 imgs imgs3"></img>
             <div>
@@ -50,7 +61,10 @@ function WorkProcess (){
               </p>
             </div>
           </div>
+          </div>
 
+
+          <div data-aos="zoom-in-left">
           <div className="work-card">
             <img src={rewie} alt="consults" className="mt-4 imgs imgs4"></img>
             <div>
@@ -64,7 +78,9 @@ function WorkProcess (){
               </p>
             </div>
           </div>
+          </div>
 
+          <div data-aos="zoom-in-left">
           <div className="work-card mt-2">
             <img
               src={delevary}
@@ -78,10 +94,11 @@ function WorkProcess (){
                 formats and offer ongoing support if needed.
               </p>
             </div>
+            </div>
           </div>
         </div>
       </div>
-    
+      </div>
       </> 
      )
 }
