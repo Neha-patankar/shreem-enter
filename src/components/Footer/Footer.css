@@ -11,11 +11,17 @@
   font-weight: 400;
   font-size: 20px;
   margin-bottom: 15px;
-  font-family: roboto;
+
+}
+.footer-heading{
+  color: #ff4328;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 15px;
 }
 
 .footer p, .footer a, .footer li {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 1.6;
   font-family: roboto;
@@ -24,7 +30,7 @@
 .footer a {
   color: #fff;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
   font-family: roboto;
 }
 
@@ -34,6 +40,9 @@
 
 .footer .list-footer, .footer .contact-info {
   padding-left: 0;
+  
+ 
+
 }
 
 .footer .list-footer li, .footer .contact-info li {
@@ -87,9 +96,7 @@ li::marker{
 }
 .phone-icon{
 }
-.footer-heading{
-  font-family: roboto;
-}
+
 
 @media  (max-width:1200px)
 {

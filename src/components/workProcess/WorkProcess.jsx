@@ -40,7 +40,7 @@ function WorkProcess (){
           </div>
 
           <div className="work-card mb-2">
-            <img src={design} alt="consults" className="mt-4 imgs imgs3"></img>
+            <img src={design} alt="consults" className="mt-2 imgs imgs3"></img>
             <div>
               <h1 className="sub-heading work-heading">Design & Development</h1>
               <p>
@@ -65,7 +65,7 @@ function WorkProcess (){
             </div>
           </div>
 
-          <div className="work-card mt-4">
+          <div className="work-card mt-2">
             <img
               src={delevary}
               alt="consults"

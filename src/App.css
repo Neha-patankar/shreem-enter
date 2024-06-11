@@ -8,9 +8,18 @@ h1{
   font-weight: bold;
 }
 p{
+<<<<<<< HEAD
   font-size: 16px; 
+=======
+  font-size: 18px;
+>>>>>>> a77b026ea1cc91fd9681cf0cc0b06e6374d5c184
 }
 h3{
+  font-size: 18px;
+  font-weight: 400;
+}
+h5{
+  
   font-size: 18px;
   font-weight: 400;
 }
