@@ -52,7 +52,7 @@ const About = () => {
                 needs. From crafting innovative software applications to
                 providing meticulous data management and offering efficient
                 photocopying services, we handle every project with the utmost
-                care and precision.*/}{" "}
+                care and precision.*/}
                 Count on Shreem Enterprises to realize your digital vision with
                 accuracy and professionalism. Following the motto "Tech for
                 all," we spare no effort in delivering top-notch services to
