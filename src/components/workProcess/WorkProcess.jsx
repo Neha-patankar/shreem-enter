@@ -51,7 +51,7 @@ function WorkProcess (){
 
           <div data-aos="zoom-in-left">
           <div className="work-card mb-2">
-            <img src={design} alt="consults" className="mt-2 imgs imgs3"></img>
+            <img src={design} alt="consults" className="mt-4 imgs imgs3"></img>
             <div>
               <h1 className="sub-heading work-heading">Design & Development</h1>
               <p>
@@ -66,7 +66,7 @@ function WorkProcess (){
 
           <div data-aos="zoom-in-left">
           <div className="work-card">
-            <img src={rewie} alt="consults" className="mt-4 imgs imgs4"></img>
+            <img src={rewie} alt="consults" className="mt-3 imgs imgs4"></img>
             <div>
               <h1 className="sub-heading work-heading">
                 Review & Finalization
@@ -85,7 +85,7 @@ function WorkProcess (){
             <img
               src={delevary}
               alt="consults"
-              className="mt-3 imgs imgs5"
+              className="mt-4 imgs imgs5"
             ></img>
             <div>
               <h1 className="sub-heading work-heading">Delivery & Support</h1>
