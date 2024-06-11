@@ -10,7 +10,7 @@ import "./Team.css";
 
 function Team() {
   useEffect(() => {
-    AOS.init({duration: "800", delay:2000})
+    AOS.init({duration: "2000"})
     }, [])
 
   return (

@@ -11,7 +11,7 @@ import "./WorkProcess.css";
 
 function WorkProcess (){
   useEffect(() => {
-    AOS.init({duration: "300", delay:100})
+    AOS.init({duration: "2000"})
     }, [])
 
      return(

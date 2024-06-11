@@ -9,7 +9,7 @@ const ContactDetail = () => {
 
   
   useEffect(() => {
-    AOS.init({duration: "500", delay:1000})
+    AOS.init({duration: "3000", delay:5000})
     }, [])
 
   const borderRef = useRef([]);
