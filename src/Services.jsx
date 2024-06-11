@@ -6,7 +6,7 @@ import "./Services.css";
 const Services = () => {
    
   useEffect(() => {
-    AOS.init({duration: "800", delay:1000})
+    AOS.init({duration: "2000"})
     }, [])
 
   const servicesData = [

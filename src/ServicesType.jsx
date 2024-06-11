@@ -45,11 +45,11 @@ let typeOfservices = [
 const ServicesType = () => {
 
   useEffect(() => {
-    AOS.init({duration: "500", delay:1000})
+    AOS.init({duration: "2000"})
     }, [])
 
   return (
-    <div data-aos="fade-up-left">
+    <div data-aos="fade-left">
     <div id="services">
       <div className="text-center">
         <div className="containers">
