@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"
 import "./Whychooseus.css";
 const data = [
   {
@@ -29,13 +31,18 @@ const data = [
 ];
 
 const Whychooseus = () => {
+  useEffect(() => {
+    AOS.init({duration: "1000", delay:1000})
+    }, [])
+
   return (
+    <div data-aos="fade-down">
     <div>
       <div className="d-flex justify-content-center align-items-center flex-column flex-wrap pt-4 pb-5">
         <h1>
           Why Choose Us <span className="qus-mark">?</span>
         </h1>
-
+         
         <div className="d-flex justify-content-center flex-wrap pt-3 mb-3">
           {data.map((items) => (
             <div className="circle-card">
@@ -45,6 +52,7 @@ const Whychooseus = () => {
           ))}
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Na1 from "./components/Nav1/Na1";
@@ -13,12 +13,17 @@ import GoToTop from "./components/goToTop/GoToTop";
 import { ServicesParent } from "./components/Services";
 import { TeamFooter } from "./components/TeamFooter";
 
+
+
 function App() {
+ 
   return (
     <>
+    
       <div style={{backgroundColor:"white"}}>
         <Na1 />
         <Routes>
+        
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/services" element={<ServicesParent />} />

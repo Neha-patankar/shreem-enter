@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"
 import "./ServicesType.css";
 
 let typeOfservices = [
@@ -41,7 +43,13 @@ let typeOfservices = [
 ];
 
 const ServicesType = () => {
+
+  useEffect(() => {
+    AOS.init({duration: "500", delay:1000})
+    }, [])
+
   return (
+    <div data-aos="fade-up-left">
     <div id="services">
       <div className="text-center">
         <div className="containers">
@@ -69,6 +77,7 @@ const ServicesType = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

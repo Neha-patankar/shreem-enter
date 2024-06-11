@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"
 import "./TermCondition.css";
 
 function TermCondition (){
+
+  useEffect(() => {
+    AOS.init({duration: "1000"})
+    }, [])
+
   return(
     <> 
+    <div data-aos="fade-down">
     <div className="containerss" id="termCondition">
     
     <h1 className="headingss">Term & Condition</h1>
@@ -28,6 +36,7 @@ But I must explain to you how all this mistaken idea of denouncing pleasure and 
 </div>   
 </div>
   */}
+  </div>
     </>
    
   )
