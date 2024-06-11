@@ -3,7 +3,8 @@ import "./ReqService.css";
 
 const Form = () => {
   return (
-          <div className="col-lg-5">
+    
+          <div className="col-lg-5 ">
             <div className="wrapper">
               {/* starting of form */}
               <form action="">

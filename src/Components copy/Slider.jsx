@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"
+
 import Carousel from "react-bootstrap/Carousel";
 import "./Carousel.css";
 import img1 from "./assets/Image/img_01.png";
 import { Quote } from "lucide-react";
 
 function UncontrolledExample() {
+   
+  useEffect(() => {
+    AOS.init({duration: "1000", delay:1000})
+    }, [])
+
   const clients = [
     {
       text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero in ipsum reiciendis sequi! Magni at dolores quis est enim voluptatem nemo corporis? Quae voluptatibus, dolorem culpa praesentium vero placeat aliquam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, dolorum rerum? Corrupti expedita.",
@@ -27,6 +35,7 @@ function UncontrolledExample() {
   ];
 
   return (
+  
     <Carousel className="Carousels" interval={3000} touch>
       {clients.map((client, index) => (
         <Carousel.Item key={index}>
@@ -34,6 +43,8 @@ function UncontrolledExample() {
           <Quote className="quotes"/>
             <p>{client.text}</p>
           </div>
+
+          <div data-aos="fade-right">
           <div className="d-flex cr_clientName_Section">
             <div>
               <img src={client.imgSrc} alt={client.name} />
@@ -42,6 +53,7 @@ function UncontrolledExample() {
               <h5>{client.name}</h5>
               <p style={{color:"orangered",fontWeight:'600'}}>{client.position}</p>
             </div>
+          </div>
           </div>
         </Carousel.Item>
       ))}

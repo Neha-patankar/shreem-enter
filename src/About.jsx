@@ -1,11 +1,19 @@
-import React from "react";
+
 import "./About.css";
 import aboutus from "/public/images/aboutus.jpg";
 import play_icon from "./assets/About-img/play-icon.png";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({ duration: 800, delay:1000 });
+  }, []);
+
   return (
     <>
+    <div data-aos="fade-right">
       <div
         className="d-flex justify-content-center flex-wrap text-center background-icon pt-5"
         id="about"
@@ -23,6 +31,8 @@ const About = () => {
               <div className="ring"></div>
               <div className="ring2"></div>
             </div>
+            </div>
+            <div data-aos="fade-left">
             <div className="about-content">
               <p className="about-content-p">
                 Our team at Shreem Enterprises is dedicated to providing
@@ -42,7 +52,7 @@ const About = () => {
                 needs. From crafting innovative software applications to
                 providing meticulous data management and offering efficient
                 photocopying services, we handle every project with the utmost
-                care and precision.*/}{" "}
+                care and precision.*/}
                 Count on Shreem Enterprises to realize your digital vision with
                 accuracy and professionalism. Following the motto "Tech for
                 all," we spare no effort in delivering top-notch services to
@@ -53,6 +63,7 @@ const About = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
