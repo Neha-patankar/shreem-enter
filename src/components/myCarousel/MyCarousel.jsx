@@ -68,9 +68,9 @@ function MyCarousel() {
                   <h1 className="slide-heading   ">
                     Tailored For Your Needs
                   </h1>
-                  <p className="paragraph mb-4 text-light">
+                  <p className="paragraph mb-4  text-light">
                     At Shreem Enterprises, we understand that every business is
-                    unique. <br></br>Our web development services are customized to meet
+                    unique. <br></br> Our web development services are customized to meet
                     your specific<br></br> requirements, ensuring your website is a
                     perfect fit for your business.
                   </p>

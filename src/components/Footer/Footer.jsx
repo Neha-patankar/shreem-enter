@@ -10,7 +10,7 @@ function Footer() {
 
   return (
     <div data-aos="fade-up">
-      <footer className="footer pt-4 h-100 w-100">
+      <footer className="footer pt-4">
         <div className="container">
           <div className="row">
             <div className="col-md-3 mb-4 footer-col">
