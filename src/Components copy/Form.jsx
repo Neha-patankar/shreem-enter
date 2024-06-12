@@ -17,8 +17,11 @@ const Form = () => {
                     <br />
                     <input
                       type="text"
-                      name=""
+                      name="username"
                       id=""
+                      autoComplete="off"
+                      value={contact.username}
+                      onChange={handleInput}
                       placeholder="Username"
                       className="contact-form-input"
                     />
@@ -33,8 +36,11 @@ const Form = () => {
                     <br />
                     <input
                       type="Number"
-                      name="Contact Number"
+                      name="number"
                       id=""
+                      autoComplete="off"
+                      value={contact.number}
+                      onChange={handleInput}
                       placeholder="Contact Number"
                       required
                       className="contact-form-input"
@@ -52,8 +58,11 @@ const Form = () => {
                   <br />
                   <input
                     type="email"
-                    name=""
+                    name="email"
                     id=""
+                    autoComplete="off"
+                      value={contact.email}
+                      onChange={handleInput}
                     placeholder="Email"
                     required
                     className="contact-form-input"
@@ -71,6 +80,8 @@ const Form = () => {
                     name="service"
                     className="contact-form-dropdown"
                     id="dropdown"
+                      value={contac.service}
+                      onChange={handleInput}
                   >
                     <option value={"Graphic Design"} selected>
                       Graphic Design
@@ -94,8 +105,11 @@ const Form = () => {
                   </label>
                   <br />
                   <textarea
-                    name=""
+                    name="message"
                     id=""
+                    autoComplete="off"
+                      value={contact.message}
+                      onChange={handleInput}
                     cols={30}
                     rows={5}
                     className="contact-form-dropdown"

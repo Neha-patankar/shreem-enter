@@ -1,16 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"
 import Accordion from "./Accordion";
 import faq_image from "./assets/Image/FAQ2.png";
 import "./Faq.css";
 
 const Faq = () => {
-  // const gsapRef =useRef()
-  // useGSAP(()=>{
-  //   gsap.from(gsapRef.current,{
-
-  //   })
-  // })
+  useEffect(() => {
+    AOS.init({duration: "500", delay:500})
+    }, [])
   return (
+    <div data-aos="zoom-in-right">
     <div className="container-fluid mt-3 mb-5 light_bg py-5 px-5">
       <div className="row ">
         {/* starting of Heading */}
@@ -30,6 +30,7 @@ const Faq = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

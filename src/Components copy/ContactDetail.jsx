@@ -1,16 +1,10 @@
-import React, { useEffect, useState,  useRef  } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css"
 
+import { useRef } from "react";
 import "./Contact.css";
 import { Mail, MapPin, Phone } from "lucide-react";
 
 const ContactDetail = () => {
 
-  
-  useEffect(() => {
-    AOS.init({duration: "3000", delay:5000})
-    }, [])
 
   const borderRef = useRef([]);
   const handleHover = (index) => {
