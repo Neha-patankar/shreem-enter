@@ -62,10 +62,10 @@ export default function AccordionExpandIcon() {
             id={`panel${id}-header`}
             className="accordion_bg"
           >
-            <Typography>{question}</Typography>
+            <Typography><h6>{question}</h6></Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>{answer}</Typography>
+            <Typography><p>{answer}</p></Typography>
           </AccordionDetails>
         </Accordion>
       ))}

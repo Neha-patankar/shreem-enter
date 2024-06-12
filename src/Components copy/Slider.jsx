@@ -1,6 +1,4 @@
-import React, { useEffect, useState } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css"
+
 
 import Carousel from "react-bootstrap/Carousel";
 import "./Carousel.css";
@@ -9,9 +7,6 @@ import { Quote } from "lucide-react";
 
 function UncontrolledExample() {
    
-  useEffect(() => {
-    AOS.init({duration: "1000", delay:1000})
-    }, [])
 
   const clients = [
     {

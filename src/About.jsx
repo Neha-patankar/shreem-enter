@@ -12,25 +12,26 @@ const About = () => {
 
   return (
     <>
-      <div data-aos="fade-right">
-        <div
-          className="d-flex justify-content-center flex-wrap text-center background-icon pt-5"
-          id="about"
-        >
+      <div
+        className="d-flex justify-content-center flex-wrap text-center background-icon pt-5"
+        id="about"
+      >
+        <div data-aos="fade-right">
           <div className="pt-4">
             <h1>
               Design Your Dream Work With <br></br>Shreem Enterprises
             </h1>
           </div>
-          <div className="d-flex justify-content-around  gap-5">
-            <div className="aboutus-content mt-5 gap-5 bg-white">
-              <div className="d-flex">
-                <img src={aboutus} className="Group-img z-0"></img>
-                <img src={play_icon} className="play-btn"></img>
-                <div className="ring"></div>
-                <div className="ring2"></div>
-              </div>
+        </div>
+        <div className="d-flex justify-content-around  gap-5">
+          <div className="aboutus-content mt-5 gap-5 bg-white">
+            <div className="d-flex">
+              <img src={aboutus} className="Group-img z-0"></img>
+              <img src={play_icon} className="play-btn"></img>
+              <div className="ring"></div>
+              <div className="ring2"></div>
             </div>
+
             <div data-aos="fade-left">
               <div className="about-content">
                 <p className="about-content-p">

@@ -1,7 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ReqService.css";
 
 const Form = () => {
+  const [contact, setContact]=useState({
+    username:'',
+    number:'',
+    email:'',
+    service:'',
+    message:'',
+  });
+//lets tackle our Input
+  const handleInput=(e)=>{
+    const name=e.target.name;
+    const value=e.target.value;
+  }
+  setContact({
+    ...contact,
+    [name]:value,
+  })
   return (
     
           <div className="col-lg-5 ">
@@ -17,8 +33,11 @@ const Form = () => {
                     <br />
                     <input
                       type="text"
-                      name=""
+                      name="username"
                       id=""
+                      autoComplete="off"
+                      value={contact.username}
+                      onChange={handleInput}
                       placeholder="Username"
                       className="contact-form-input"
                     />
@@ -33,8 +52,11 @@ const Form = () => {
                     <br />
                     <input
                       type="Number"
-                      name="Contact Number"
+                      name="number"
                       id=""
+                      autoComplete="off"
+                      value={contact.number}
+                      onChange={handleInput}
                       placeholder="Contact Number"
                       required
                       className="contact-form-input"
@@ -52,8 +74,11 @@ const Form = () => {
                   <br />
                   <input
                     type="email"
-                    name=""
+                    name="email"
                     id=""
+                    autoComplete="off"
+                      value={contact.email}
+                      onChange={handleInput}
                     placeholder="Email"
                     required
                     className="contact-form-input"
@@ -71,6 +96,8 @@ const Form = () => {
                     name="service"
                     className="contact-form-dropdown"
                     id="dropdown"
+                      value={contact.service}
+                      onChange={handleInput}
                   >
                     <option value={"Graphic Design"} selected>
                       Graphic Design
@@ -94,8 +121,11 @@ const Form = () => {
                   </label>
                   <br />
                   <textarea
-                    name=""
+                    name="message"
                     id=""
+                    autoComplete="off"
+                      value={contact.message}
+                      onChange={handleInput}
                     cols={30}
                     rows={5}
                     className="contact-form-dropdown"

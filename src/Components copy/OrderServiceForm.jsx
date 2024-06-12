@@ -23,16 +23,17 @@ const OrderServiceForm = () => {
       {/* starting of Request a service form */}
 
       <div className="d-flex justify-content-center">
-        <div className=" row gap-5">
+        <div className=" row">
           {/* illustration */}
           <div className="col-lg-6">
             <img src={imgs} alt="" className="OS_image img-fluid " />
           </div>
-          </div>
+          
           {/* end of illustration */}
 
           {/* Starting of form */}
           <Form/>
+        </div>
         </div>
       </div>
     </div>

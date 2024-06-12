@@ -4,18 +4,34 @@
 }
 h1{
   font-size: 40px;
-  font-weight: 800;
-  font-weight: bold;
+  font-weight: 900;
+  font-weight:bolder;
 }
 p{
-  font-size: 16px; 
+  font-size: 1rem; 
+}
+h6{
+  font-size: 18px;
+  font-weight: 400;
 }
 h3{
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
 }
 h5{
   
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
+}
+li {
+  font-size: 16px;
+  font-weight: 500;
+}
+ul{
+  font-size: 16px;
+  font-weight: 500;
+}
+a{
+  font-size: 16px;
+  font-weight: 500; 
 }
