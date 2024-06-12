@@ -1,7 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ReqService.css";
 
 const Form = () => {
+  const [contact, setContact]=useState({
+    username:'',
+    number:'',
+    email:'',
+    service:'',
+    message:'',
+  });
+//lets tackle our Input
+  const handleInput=(e)=>{
+    const name=e.target.name;
+    const value=e.target.value;
+  }
+  setContact({
+    ...contact,
+    [name]:value,
+  })
   return (
     
           <div className="col-lg-5 ">
@@ -80,7 +96,7 @@ const Form = () => {
                     name="service"
                     className="contact-form-dropdown"
                     id="dropdown"
-                      value={contac.service}
+                      value={contact.service}
                       onChange={handleInput}
                   >
                     <option value={"Graphic Design"} selected>
