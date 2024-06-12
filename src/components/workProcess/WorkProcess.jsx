@@ -158,7 +158,7 @@ function WorkProcess() {
             </div>
           </div>
 
-          <div data-aos="fade-left">
+          <div data-aos="fade-right">
             <div className="work-card mb-2">
               <img src={design} alt="design" className="imgs imgs3"></img>
               <div>
@@ -168,7 +168,7 @@ function WorkProcess() {
             </div>
           </div>
 
-          <div data-aos="fade-left">
+          <div data-aos="fade-right">
             <div className="work-card">
               <img src={review} alt="review" className="mt-5 imgs imgs4"></img>
               <div>
@@ -178,7 +178,7 @@ function WorkProcess() {
             </div>
           </div>
 
-          <div data-aos="fade-left">
+          <div data-aos="fade-right">
             <div className="work-card mt-2">
               <img
                 src={delivery}

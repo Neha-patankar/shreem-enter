@@ -26,32 +26,32 @@ function Team() {
           <div data-aos="fade-left">
           <div className="team-member img-backgraund-color">
             <img src={img1} alt="Myron L. Boykin" className="team-image" />
-            <h3 className="img-heading fontSizeteam  text-light">Myron L. Boykin</h3>
-            <h1 className="designation fontSizeteam">Web Designer</h1>
+            <h5 className="img-heading fontSizeteam  text-light">Myron L. Boykin</h5>
+            <h6 className="designation fontSizeteam">Web Designer</h6>
           </div>
           </div>
           {/* 2nd image */}
           <div data-aos="fade-left">
           <div className="team-member img-backgraund-color">
             <img src={img2} alt="Manuel M. Brode" className="team-image" />
-            <h3 className="img-heading fontSizeteam text-light">Manuel M. Brode</h3>
-            <h1 className="designation fontSizeteam">Senior Developer</h1>
+            <h5 className="img-heading fontSizeteam text-light">Manuel M. Brode</h5>
+            <h6 className="designation fontSizeteam">Senior Developer</h6>
           </div>
           </div>
           {/* 3rd image */}
           <div data-aos="fade-right">
           <div className="team-member img-backgraund-color">
             <img src={img3} alt="Frank E. Stuber" className="team-image" />
-            <h3 className="img-heading fontSizeteam text-light">Frank E. Stuber</h3>
-            <h1 className="designation fontSizeteam">Web Designer</h1>
+            <h5 className="img-heading fontSizeteam text-light">Frank E. Stuber</h5>
+            <h6 className="designation fontSizeteam">Web Designer</h6>
           </div>
           </div>
           {/* 4th image */}
           <div data-aos="fade-right">
           <div className="team-member img-backgraund-color">
             <img src={img4} alt="Miguel D. Vegaen" className="team-image" />
-            <h3 className="img-heading fontSizeteam text-light">Miguel D. Vegaen</h3>
-            <h1 className="designation fontSizeteam">Web Designer</h1>
+            <h5 className="img-heading fontSizeteam text-light">Miguel D. Vegaen</h5>
+            <h6 className="designation fontSizeteam">Web Designer</h6>
           </div>
         </div>
       </div>
