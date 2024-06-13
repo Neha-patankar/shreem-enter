@@ -36,14 +36,16 @@ const Whychooseus = () => {
     }, [])
 
   return (
-    <div data-aos="fade-down">
+    <div data-aos="zoom-in-up">
     <div>
       <div className="d-flex justify-content-center align-items-center flex-column flex-wrap pt-4 pb-5">
+    
         <h1>
           Why Choose Us <span className="qus-mark">?</span>
         </h1>
-         </div>
-
+        
+        </div>
+        
         
         <div className="d-flex justify-content-center flex-wrap pt-3 mb-3">
           {data.map((items) => (

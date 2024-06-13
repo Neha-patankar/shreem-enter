@@ -15,12 +15,12 @@ function WorkProcess() {
   }, []);
 
   return (
-    <div data-aos="fade-down">
+    <div data-aos="zoom-in-down">
       <div className="work-container">
         <h1 className="text-center work-main-heading">Our Work Process</h1>
         <div className="d-flex justify-content-center align-items-center flex-wrap">
 
-          <div data-aos="fade-right">
+          <div data-aos="zoon-in-up">
             <div className="work-card">
               <img
                 src={consult}
@@ -34,7 +34,7 @@ function WorkProcess() {
             </div>
           </div>
 
-          <div data-aos="fade-right">
+          <div data-aos="zoon-in-up">
             <div className="work-card">
               <img
                 src={research}
@@ -48,7 +48,7 @@ function WorkProcess() {
             </div>
           </div>
 
-          <div data-aos="fade-right">
+          <div data-aos="zoon-in-up">
             <div className="work-card mb-2">
               <img src={design} alt="design" className="imgs imgs3"></img>
               <div>
@@ -58,7 +58,7 @@ function WorkProcess() {
             </div>
           </div>
 
-          <div data-aos="fade-left">
+          <div data-aos="zoon-in-up">
             <div className="work-card">
               <img src={review} alt="review" className="mt-5 imgs imgs4"></img>
               <div>
@@ -68,7 +68,7 @@ function WorkProcess() {
             </div>
           </div>
 
-          <div data-aos="fade-left">
+          <div data-aos="zoon-in-up">
             <div className="work-card mt-2">
               <img
                 src={delivery}

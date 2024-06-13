@@ -9,7 +9,7 @@ function Footer() {
   }, []);
 
   return (
-    <div data-aos="fade-down">
+    <div data-aos="zoom-in-up">
  
       <footer className="footer pt-4">
         <div className="container">
