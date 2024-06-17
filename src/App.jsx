@@ -15,6 +15,7 @@ import { TeamFooter } from "./components/TeamFooter";
 
 
 
+
 function App() {
  
   return (
@@ -35,6 +36,7 @@ function App() {
         <Contacts />
         <GoToTop />
         <Footer />
+     
       </div>
     </>
   );

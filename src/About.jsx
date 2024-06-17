@@ -7,22 +7,24 @@ import "aos/dist/aos.css";
 
 const About = () => {
   useEffect(() => {
-    AOS.init({ duration: 800, delay: 1000 });
+    AOS.init({ duration: 1000});
   }, []);
 
   return (
     <>
+    
       <div
         className="d-flex justify-content-center flex-wrap text-center background-icon pt-5"
         id="about"
       >
-        <div data-aos="fade-right">
+      <div data-aos="fade-down">
           <div className="pt-4">
             <h1>
               Design Your Dream Work With <br></br>Shreem Enterprises
             </h1>
           </div>
-        </div>
+       </div>
+       
         <div className="d-flex justify-content-around  gap-5">
           <div className="aboutus-content mt-5 gap-5 bg-white">
             <div className="d-flex">
@@ -66,7 +68,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
+    </div>
     </>
   );
 };

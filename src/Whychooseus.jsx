@@ -32,17 +32,21 @@ const data = [
 
 const Whychooseus = () => {
   useEffect(() => {
-    AOS.init({duration: "3000"})
+    AOS.init({duration: "1000"})
     }, [])
 
   return (
-    <div data-aos="zoom-in-down">
+    <div data-aos="zoom-in-up">
     <div>
       <div className="d-flex justify-content-center align-items-center flex-column flex-wrap pt-4 pb-5">
+    
         <h1>
           Why Choose Us <span className="qus-mark">?</span>
         </h1>
-         
+        
+        </div>
+        
+        
         <div className="d-flex justify-content-center flex-wrap pt-3 mb-3">
           {data.map((items) => (
             <div className="circle-card">
@@ -53,7 +57,7 @@ const Whychooseus = () => {
         </div>
       </div>
     </div>
-    </div>
+   
   );
 };
 

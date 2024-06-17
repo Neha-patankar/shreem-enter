@@ -5,11 +5,12 @@ import "aos/dist/aos.css";
 
 function Footer() {
   useEffect(() => {
-    AOS.init({ duration:2000, });
+    AOS.init({ duration:1000, });
   }, []);
 
   return (
-    <div data-aos="fade-down">
+    <div data-aos="zoom-in-up">
+ 
       <footer className="footer pt-4">
         <div className="container">
           <div className="row">
