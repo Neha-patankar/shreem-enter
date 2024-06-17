@@ -1,15 +1,38 @@
-//
+import axios from "axios";
 import React, { useState } from "react";
 import "./ReqService.css";
 
 const Form = () => {
+
+  const initialState = {
+    username: "",
+    contact: "",
+    email: "",
+    service: "Graphic Design",
+    message: ""
+  }
+
   const [contact, setContact] = useState({
     username: "",
-    number: "",
+    contact: "",
     email: "",
     service: "Graphic Design", // set default selected value for dropdown
     message: "",
   });
+
+  // To submit data from frontend to backend
+  let submit = async (e) => {
+    e.preventDefault();
+    try {
+      alert("Data is submitted");
+      const res = await axios.post("http://localhost:8002/user", { ...contact });
+      console.log(res)
+      setContact(initialState)
+      message: ""
+    } catch (err) {
+      console.log(err);
+    }
+  };
 
   // Handle input change
   const handleInput = (e) => {
@@ -23,16 +46,16 @@ const Form = () => {
 
   // handle submit
 
-  const handleSubmit=(e)=>{
-e.preventDefault();
-console.log(contact)
-  }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(contact);
+  };
 
   return (
     <div className="col-lg-5 ">
       <div className="wrapper">
         {/* starting of form */}
-        <form action="" onSubmit={handleSubmit}>
+        <form action="" onSubmit={submit}>
           <div className="d-flex gap-3">
             {/* Name input box */}
             <div className="input-box mt-5">
@@ -60,10 +83,10 @@ console.log(contact)
               <br />
               <input
                 type="number"
-                name="number"
+                name="contact"
                 id=""
                 autoComplete="off"
-                value={contact.number}
+                value={contact.contact}
                 onChange={handleInput}
                 placeholder="Contact Number"
                 required
