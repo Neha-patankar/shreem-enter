@@ -142,7 +142,33 @@ li::marker{
   padding-left: 0px;
   margin-left: 0px;
 }
+
+@media (max-width:884px) {
+  .footer-col4{
+    margin-left: 0px;
+  }
+}
+
+.sub-title-footer{
+ 
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
 @media (max-width:768px) {
+  .sub-title-footer{
+    
+    padding-left: 0px;
+    margin-left: 0px;
+
+  }
+}
+.sub-title-footer{
+ 
+  padding-left: 0px;
+  margin-left: 0px;
+}
+@media (max-width:884px) {
   .sub-title-footer{
     
     padding-left: 0px;
