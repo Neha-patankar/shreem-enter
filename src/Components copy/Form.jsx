@@ -44,15 +44,9 @@ const Form = () => {
     });
   };
 
-  // handle submit
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(contact);
-  };
 
   return (
-    <div className="col-lg-5 ">
+    <div className="col-lg-6 ">
       <div className="wrapper">
         {/* starting of form */}
         <form action="" onSubmit={submit}>
