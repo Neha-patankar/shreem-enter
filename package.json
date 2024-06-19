@@ -40,7 +40,6 @@
     "react-animate-on-scroll": "^2.1.9",
     "react-bootstrap": "^2.10.2",
     "react-router-dom": "^6.23.1",
-<<<<<<< HEAD
     "web-vitals": "^4.1.1"
   },
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
@@ -48,8 +47,4 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
-=======
-    "react-simple-typewriter": "^5.0.1"
-  }
->>>>>>> 0f4e4c14f85bfcb2feeb5d16bdb241f7b1886a54
 }
