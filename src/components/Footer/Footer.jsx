@@ -9,9 +9,10 @@ function Footer() {
   }, []);
 
   return (
-    <div data-aos="zoom-in-up">
+
  
-      <footer className="footer pt-4">
+      <footer className="footer pt-4 w-100">
+    
         <div className="container">
           <div className="row">
             <div className="col-md-3 mb-4 footer-col">
@@ -159,8 +160,9 @@ function Footer() {
             </div>
           </div>
         </div>
+        
       </footer>
-    </div>
+    
   );
 }
 
