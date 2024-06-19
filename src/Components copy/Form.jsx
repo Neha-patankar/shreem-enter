@@ -46,7 +46,7 @@ const Form = () => {
 
 
   return (
-    <div className="col-lg-6 ">
+
       <div className="wrapper">
         {/* starting of form */}
         <form action="" onSubmit={submit}>
@@ -161,7 +161,6 @@ const Form = () => {
           </div>
         </form>
       </div>
-    </div>
   );
 };
 
