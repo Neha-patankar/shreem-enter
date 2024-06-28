@@ -1,63 +1,70 @@
-import React, { useEffect, useState } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css"
+
+import React, { useEffect, useRef } from "react";
+import gsap from "gsap";
 import "./Whychooseus.css";
+
 const data = [
   {
-    titel: "Experienced Team:",
+    title: "Experienced Team:",
     contents:
       " Our team of designers brings years of experience and a deep understanding of the latest design trends and technologies.",
   },
   {
-    titel: "Customized Solutions:",
+    title: "Customized Solutions:",
     contents:
-      " We craft custom solutions by understanding your needs to create designs that truly reflect your brand..",
+      " We craft custom solutions by understanding your needs to create designs that truly reflect your brand.",
   },
   {
-    titel: "Collaborative Approach:",
+    title: "Collaborative Approach:",
     contents:
       "We collaborate closely to ensure your vision is realized exactly as you imagined throughout the design process.",
   },
   {
-    titel: " Attention to Detail:",
+    title: "Attention to Detail:",
     contents:
-      "Our attention to detail ensures every aspect of the design is perfect, from icons to layout..",
+      "Our attention to detail ensures every aspect of the design is perfect, from icons to layout.",
   },
   {
-    titel: "Timely Delivery:",
+    title: "Timely Delivery:",
     contents:
       " We understand the importance of deadlines and strive to deliver high-quality designs on time, every time.",
   },
 ];
 
 const Whychooseus = () => {
+  const containerRef = useRef();
+
   useEffect(() => {
-    AOS.init({duration: "1000"})
-    }, [])
+    const items = containerRef.current.children;
+    gsap.fromTo(
+      items,
+      { y: -100, opacity: 0 },
+      {
+        y: -0,
+        opacity: 1,
+        duration: 1,
+        stagger: 1,
+        ease: "power2.out",
+      }
+    );
+  }, []);
 
   return (
-    <div data-aos="fade-down">
     <div>
       <div className="d-flex justify-content-center align-items-center flex-column flex-wrap pt-4 pb-5">
-    
         <h1>
           Why Choose Us <span className="qus-mark">?</span>
         </h1>
-        
-        </div>
-        
-        
-        <div className="d-flex justify-content-center flex-wrap pt-3 mb-3">
-          {data.map((items) => (
-            <div className="circle-card">
-              <div className="titel">{items.titel}</div>
-              <div className="content-data">{items.contents}</div>
-            </div>
-          ))}
-        </div>
+      </div>
+      <div ref={containerRef} className="d-flex justify-content-center flex-wrap pt-3 mb-3">
+        {data.map((items, index) => (
+          <div key={index} className="circle-card">
+            <div className="title">{items.title}</div>
+            <div className="content-data">{items.contents}</div>
+          </div>
+        ))}
       </div>
     </div>
-   
   );
 };
 

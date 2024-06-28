@@ -51,8 +51,11 @@
   box-shadow:0 0 8px 1px rgb(218, 215, 208);
   transition: ease-out 0.2s;
   margin: 20px 0;
-  
+
+
 }
+
+
 
 .team-image {
   margin-left: 100p;
@@ -60,6 +63,7 @@
   padding-right: 0px;
 
   }
+
 
   @media (max-width: 768px) {
     .team-image {
