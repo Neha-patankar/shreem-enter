@@ -1,0 +1,63 @@
+#admin-penal {
+  min-height: calc(100vh - 120px);
+}
+
+.admin-icon {
+  font-size: 3rem;
+}
+
+.nav-link {
+  color: #000;
+  margin: 10px 0;
+  text-align: center;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.user-name {
+  margin-top: auto;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* AdminPenal.css */
+#admin-penal {
+  position: relative;
+}
+
+.admin-icon-container {
+  position: relative;
+  display: inline-block;
+}
+
+.admin-icon-tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Position above the icon */
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.admin-icon-container:hover .admin-icon-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.admin-icon {
+  font-size: 2rem;
+}

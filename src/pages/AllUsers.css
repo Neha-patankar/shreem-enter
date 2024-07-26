@@ -1,0 +1,39 @@
+.usertable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.usertable th, .usertable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.usertable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.usertable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.usertable tr:hover {
+  background-color: #ddd;
+}
+
+.usertable button {
+  padding: 5px 10px;
+  margin: 2px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.usertable button:hover {
+  background-color: #45a049;
+}

@@ -519,57 +519,218 @@
 
 // export default Form;
 
+// import React, { useState } from "react";
+// import "./ReqService.css";
+
+// const Form = () => {
+//   const [contact, setContact] = useState({
+//     username: "",
+//     contact: "",
+//     email: "",
+//     service: "Graphic Design",
+//     message: "",
+//   });
+
+//   const initialState = {
+//     username: "",
+//     contact: "",
+//     email: "",
+//     service: "Graphic Design",
+//     message: ""
+//   };
+
+//   const submit = async (e) => {
+//     e.preventDefault();
+//     try {
+//       const res = await fetch("http://localhost:8081/leads", {
+//         method: "POST",
+//         body: JSON.stringify(contact),
+//         headers: {
+//           "Content-Type": "application/json",
+//         },
+//       });
+//       const data = await res.json();
+//       console.log(data);
+//       alert("Data is submitted successfully");
+//       setContact(initialState);
+//     } catch (err) {
+//       console.log(err);
+//       alert("There was an error submitting the form");
+//     }
+//   };
+
+//   const handleInput = (e) => {
+//     const { name, value } = e.target;
+//     setContact({
+//       ...contact,
+//       [name]: value,
+//     });
+//   };
+
+//   return (
+//     <div className="wrapper">
+//       <form onSubmit={submit}>
+//         <div className="d-flex gap-3">
+//           <div className="input-box mt-5">
+//             <label htmlFor="username" className="contact-form-label">
+//               User Name *
+//             </label>
+//             <br />
+//             <input
+//               type="text"
+//               name="username"
+//               id="username"
+//               autoComplete="off"
+//               value={contact.username}
+//               onChange={handleInput}
+//               placeholder="Username"
+//               className="contact-form-input"
+//               required
+//             />
+//             <i className="fa-solid fa-user"></i>
+//           </div>
+//           <div className="input-box mt-5">
+//             <label htmlFor="contact" className="contact-form-label">
+//               Contact Number *
+//             </label>
+//             <br />
+//             <input
+//               type="text"
+//               name="contact"
+//               id="contact"
+//               autoComplete="off"
+//               value={contact.contact}
+//               onChange={handleInput}
+//               placeholder="Contact Number"
+//               required
+//               className="contact-form-input"
+//             />
+//             <i className="fa-solid fa-phone"></i>
+//           </div>
+//         </div>
+//         <div className="input-box">
+//           <label htmlFor="email" className="contact-form-label">
+//             Your E-Mail *
+//           </label>
+//           <br />
+//           <input
+//             type="email"
+//             name="email"
+//             id="email"
+//             autoComplete="off"
+//             value={contact.email}
+//             onChange={handleInput}
+//             placeholder="Email"
+//             required
+//             className="contact-form-input"
+//           />
+//           <i className="fa-solid fa-envelope"></i>
+//         </div>
+//         <div>
+//           <label htmlFor="service" className="contact-form-label">
+//             Service interested in
+//           </label>
+//           <br />
+//           <select
+//             name="service"
+//             id="service"
+//             className="contact-form-dropdown"
+//             value={contact.service}
+//             onChange={handleInput}
+//             required
+//           >
+//             <option value="Graphic Design">Graphic Design</option>
+//             <option value="Web Design">Web Design</option>
+//             <option value="UI/UX Design">UI/UX Design</option>
+//             <option value="Print Design">Print Design</option>
+//             <option value="Social Media Design">Social Media Design</option>
+//             <option value="Packaging Design">Packaging Design</option>
+//             <option value="Others">Others</option>
+//           </select>
+//         </div>
+//         <div className="input-box">
+//           <label htmlFor="message" className="contact-form-label">
+//             Type Your Message
+//           </label>
+//           <br />
+//           <textarea
+//             name="message"
+//             id="message"
+//             autoComplete="off"
+//             value={contact.message}
+//             onChange={handleInput}
+//             cols={30}
+//             rows={5}
+//             className="contact-form-dropdown"
+//             placeholder="Enter your message"
+//             required
+//           ></textarea>
+//           <i className="fa-solid fa-pen-to-square"></i>
+//         </div>
+//         <div>
+//           <button type="submit" className="send-me-btn">
+//             Send Message
+//           </button>
+//         </div>
+//       </form>
+//     </div>
+//   );
+// };
+
+// export default Form;
+
 import React, { useState } from "react";
 import "./ReqService.css";
+import SummaryApi from "../commen"; 
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Form = () => {
-  const [contact, setContact] = useState({
-    username: "",
-    contact: "",
-    email: "",
-    service: "Graphic Design",
-    message: "",
-  });
-
-  const initialState = {
+  const [data, setData] = useState({
     username: "",
     contact: "",
     email: "",
     service: "Graphic Design",
     message: ""
-  };
-
-  const submit = async (e) => {
-    e.preventDefault();
-    try {
-      const res = await fetch("http://localhost:8081/leads", {
-        method: "POST",
-        body: JSON.stringify(contact),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
-      const data = await res.json();
-      console.log(data);
-      alert("Data is submitted successfully");
-      setContact(initialState);
-    } catch (err) {
-      console.log(err);
-      alert("There was an error submitting the form");
-    }
-  };
+  });
 
   const handleInput = (e) => {
     const { name, value } = e.target;
-    setContact({
-      ...contact,
-      [name]: value,
-    });
+    setData((prev) => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const contactResponse = await fetch(SummaryApi.contactus.url, {
+        method: SummaryApi.contactus.method,
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(data)
+      });
+      const dataApi = await contactResponse.json();
+
+      if (dataApi.success) {
+        toast.success("Data is successfully submitted!");
+      } else {
+        toast.error(dataApi.message);
+      }
+
+      console.log("data", dataApi);
+    } catch (error) {
+      toast.error("An error occurred while submitting the form.");
+      console.error("Error submitting form:", error);
+    }
   };
 
   return (
     <div className="wrapper">
-      <form onSubmit={submit}>
+      <ToastContainer />
+      <form onSubmit={handleSubmit}>
         <div className="d-flex gap-3">
           <div className="input-box mt-5">
             <label htmlFor="username" className="contact-form-label">
@@ -581,7 +742,7 @@ const Form = () => {
               name="username"
               id="username"
               autoComplete="off"
-              value={contact.username}
+              value={data.username}
               onChange={handleInput}
               placeholder="Username"
               className="contact-form-input"
@@ -599,7 +760,7 @@ const Form = () => {
               name="contact"
               id="contact"
               autoComplete="off"
-              value={contact.contact}
+              value={data.contact}
               onChange={handleInput}
               placeholder="Contact Number"
               required
@@ -618,7 +779,7 @@ const Form = () => {
             name="email"
             id="email"
             autoComplete="off"
-            value={contact.email}
+            value={data.email}
             onChange={handleInput}
             placeholder="Email"
             required
@@ -635,7 +796,7 @@ const Form = () => {
             name="service"
             id="service"
             className="contact-form-dropdown"
-            value={contact.service}
+            value={data.service}
             onChange={handleInput}
             required
           >
@@ -657,7 +818,7 @@ const Form = () => {
             name="message"
             id="message"
             autoComplete="off"
-            value={contact.message}
+            value={data.message}
             onChange={handleInput}
             cols={30}
             rows={5}
@@ -678,3 +839,4 @@ const Form = () => {
 };
 
 export default Form;
+

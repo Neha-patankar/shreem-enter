@@ -23,3 +23,54 @@ nav .nav-item:hover{
 .fontSize{
   
 }
+.login-btn{
+  background-color: rgb(11, 15, 79) ; 
+  color: aliceblue;
+  border-radius: 10%;
+}
+.login-btn:hover{
+  
+  font-weight:bold ;
+  color: #ff4328;
+}
+/* Nav1.css */
+.nav-item.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
